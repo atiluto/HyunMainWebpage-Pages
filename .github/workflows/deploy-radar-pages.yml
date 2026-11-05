@@ -1,0 +1,64 @@
+name: Deploy Radar to Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - app.js
+      - data.js
+      - index.html
+      - radar.svg
+      - styles.css
+      - public-briefs.js
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: radar-github-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out the latest public files
+        uses: actions/checkout@v6
+        with:
+          ref: refs/heads/main
+          persist-credentials: false
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Collect only the web files
+        id: assets
+        shell: bash
+        run: |
+          set -u
+          stage=$(mktemp -d)
+          for asset in app.js data.js index.html radar.svg styles.css public-briefs.js; do
+            if [[ ! -f "$asset" || -L "$asset" ]]; then
+              echo "Expected a regular web file: $asset" >&2
+              exit 1
+            fi
+            cp -- "$asset" "$stage/$asset"
+          done
+          printf 'path=%s\n' "$stage" >> "$GITHUB_OUTPUT"
+
+      - name: Upload the web files
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: ${{ steps.assets.outputs.path }}
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
