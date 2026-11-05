@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0a0f19">
-  <meta name="description" content="게임, 서브컬처, 패션과 시장 뉴스까지 모으는 개인 정보 수집함">
+  <meta name="description" content="게임, 애니, 웹툰, 패션, 아이돌, AI, 주식, 코인, 세계뉴스를 모으는 정보 레이더">
   <title>레이더 — 개인 정보 수집함</title>
   <link rel="icon" type="image/svg+xml" href="./radar.svg">
   <link rel="stylesheet" href="./styles.css">
@@ -31,7 +31,9 @@
     <symbol id="icon-comics" viewBox="0 0 24 24"><path d="M12 6.5a10 10 0 0 0-9-1v13a10 10 0 0 1 9 1 10 10 0 0 1 9-1v-13a10 10 0 0 0-9 1Zm0 0v13"/></symbol>
     <symbol id="icon-fashion" viewBox="0 0 24 24"><path d="M10.5 7a1.5 1.5 0 1 1 2.5 1.1l-1 1v2l8.2 4.8a1.2 1.2 0 0 1-.6 2.2H4.4a1.2 1.2 0 0 1-.6-2.2L12 11"/></symbol>
     <symbol id="icon-ai" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M10 2v4m4-4v4m-4 12v4m4-4v4M2 10h4m-4 4h4m12-4h4m-4 4h4m-12-2h4m-2-2v4"/></symbol>
-    <symbol id="icon-markets" viewBox="0 0 24 24"><path d="M4 4v16h16M7 15l4-5 3 3 5-6m-4 0h4v4"/></symbol>
+    <symbol id="icon-idols" viewBox="0 0 24 24"><rect x="8.5" y="2.5" width="7" height="12" rx="3.5"/><path d="M5.5 10.5V12a6.5 6.5 0 0 0 13 0v-1.5M12 18.5V22m-3.5 0h7"/></symbol>
+    <symbol id="icon-crypto" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M10 7.5v9m-1.5-8h5a1.75 1.75 0 0 1 0 3.5h-5m5 0a1.75 1.75 0 0 1 0 3.5h-5m3-9.5v2.5m0 7v2"/></symbol>
+    <symbol id="icon-stocks" viewBox="0 0 24 24"><path d="M4 4v16h16M7 15l4-5 3 3 5-6m-4 0h4v4"/></symbol>
     <symbol id="icon-world" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4.4" ry="9"/><path d="M3 12h18"/></symbol>
   </svg>
 
@@ -45,7 +47,7 @@
       <div class="navigation">
         <p class="nav-heading">워크스페이스</p>
         <nav aria-label="페이지">
-          <button type="button" class="nav-item is-active" data-view="feed" aria-current="page"><svg aria-hidden="true"><use href="#icon-grid"/></svg><span>대시보드</span></button>
+          <button type="button" class="nav-item is-active" data-view="feed" aria-current="page"><svg aria-hidden="true"><use href="#icon-grid"/></svg><span>채널 홈</span></button>
           <button type="button" class="nav-item" data-view="briefings"><svg aria-hidden="true"><use href="#icon-stack"/></svg><span>개인 브리핑</span></button>
           <button type="button" class="nav-item" data-view="saved"><svg aria-hidden="true"><use href="#icon-bookmark"/></svg><span>저장함</span><span class="nav-badge" id="savedBadge">0</span></button>
           <button type="button" class="nav-item" data-view="sources"><svg aria-hidden="true"><use href="#icon-link"/></svg><span>출처 모음</span></button>
@@ -67,7 +69,7 @@
       </header>
 
       <main class="main" id="main">
-        <section class="hero" aria-labelledby="pageTitle">
+        <section id="hero" class="hero" aria-labelledby="pageTitle">
           <svg class="radar-art" viewBox="0 0 580 310" aria-hidden="true">
             <defs>
               <radialGradient id="radar-field"><stop stop-color="#23e9d2" stop-opacity=".14"/><stop offset="1" stop-color="#23e9d2" stop-opacity="0"/></radialGradient>
@@ -95,22 +97,29 @@
           </div>
         </section>
 
-        <section class="stat-grid" aria-label="수집함 요약">
+        <section id="radarStats" class="stat-grid" aria-label="수집함 요약">
           <article class="stat-card"><span class="stat-icon mint"><svg aria-hidden="true"><use href="#icon-stack"/></svg></span><div><p>수집한 소식</p><strong id="totalCount">0</strong></div></article>
           <article class="stat-card"><span class="stat-icon lilac"><svg aria-hidden="true"><use href="#icon-bookmark"/></svg></span><div><p>저장한 소식</p><strong id="savedCount">0</strong></div></article>
-          <article class="stat-card"><span class="stat-icon blue"><svg aria-hidden="true"><use href="#icon-layers"/></svg></span><div><p>관심사</p><strong id="categoryCount">7</strong></div></article>
+          <article class="stat-card"><span class="stat-icon blue"><svg aria-hidden="true"><use href="#icon-layers"/></svg></span><div><p>채널</p><strong id="categoryCount">9</strong></div></article>
+        </section>
+
+        <section id="channelOverview" class="channel-overview" aria-labelledby="channelOverviewTitle">
+          <div class="section-heading">
+            <div><h2 id="channelOverviewTitle">채널별 최신 소식</h2><p>채널을 열면 모아 둔 소식을 최신순으로 볼 수 있습니다.</p></div>
+          </div>
+          <div id="channelGrid" class="channel-grid"></div>
         </section>
 
         <div class="content-layout">
           <div class="content-column">
             <section id="feedPanel" aria-labelledby="feedTitle">
               <div class="section-heading">
-                <div><h2 id="feedTitle">수집 피드</h2><p id="feedDescription">브리핑과 직접 추가한 링크를 한곳에서 확인합니다.</p></div>
+                <div><h2 id="feedTitle" tabindex="-1">수집 피드</h2><p id="feedDescription">브리핑과 직접 추가한 링크를 한곳에서 확인합니다.</p></div>
                 <div class="section-controls">
                   <label class="select-wrap"><span class="sr-only">정렬</span><select id="sort"><option value="newest">최신순</option><option value="oldest">오래된순</option></select></label>
                 </div>
               </div>
-              <div id="categories" class="category-bar" role="group" aria-label="관심사 필터"></div>
+              <div id="categories" class="category-bar" role="group" aria-label="채널 필터"></div>
               <div id="feedList" class="feed-list" aria-label="수집한 소식"></div>
               <div id="emptyState" class="empty-state" hidden><svg aria-hidden="true"><use href="#icon-radar"/></svg><p>표시할 소식이 없습니다.</p></div>
               <button type="button" id="clearFilters" class="button button-secondary clear-filters" hidden>필터 초기화</button>
@@ -147,7 +156,7 @@
     <form id="addForm" class="dialog-body add-form">
       <label>제목<input name="title" placeholder="어떤 소식인가요?" required maxlength="150" autofocus></label>
       <label>원문 링크<input type="url" name="url" placeholder="https://" required maxlength="2048"></label>
-      <label>관심사<select name="category" required></select></label>
+      <label>채널<select name="category" required></select></label>
       <label>메모 (선택)<textarea name="summary" rows="3" maxlength="1000" placeholder="다시 볼 때 기억하고 싶은 점"></textarea></label>
       <button type="submit" class="button button-primary"><svg aria-hidden="true"><use href="#icon-plus"/></svg>수집함에 추가</button>
     </form>

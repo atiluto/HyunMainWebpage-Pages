@@ -114,13 +114,47 @@ p, h1, h2, h3 { margin: 0; }
 .category-chip svg { width: 13px; height: 13px; }
 
 .feed-list { display: grid; gap: 8px; }
-.item-card, .source-card { --category-color: #9fe6d5; --category-bg: #193639; --category-border: #2e5152; background: var(--surface); border: 1px solid #253146; border-radius: 12px; }
+.item-card, .source-card, .channel-card { --category-color: #9fe6d5; --category-bg: #193639; --category-border: #2e5152; background: var(--surface); border: 1px solid #253146; border-radius: 12px; }
 [data-category="anime"] { --category-color: #dac2ff; --category-bg: #302647; --category-border: #483867; }
 [data-category="comics"] { --category-color: #a9caff; --category-bg: #233654; --category-border: #374b70; }
 [data-category="fashion"] { --category-color: #ffb4d4; --category-bg: #42283c; --category-border: #61405a; }
 [data-category="ai"] { --category-color: #9be7fd; --category-bg: #1a3648; --category-border: #2d5367; }
-[data-category="markets"] { --category-color: #f7ce8c; --category-bg: #3d3223; --category-border: #58472e; }
+[data-category="stocks"] { --category-color: #f7ce8c; --category-bg: #3d3223; --category-border: #58472e; }
 [data-category="world"] { --category-color: #b2d2ff; --category-bg: #25374b; --category-border: #384e67; }
+[data-category="idols"] { --category-color: #f9b8ec; --category-bg: #39263e; --category-border: #59405d; }
+[data-category="crypto"] { --category-color: #f4c584; --category-bg: #382d20; --category-border: #614c30; }
+
+.channel-overview { margin-bottom: 28px; }
+.channel-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.channel-card { min-width: 0; }
+.channel-heading { margin: 0; font-size: .95rem; }
+.channel-link {
+  display: flex; align-items: center; gap: 8px; padding: 10px 12px;
+  border-bottom: 1px solid #253146; border-radius: 12px 12px 0 0;
+  color: #f1f5fa; text-decoration: none;
+}
+.channel-link:hover, .channel-news-link:hover { color: var(--category-color); }
+.channel-link .item-symbol { width: 30px; height: 30px; border-radius: 8px; }
+.channel-link .item-symbol svg { width: 16px; height: 16px; }
+.channel-link > svg { margin-left: auto; width: 16px; height: 16px; color: var(--category-color); }
+.channel-latest { margin: 0; padding: 0 12px; list-style: none; }
+.channel-row { display: grid; gap: 3px; padding: 8px 0; }
+.channel-row + .channel-row { border-top: 1px solid #222e42; }
+.channel-row-title { display: flex; align-items: baseline; gap: 6px; min-width: 0; }
+.channel-news-link {
+  overflow: hidden; min-width: 0; padding: 0; border: 0; background: none;
+  color: #e2eaf4; font: inherit; font-size: .81rem; font-weight: 620;
+  white-space: nowrap; text-overflow: ellipsis; text-align: left;
+}
+.channel-row .item-time, .channel-empty { color: var(--secondary); font-size: .73rem; }
+.channel-empty { margin: 0; padding: 12px; }
+.new-badge {
+  display: inline-flex; align-items: center; flex-shrink: 0;
+  padding: 2px 5px; border: 1px solid #546834; border-radius: 5px;
+  background: #263624; color: #c8f294; font-size: .64rem;
+  font-weight: 750; letter-spacing: .04em; line-height: 1.2;
+}
+
 .item-card { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: start; gap: 12px; padding: 13px; }
 .item-card:hover { border-color: #3a4a62; background: #131d2c; }
 .item-symbol { display: grid; place-items: center; width: 40px; height: 40px; flex: 0 0 auto; border-radius: 9px; border: 1px solid var(--category-border); color: var(--category-color); background: var(--category-bg); }
@@ -242,4 +276,12 @@ p, h1, h2, h3 { margin: 0; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; }
+}
+
+@media (max-width: 1050px) {
+  .channel-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 540px) {
+  .channel-grid { grid-template-columns: minmax(0, 1fr); }
 }

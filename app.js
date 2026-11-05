@@ -1,4 +1,4 @@
-import { CATEGORIES, SOURCES, SEED, parseBrief, mergeRecords, normalizeRecords } from './data.js';
+import { CATEGORIES, SOURCES, SEED, parseBrief, mergeRecords, normalizeRecords, compareRecordDates } from './data.js';
 import { PUBLIC_BRIEFS } from './public-briefs.js';
 
 const byId = (id) => document.getElementById(id);
@@ -11,9 +11,15 @@ const addForm = byId('addForm');
 const importInput = byId('importInput');
 const refreshButton = byId('refreshButton');
 const categoryBar = byId('categories');
+const channelOverview = byId('channelOverview');
+const channelGrid = byId('channelGrid');
 const isLocalHost = ['localhost', '127.0.0.1', '[::1]'].includes(window.location.hostname);
 const categoryNames = new Map(CATEGORIES.map(({ id, label }) => [id, label]));
 const publicBriefs = normalizeRecords(PUBLIC_BRIEFS);
+const curatedByUrl = new Map(publicBriefs.map((record) => [record.sources[0]?.url, record]));
+const minute = 60_000;
+const newWindow = 24 * 60 * minute;
+const relativeTime = new Intl.RelativeTimeFormat('ko-KR');
 const storageKey = 'personal-radar:library:v1';
 const numberFormat = new Intl.NumberFormat('ko-KR');
 const dateFormat = new Intl.DateTimeFormat('ko-KR', {
@@ -22,6 +28,22 @@ const dateFormat = new Intl.DateTimeFormat('ko-KR', {
 const timeFormat = new Intl.DateTimeFormat('ko-KR', {
   hour: '2-digit', minute: '2-digit', hourCycle: 'h23', timeZone: 'Asia/Seoul',
 });
+
+const fullDateTime = new Intl.DateTimeFormat('ko-KR', {
+  dateStyle: 'long', timeStyle: 'short', timeZone: 'Asia/Seoul',
+});
+
+function channelFromHash() {
+  const match = /^#channel=([a-z]+)$/.exec(window.location.hash);
+  return match && categoryNames.has(match[1]) ? match[1] : 'all';
+}
+
+function syncChannelUrl() {
+  const channelHash = state.view === 'feed' && state.category !== 'all'
+    ? '#channel=' + state.category : '';
+  if (window.location.hash === channelHash) return;
+  window.history.pushState(null, '', channelHash || window.location.pathname + window.location.search);
+}
 
 function loadLibrary() {
   try {
@@ -34,7 +56,7 @@ function loadLibrary() {
 const library = loadLibrary();
 const state = {
   view: 'feed',
-  category: 'all',
+  category: channelFromHash(),
   saved: new Set(Array.isArray(library.saved) ? library.saved : []),
   imported: normalizeRecords(library.imported),
   local: normalizeRecords(library.local),
@@ -130,6 +152,93 @@ function dateLabel(value) {
   return dateFormat.format(new Date(`${value}T12:00:00+09:00`));
 }
 
+function publishedTime(record) {
+  const node = element('time', 'item-time', dateLabel(record.date));
+  node.dateTime = record.publishedAt || record.date;
+  if (record.publishedAt) {
+    node.dataset.publicationDate = record.date;
+    node.title = fullDateTime.format(new Date(record.publishedAt));
+  }
+  return node;
+}
+
+function newBadge(changedAt) {
+  const node = element('span', 'new-badge', 'NEW');
+  node.hidden = true;
+  node.setAttribute('aria-label', '새 소식');
+  if (changedAt) node.dataset.changedAt = changedAt;
+  return node;
+}
+
+let timeLabelTimer;
+function updateTimeLabels() {
+  clearTimeout(timeLabelTimer);
+  const now = Date.now();
+  let nextTick = minute;
+  for (const node of document.querySelectorAll('time[data-publication-date]')) {
+    const elapsed = now - Date.parse(node.dateTime);
+    const minutes = Math.floor(elapsed / minute);
+    if (elapsed < 0 || elapsed >= newWindow) {
+      node.textContent = dateLabel(node.dataset.publicationDate);
+    } else {
+      node.textContent = minutes === 0 ? '방금 전'
+        : minutes < 60 ? relativeTime.format(-minutes, 'minute')
+          : relativeTime.format(-Math.floor(minutes / 60), 'hour');
+      nextTick = Math.min(nextTick, minute - (elapsed % minute));
+    }
+  }
+  for (const node of document.querySelectorAll('.new-badge[data-changed-at]')) {
+    const elapsed = now - Date.parse(node.dataset.changedAt);
+    node.hidden = !(elapsed >= 0 && elapsed < newWindow);
+    if (!node.hidden) nextTick = Math.min(nextTick, newWindow - elapsed);
+  }
+  timeLabelTimer = setTimeout(updateTimeLabels, Math.max(50, nextTick));
+}
+
+function channelCard(category, records) {
+  const card = element('article', 'channel-card');
+  card.dataset.category = category.id;
+  const heading = element('h3', 'channel-heading');
+  const link = element('a', 'channel-link');
+  link.href = '#channel=' + category.id;
+  link.append(symbol(category.id), element('span', '', category.label + ' 채널'));
+  const latestChange = records.reduce((latest, record) => {
+    return record.changedAt && record.changedAt > latest ? record.changedAt : latest;
+  }, '');
+  link.append(newBadge(latestChange), icon('arrow'));
+  heading.append(link);
+  card.append(heading);
+
+  const latest = records.slice(0, 3);
+  if (!latest.length) {
+    card.append(element('p', 'channel-empty', '아직 수집된 소식이 없습니다.'));
+    return card;
+  }
+  const list = element('ul', 'channel-latest');
+  for (const record of latest) {
+    const row = element('li', 'channel-row');
+    const title = element('div', 'channel-row-title');
+    title.append(newBadge(record.changedAt),
+      actionButton(record.title, 'channel-news-link', () => showDetail(record)));
+    row.append(title, publishedTime(record));
+    list.append(row);
+  }
+  card.append(list);
+  return card;
+}
+
+function renderChannels(records) {
+  const visible = state.view === 'feed' && state.category === 'all' && !searchInput.value.trim();
+  channelOverview.hidden = !visible;
+  if (!visible) return;
+  const byCategory = new Map(CATEGORIES.map(({ id }) => [id, []]));
+  for (const record of records) byCategory.get(record.category)?.push(record);
+  channelGrid.replaceChildren(...CATEGORIES.map((category) => {
+    const items = byCategory.get(category.id).sort((a, b) => compareRecordDates(b, a));
+    return channelCard(category, items);
+  }));
+}
+
 function allRecords() {
   return mergeRecords(SEED, publicBriefs, state.cloudBriefs, state.local, state.imported, state.manual);
 }
@@ -138,7 +247,7 @@ function showDetail(record) {
   const content = byId('detailContent');
   content.dataset.category = record.category;
   const meta = element('div', 'item-meta');
-  meta.append(badge(record.category), element('span', '', dateLabel(record.date)));
+  meta.append(badge(record.category), newBadge(record.changedAt), publishedTime(record));
   if (record.platform) meta.append(element('span', 'item-platform', record.platform));
   if (record.kind === 'manual') meta.append(element('span', '', '직접 추가'));
   if (Number.isFinite(record.score)) meta.append(element('span', '', `편집 점수 ${record.score}/10`));
@@ -153,6 +262,7 @@ function showDetail(record) {
   }
   content.replaceChildren(meta, title, body, links);
   detailDialog.showModal();
+  updateTimeLabels();
 }
 
 function toggleSaved(record) {
@@ -172,9 +282,7 @@ function itemCard(record) {
   card.dataset.category = record.category;
   const main = element('div', 'item-main');
   const meta = element('div', 'item-meta');
-  const date = element('time', '', dateLabel(record.date));
-  date.dateTime = record.date;
-  meta.append(badge(record.category), date);
+  meta.append(badge(record.category), newBadge(record.changedAt), publishedTime(record));
   if (record.platform) meta.append(element('span', 'item-platform', record.platform));
   const title = element('h3', 'item-title');
   title.append(actionButton(record.title, 'item-title-button', () => showDetail(record)));
@@ -228,6 +336,7 @@ const chips = new Map();
 for (const { id, label } of [{ id: 'all', label: '전체' }, ...CATEGORIES]) {
   const chip = actionButton(label, 'category-chip', () => {
     state.category = id;
+    syncChannelUrl();
     render();
   });
   chip.dataset.category = id;
@@ -280,6 +389,10 @@ function render() {
   const records = allRecords();
   const saved = records.filter(({ id }) => state.saved.has(id));
   const isSources = state.view === 'sources';
+  const isChannel = state.view === 'feed' && state.category !== 'all';
+  byId('hero').hidden = isChannel;
+  byId('radarStats').hidden = isChannel;
+  renderChannels(records);
   const briefings = mergeRecords(publicBriefs, state.cloudBriefs);
   const recordsByView = { feed: records, briefings, saved, sources: SOURCES };
   const base = recordsByView[state.view];
@@ -294,8 +407,8 @@ function render() {
   setText('heroCount', numberFormat.format(records.length));
   setText('resultCount', numberFormat.format(visible.length));
   updateSyncStatus();
-  setText('feedTitle', views[state.view][0]);
-  setText('feedDescription', views[state.view][1]);
+  setText('feedTitle', isChannel ? categoryNames.get(state.category) + ' 채널' : views[state.view][0]);
+  setText('feedDescription', isChannel ? '이 채널에 모인 소식과 원문을 확인하세요.' : views[state.view][1]);
   byId('feedPanel').hidden = isSources;
   byId('sourcesPanel').hidden = !isSources;
   const activeList = isSources ? byId('sourceList') : feedList;
@@ -320,15 +433,19 @@ function render() {
     byId('sourceList').replaceChildren(...(visible.length ? visible.map(sourceCard) : [empty]));
   } else {
     const direction = byId('sort').value === 'oldest' ? 1 : -1;
-    visible.sort((a, b) => direction * a.date.localeCompare(b.date));
+    visible.sort((a, b) => direction * compareRecordDates(a, b));
     feedList.replaceChildren(...visible.map(itemCard));
-    const message = base.length === 0 && state.view === 'saved'
-      ? '피드에서 북마크를 누르면 여기에 모입니다.'
-      : '관심사를 바꾸거나 다른 검색어를 입력해 보세요.';
+    let message = '채널을 바꾸거나 다른 검색어를 입력해 보세요.';
+    if (state.view === 'saved' && !base.length) {
+      message = '피드에서 북마크를 누르면 여기에 모입니다.';
+    } else if (isChannel && !counts.has(state.category)) {
+      message = '아직 이 채널에 수집된 소식이 없습니다.';
+    }
     showEmpty(visible.length ? '' : message);
     const clearFilters = byId('clearFilters');
     if (clearFilters) clearFilters.hidden = visible.length > 0 || (state.category === 'all' && !searchInput.value);
   }
+  updateTimeLabels();
 }
 
 let toastTimer;
@@ -341,20 +458,28 @@ function announce(message, persisted = true) {
   toastTimer = setTimeout(() => { toast.hidden = true; }, 4500);
 }
 
-function changeView(view) {
-  if (!Object.hasOwn(views, view) || state.view === view) return;
+function changeView(view, category = 'all', syncUrl = true) {
+  if (!Object.hasOwn(views, view) || (state.view === view && state.category === category)) return;
   state.view = view;
-  state.category = 'all';
+  state.category = category;
   searchInput.value = '';
+  if (syncUrl) syncChannelUrl();
   render();
 }
 
 for (const button of viewButtons) button.addEventListener('click', () => changeView(button.dataset.view));
+window.addEventListener('hashchange', () => {
+  if (window.location.hash === '#main') return;
+  changeView('feed', channelFromHash(), false);
+  window.scrollTo(0, 0);
+  byId('feedTitle').focus({ preventScroll: true });
+});
 searchInput.addEventListener('input', render);
 byId('sort').addEventListener('change', render);
 byId('clearFilters')?.addEventListener('click', () => {
   state.category = 'all';
   searchInput.value = '';
+  syncChannelUrl();
   render();
   searchInput.focus();
 });
@@ -417,7 +542,7 @@ addForm.addEventListener('submit', (event) => {
   }
   const [record] = normalizeRecords([{
     title, category: fields.get('category'), summary: fields.get('summary').trim(),
-    date: currentKoreanDate(), kind: 'manual',
+    date: currentKoreanDate(), kind: 'manual', changedAt: new Date().toISOString(),
     sources: url ? [{ label: url.hostname.replace(/^www\./, ''), url: url.href }] : [],
   }]);
   if (!record) {
@@ -434,6 +559,7 @@ addForm.addEventListener('submit', (event) => {
   state.view = 'feed';
   state.category = 'all';
   searchInput.value = '';
+  syncChannelUrl();
   render();
   announce('수집 피드에 추가했습니다.', saveLibrary());
 });
@@ -465,6 +591,7 @@ importInput.addEventListener('change', async () => {
   state.view = 'feed';
   state.category = 'all';
   searchInput.value = '';
+  syncChannelUrl();
   render();
   const feedback = added ? `${added}건을 가져왔습니다.` : '가져오기를 완료했습니다. 새 기록은 없습니다.';
   announce(failed ? `${feedback} 읽지 못한 파일 ${failed}개.` : feedback, saveLibrary());
@@ -509,7 +636,10 @@ async function refreshLocal(notify = false) {
   }
 }
 
+let loadingCloud = false;
 async function loadCloudBriefs() {
+  if (loadingCloud) return;
+  loadingCloud = true;
   try {
     const response = await fetch('./daily-briefs.json', {
       cache: 'no-cache', mode: 'same-origin', credentials: 'omit', redirect: 'error',
@@ -523,23 +653,37 @@ async function loadCloudBriefs() {
     const { records } = await response.json();
     if (!Array.isArray(records)) throw new Error('Unexpected cloud briefs response');
     const articles = records.map((entry) => {
-      const { title, category, summary, date, sources } = entry || {};
-      return { title, category, summary, date, sources };
+      const { title, category, summary, date, publishedAt, changedAt, identityTitle, sources } = entry || {};
+      return { title, category, summary, date, publishedAt, changedAt, identityTitle, sources };
     });
     const published = mergeRecords(normalizeRecords(articles)
       .filter(({ summary, sources }) => summary && sources.length));
-    const seenUrls = new Set(publicBriefs.map(({ sources }) => sources[0]?.url));
-    state.cloudBriefs = published.filter(({ sources: [source] }) => {
-      if (seenUrls.has(source.url)) return false;
-      seenUrls.add(source.url);
-      return true;
-    });
+    const seenUrls = new Set();
+    const cloudBriefs = [];
+    for (const record of published) {
+      const url = record.sources[0].url;
+      if (seenUrls.has(url)) continue;
+      seenUrls.add(url);
+      const curated = curatedByUrl.get(url);
+      if (!curated) {
+        cloudBriefs.push(record);
+      } else if (record.changedAt) {
+        cloudBriefs.push({ ...record, id: curated.id });
+      } else {
+        cloudBriefs.push({ ...curated, publishedAt: record.publishedAt });
+      }
+    }
     const latest = published[0];
     state.cloudStatus = latest ? '최근 브리핑 항목 · ' + latest.date : '게시된 자동 브리핑 없음';
+    if (JSON.stringify(state.cloudBriefs) !== JSON.stringify(cloudBriefs)) {
+      state.cloudBriefs = cloudBriefs;
+      render();
+    }
   } catch {
     state.cloudStatus = '자동 브리핑을 불러오지 못함';
   } finally {
-    render();
+    loadingCloud = false;
+    updateSyncStatus();
   }
 }
 
@@ -555,5 +699,9 @@ if (isLocalHost) {
   setText('syncSource', 'GitHub Actions · 공개 브리핑');
   setText('syncCopy', '한국시간 오전 9시로 예약되어 있습니다. 수집과 배포가 끝나면 공개 브리핑에 표시됩니다.');
   void loadCloudBriefs();
+  setInterval(() => { if (!document.hidden) void loadCloudBriefs(); }, 120_000);
+  document.addEventListener('visibilitychange', () => {
+    if (!document.hidden) void loadCloudBriefs();
+  });
 }
 render();

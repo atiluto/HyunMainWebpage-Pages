@@ -1,10 +1,12 @@
 export const CATEGORIES = [
   { id: "games", label: "게임" },
-  { id: "anime", label: "애니·서브컬처" },
-  { id: "comics", label: "웹툰·웹소설" },
-  { id: "fashion", label: "패션·아이돌" },
-  { id: "ai", label: "AI·창작" },
-  { id: "markets", label: "주식·코인" },
+  { id: "anime", label: "애니" },
+  { id: "comics", label: "웹툰" },
+  { id: "fashion", label: "패션" },
+  { id: "idols", label: "아이돌" },
+  { id: "ai", label: "AI" },
+  { id: "stocks", label: "주식" },
+  { id: "crypto", label: "코인" },
   { id: "world", label: "세계뉴스" },
 ];
 
@@ -16,23 +18,33 @@ export const SOURCES = [
   { title: "네이버웹툰", category: "comics", url: "https://comic.naver.com/index", description: "요일별 연재와 이달의 신작" },
   { title: "카카오페이지", category: "comics", url: "https://page.kakao.com/menu/10011/screen/101?subcategory_uid=120", description: "웹소설 신작과 플랫폼 소식" },
   { title: "Rakuten Fashion Week TOKYO", category: "fashion", url: "https://rakutenfashionweektokyo.com/jp/", description: "도쿄 패션위크 일정과 브랜드·런웨이 소식" },
-  { title: "Weverse 공지 · SEVENTEEN", category: "fashion", url: "https://weverse.io/seventeen/notice/", description: "소속사 공식 공연 공지의 예시" },
+  { title: "KBS WORLD Radio 연예 RSS", category: "idols", url: "https://world.kbs.co.kr/rss/rss_enternews.htm?lang=k", description: "K-팝 아티스트와 공연 소식" },
+  { title: "Soompi 음악", category: "idols", url: "https://www.soompi.com/category/music", description: "K-팝 신곡과 아티스트 소식" },
+  { title: "Weverse 공지 · SEVENTEEN", category: "idols", url: "https://weverse.io/seventeen/notice/", description: "소속사 공식 공연 공지의 예시" },
   { title: "OpenAI 뉴스", category: "ai", url: "https://openai.com/news/", description: "AI 모델과 창작 도구의 공식 변경 사항" },
   { title: "Google Gemini 블로그", category: "ai", url: "https://blog.google/products-and-platforms/products/gemini/", description: "Gemini 기능과 창작 워크플로 업데이트" },
-  { title: "KRX 정보데이터시스템", category: "markets", url: "https://data.krx.co.kr/", description: "한국 거래소 종목 시세와 시장 통계" },
-  { title: "금융감독원 DART", category: "markets", url: "https://dart.fss.or.kr/", description: "국내 기업 공시 원문" },
-  { title: "업비트 시세 문서", category: "markets", url: "https://docs.upbit.com/kr/reference/list-quote-tickers", description: "거래쌍과 시세 응답의 기준 확인" },
+  { title: "KRX 정보데이터시스템", category: "stocks", url: "https://data.krx.co.kr/", description: "한국 거래소 종목 시세와 시장 통계" },
+  { title: "금융감독원 DART", category: "stocks", url: "https://dart.fss.or.kr/", description: "국내 기업 공시 원문" },
+  { title: "업비트 시세 문서", category: "crypto", url: "https://docs.upbit.com/kr/reference/list-quote-tickers", description: "거래쌍과 시세 응답의 기준 확인" },
+  { title: "Kraken 블로그", category: "crypto", url: "https://blog.kraken.com/", description: "거래소 소식과 서비스 공지" },
+  { title: "이더리움 재단 블로그", category: "crypto", url: "https://blog.ethereum.org/", description: "이더리움 네트워크와 개발 공지" },
   { title: "UN News", category: "world", url: "https://news.un.org/en/", description: "유엔 공식 국제 뉴스와 현안" },
   { title: "WHO 뉴스룸", category: "world", url: "https://www.who.int/news-room", description: "세계보건기구 공식 발표와 브리핑" },
 ];
 
 const categoryIds = new Set(CATEGORIES.map(({ id }) => id));
+const previousCategoryIds = { idols: "fashion", stocks: "markets", crypto: "markets" };
+const cryptoTerms = /암호화폐|가상\s*(?:자산|화폐)|코인|이더리움|블록체인|\b(?:crypto(?:currency|currencies)?|bitcoin|ethereum|solana|altcoin|stablecoin|btc|coinbase|binance|upbit|bithumb)\b/i;
+const idolTerms = /아이돌|컴백|팬미팅|팬사인회|위버스|アイドル|\b(?:k[\s-]?pop|idols?|weverse)\b/i;
+const fashionTerms = /패션|의상|라텍스|가죽|착장|컬렉션|런웨이|ファッション|衣装|コレクション|\b(?:fashion|runway|outfits?)\b/i;
 const categoryLabels = [
   ["games", /^(?:일본\s*)?(?:인디\s*)?게임(?:\s*·\s*제작)?$/i],
   ["anime", /^(?:일본\s*)?(?:애니(?:메이션)?(?:\s*[·/&]\s*서브컬처)?|서브컬처)$/i],
   ["comics", /^(?:웹툰|웹소설|웹툰\s*[·/&]\s*웹소설|웹소설\s*[·/&]\s*웹툰)$/i],
+  ["idols", /^(?:아이돌|K[\s-]?POP)(?:\s*[·/&]\s*(?:공연|컴백))?$/i],
   ["fashion", /^(?:패션|아이돌|가죽|라텍스)(?:\s*[·/&]\s*(?:패션|아이돌|가죽|라텍스|무대 의상))*$/i],
   ["ai", /^AI(?:\s*[·/&]\s*(?:창작|순애|도구))?$/i],
+  ["crypto", /^(?:암호화폐|가상\s*자산|비트코인|코인|크립토)(?:\s*[·/&]\s*(?:암호화폐|가상\s*자산|비트코인|코인))*$/i],
   ["markets", /^(?:세계\s*[·/&]\s*)?(?:시장|주식|투자|금융|비트코인|코인)(?:\s*[·/&]\s*(?:시장|주식|투자|비트코인|코인))*$/i],
   ["world", /^세계\s*뉴스$|^국제\s*(?:뉴스|정세)$/i],
 ];
@@ -42,6 +54,10 @@ const looseLinks = /https?:\/\/[^\s<>\[\]()]+/gi;
 
 function text(value) {
   return typeof value === "string" ? value.trim() : "";
+}
+
+function normalizeTitle(value) {
+  return text(value).replace(/\s+/g, " ").slice(0, 200);
 }
 
 function safeUrl(value) {
@@ -60,6 +76,14 @@ function validDate(value) {
   return !Number.isNaN(instant.getTime()) && instant.toISOString().slice(0, 10) === date ? date : "";
 }
 
+function validTimestamp(value) {
+  const stamp = text(value);
+  if (!/^\d{4}-\d{2}-\d{2}T(?:[01]\d|2[0-3]):[0-5]\d(?::[0-5]\d(?:\.\d{1,6})?)?(?:Z|[+-](?:[01]\d|2[0-3]):[0-5]\d)$/.test(stamp)
+    || !validDate(stamp.slice(0, 10))) return "";
+  const instant = new Date(stamp);
+  return Number.isNaN(instant.getTime()) ? "" : instant.toISOString();
+}
+
 function recordId({ category, kind, title, sources }) {
   const url = sources[0] ? new URL(sources[0].url) : null;
   if (url) {
@@ -69,7 +93,9 @@ function recordId({ category, kind, title, sources }) {
     }
     url.searchParams.sort();
   }
-  const key = [kind, category, title.normalize("NFKC").toLowerCase().replace(/[\s\p{P}]/gu, ""), url?.href].join("\n");
+  // Use the original category namespace so channel splits keep old bookmarks.
+  const categoryKey = previousCategoryIds[category] ?? category;
+  const key = [kind, categoryKey, title.normalize("NFKC").toLowerCase().replace(/[\s\p{P}]/gu, ""), url?.href].join("\n");
   let hash = 2166136261;
   for (const character of key) {
     hash = Math.imul(hash ^ character.codePointAt(0), 16777619);
@@ -88,27 +114,41 @@ function normalizeSources(sources) {
   });
 }
 
+function normalizeCategory(category, kind, title, summary, sources) {
+  if (category !== "markets" && category !== "fashion") return category;
+  const evidence = [title, summary, ...sources.map(({ label, url }) => `${label} ${url}`)].join(" ");
+  if (category === "markets") return cryptoTerms.test(evidence) ? "crypto" : "stocks";
+  return kind !== "manual" && idolTerms.test(evidence) && !fashionTerms.test(evidence) ? "idols" : "fashion";
+}
+
 export function normalizeRecords(data) {
   const records = Array.isArray(data) ? data : data?.records;
   if (!Array.isArray(records)) return [];
   return records.flatMap((entry) => {
-    const title = text(entry?.title).replace(/\s+/g, " ").slice(0, 200);
-    const category = entry?.category;
+    const title = normalizeTitle(entry?.title);
     const date = validDate(entry?.date);
-    if (!title || !categoryIds.has(category) || !date) return [];
-    const record = {
-      title,
-      category,
-      summary: text(entry.summary).slice(0, 20000),
-      date,
-      sources: normalizeSources(entry.sources),
-      kind: entry.kind === "manual" ? "manual" : "brief",
-    };
+    if (!title || !date) return [];
+    const summary = text(entry.summary).slice(0, 20000);
+    const sources = normalizeSources(entry.sources);
+    const kind = entry.kind === "manual" ? "manual" : "brief";
+    const category = normalizeCategory(entry.category, kind, title, summary, sources);
+    if (!categoryIds.has(category)) return [];
+    const record = { title, category, summary, date, sources, kind };
+    const publishedAt = validTimestamp(entry.publishedAt);
+    const changedAt = validTimestamp(entry.changedAt);
+    if (publishedAt) record.publishedAt = publishedAt;
+    if (changedAt) record.changedAt = changedAt;
     const platform = text(entry.platform).slice(0, 160);
     if (platform) record.platform = platform;
     if (Number.isInteger(entry.score) && entry.score >= 0 && entry.score <= 10) record.score = entry.score;
-    return [{ id: text(entry.id).slice(0, 200) || recordId(record), ...record }];
+    const identityTitle = normalizeTitle(entry.identityTitle) || title;
+    const id = text(entry.id).slice(0, 200) || recordId({ ...record, title: identityTitle });
+    return [{ id, ...record }];
   });
+}
+
+export function compareRecordDates(a, b) {
+  return a.date.localeCompare(b.date) || (a.publishedAt || "").localeCompare(b.publishedAt || "");
 }
 
 export function mergeRecords(...arrays) {
@@ -119,7 +159,7 @@ export function mergeRecords(...arrays) {
       if (!previous || record.date >= previous.date) merged.set(record.id, { ...previous, ...record });
     }
   }
-  return [...merged.values()].sort((a, b) => b.date.localeCompare(a.date));
+  return [...merged.values()].sort((a, b) => compareRecordDates(b, a));
 }
 
 function dateIn(value) {
@@ -157,8 +197,10 @@ function categoryFromLabel(label) {
 }
 
 function inferCategory(value) {
-  if (/비트코인|주가|거래소|기준금리|금융|은행|국채|주식/.test(value)) return "markets";
-  if (/아이돌|패션|의상|라텍스|가죽|착장/.test(value)) return "fashion";
+  if (cryptoTerms.test(value)) return "crypto";
+  if (/주가|거래소|기준금리|금융|은행|국채|주식/.test(value)) return "stocks";
+  if (fashionTerms.test(value)) return "fashion";
+  if (idolTerms.test(value)) return "idols";
   if (/웹소설|웹툰|카카오페이지/.test(value)) return "comics";
   if (/AI\b|인공지능|모델|프롬프트/.test(value)) return "ai";
   if (/애니|서브컬처|방영|예고편|Netflix/i.test(value)) return "anime";
