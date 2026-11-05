@@ -10,6 +10,7 @@ on:
       - radar.svg
       - styles.css
       - public-briefs.js
+      - daily-briefs.json
   workflow_dispatch:
 
 permissions:
@@ -43,7 +44,7 @@ jobs:
         id: assets
         shell: bash
         run: |
-          set -u
+          set -euo pipefail
           stage=$(mktemp -d)
           for asset in app.js data.js index.html radar.svg styles.css public-briefs.js; do
             if [[ ! -f "$asset" || -L "$asset" ]]; then
@@ -52,6 +53,13 @@ jobs:
             fi
             cp -- "$asset" "$stage/$asset"
           done
+          if [[ -L daily-briefs.json || ( -e daily-briefs.json && ! -f daily-briefs.json ) ]]; then
+            echo 'Expected daily-briefs.json to be a regular web file.' >&2
+            exit 1
+          fi
+          if [[ -f daily-briefs.json ]]; then
+            cp -- daily-briefs.json "$stage/daily-briefs.json"
+          fi
           printf 'path=%s\n' "$stage" >> "$GITHUB_OUTPUT"
 
       - name: Upload the web files
