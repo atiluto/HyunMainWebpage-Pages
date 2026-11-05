@@ -124,9 +124,9 @@
 
           <aside class="side-column" aria-label="브리핑 연결">
             <section class="sync-card" aria-labelledby="syncTitle">
-              <div class="sync-heading"><span class="sync-icon"><svg aria-hidden="true"><use href="#icon-radar"/></svg></span><div><h2 id="syncTitle">브리핑 연결</h2><p>콘텐츠 레이더</p></div></div>
+              <div class="sync-heading"><span class="sync-icon"><svg aria-hidden="true"><use href="#icon-radar"/></svg></span><div><h2 id="syncTitle">브리핑 연결</h2><p id="syncSource">콘텐츠 레이더</p></div></div>
               <dl class="sync-details"><div><dt>예약 시간</dt><dd><svg aria-hidden="true"><use href="#icon-clock"/></svg>매일 09:00 KST</dd></div><div><dt>데이터</dt><dd id="lastUpdated" aria-live="polite">초기 브리핑</dd></div></dl>
-              <p class="sync-copy">로컬에서 새로고침하면 예약 브리핑을 읽습니다. 브리핑 파일을 직접 가져올 수도 있어요.</p>
+              <p id="syncCopy" class="sync-copy">로컬에서 새로고침하면 예약 브리핑을 읽습니다. 브리핑 파일을 직접 가져올 수도 있어요.</p>
               <button type="button" id="importButton" class="button button-secondary import-button"><svg aria-hidden="true"><use href="#icon-import"/></svg>브리핑 가져오기</button>
               <input id="importInput" type="file" accept=".md,.markdown,.json,text/markdown,application/json" multiple hidden>
             </section>

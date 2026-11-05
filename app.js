@@ -38,6 +38,8 @@ const state = {
   saved: new Set(Array.isArray(library.saved) ? library.saved : []),
   imported: normalizeRecords(library.imported),
   local: normalizeRecords(library.local),
+  cloudBriefs: [],
+  cloudStatus: '자동 브리핑 확인 중',
   manual: normalizeRecords(library.manual),
   checkedAt: Number.isFinite(library.checkedAt) && Number.isFinite(new Date(library.checkedAt).getTime())
     ? library.checkedAt : null,
@@ -129,7 +131,7 @@ function dateLabel(value) {
 }
 
 function allRecords() {
-  return mergeRecords(SEED, publicBriefs, state.local, state.imported, state.manual);
+  return mergeRecords(SEED, publicBriefs, state.cloudBriefs, state.local, state.imported, state.manual);
 }
 
 function showDetail(record) {
@@ -241,6 +243,10 @@ function setText(id, value) {
 }
 
 function updateSyncStatus() {
+  if (!isLocalHost) {
+    setText('lastUpdated', state.cloudStatus);
+    return;
+  }
   if (state.checkedAt) {
     setText('lastUpdated', `최근 동기화 · ${timeFormat.format(new Date(state.checkedAt))}`);
     return;
@@ -274,7 +280,8 @@ function render() {
   const records = allRecords();
   const saved = records.filter(({ id }) => state.saved.has(id));
   const isSources = state.view === 'sources';
-  const recordsByView = { feed: records, briefings: publicBriefs, saved, sources: SOURCES };
+  const briefings = mergeRecords(publicBriefs, state.cloudBriefs);
+  const recordsByView = { feed: records, briefings, saved, sources: SOURCES };
   const base = recordsByView[state.view];
   const visible = filterItems(base);
   const counts = new Map();
@@ -502,6 +509,40 @@ async function refreshLocal(notify = false) {
   }
 }
 
+async function loadCloudBriefs() {
+  try {
+    const response = await fetch('./daily-briefs.json', {
+      cache: 'no-cache', mode: 'same-origin', credentials: 'omit', redirect: 'error',
+      headers: { Accept: 'application/json' }, signal: AbortSignal.timeout(4500),
+    });
+    if (response.status === 404) {
+      state.cloudStatus = '게시된 자동 브리핑 없음';
+      return;
+    }
+    if (!response.ok) throw new Error('Cloud briefs unavailable');
+    const { records } = await response.json();
+    if (!Array.isArray(records)) throw new Error('Unexpected cloud briefs response');
+    const articles = records.map((entry) => {
+      const { title, category, summary, date, sources } = entry || {};
+      return { title, category, summary, date, sources };
+    });
+    const published = mergeRecords(normalizeRecords(articles)
+      .filter(({ summary, sources }) => summary && sources.length));
+    const seenUrls = new Set(publicBriefs.map(({ sources }) => sources[0]?.url));
+    state.cloudBriefs = published.filter(({ sources: [source] }) => {
+      if (seenUrls.has(source.url)) return false;
+      seenUrls.add(source.url);
+      return true;
+    });
+    const latest = published[0];
+    state.cloudStatus = latest ? '최근 브리핑 항목 · ' + latest.date : '게시된 자동 브리핑 없음';
+  } catch {
+    state.cloudStatus = '자동 브리핑을 불러오지 못함';
+  } finally {
+    render();
+  }
+}
+
 if (isLocalHost) {
   refreshButton.addEventListener('click', () => refreshLocal(true));
   void refreshLocal();
@@ -511,5 +552,8 @@ if (isLocalHost) {
   refreshButton.setAttribute('aria-label', label);
   refreshButton.querySelector('use').setAttribute('href', '#icon-import');
   refreshButton.addEventListener('click', () => importInput.click());
+  setText('syncSource', 'GitHub Actions · 공개 브리핑');
+  setText('syncCopy', '한국시간 오전 9시로 예약되어 있습니다. 수집과 배포가 끝나면 공개 브리핑에 표시됩니다.');
+  void loadCloudBriefs();
 }
 render();
