@@ -1,4 +1,5 @@
 import { CATEGORIES, SOURCES, SEED, parseBrief, mergeRecords, normalizeRecords } from './data.js';
+import { PUBLIC_BRIEFS } from './public-briefs.js';
 
 const byId = (id) => document.getElementById(id);
 const viewButtons = [...document.querySelectorAll('[data-view]')];
@@ -12,6 +13,7 @@ const refreshButton = byId('refreshButton');
 const categoryBar = byId('categories');
 const isLocalHost = ['localhost', '127.0.0.1', '[::1]'].includes(window.location.hostname);
 const categoryNames = new Map(CATEGORIES.map(({ id, label }) => [id, label]));
+const publicBriefs = normalizeRecords(PUBLIC_BRIEFS);
 const storageKey = 'personal-radar:library:v1';
 const numberFormat = new Intl.NumberFormat('ko-KR');
 const dateFormat = new Intl.DateTimeFormat('ko-KR', {
@@ -127,7 +129,7 @@ function dateLabel(value) {
 }
 
 function allRecords() {
-  return mergeRecords(SEED, state.local, state.imported, state.manual);
+  return mergeRecords(SEED, publicBriefs, state.local, state.imported, state.manual);
 }
 
 function showDetail(record) {
@@ -215,6 +217,7 @@ function sourceCard(source) {
 
 const views = {
   feed: ['수집 피드', '브리핑과 직접 모은 링크를 관심사별로 확인하세요.'],
+  briefings: ['개인 브리핑', '원문과 함께 공개한 개인 브리핑을 확인하세요.'],
   saved: ['저장함', '다시 보고 싶은 자료를 모아두는 곳입니다.'],
   sources: ['출처 모음', '관심사별로 참고할 공식 사이트를 모았습니다.'],
 };
@@ -242,7 +245,8 @@ function updateSyncStatus() {
     setText('lastUpdated', `최근 동기화 · ${timeFormat.format(new Date(state.checkedAt))}`);
     return;
   }
-  setText('lastUpdated', state.imported.length ? '가져온 브리핑' : '초기 브리핑');
+  const label = state.imported.length ? '가져온 브리핑' : '공개 브리핑';
+  setText('lastUpdated', label);
 }
 
 function showEmpty(message) {
@@ -270,7 +274,8 @@ function render() {
   const records = allRecords();
   const saved = records.filter(({ id }) => state.saved.has(id));
   const isSources = state.view === 'sources';
-  const base = isSources ? SOURCES : state.view === 'saved' ? saved : records;
+  const recordsByView = { feed: records, briefings: publicBriefs, saved, sources: SOURCES };
+  const base = recordsByView[state.view];
   const visible = filterItems(base);
   const counts = new Map();
   for (const { category } of base) counts.set(category, (counts.get(category) || 0) + 1);
