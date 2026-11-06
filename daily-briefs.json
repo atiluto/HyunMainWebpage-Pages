@@ -1,6 +1,76 @@
 {
   "records": [
     {
+      "title": "美しくも苛烈な地球奪還の戦いへ。SFアクション・アドベンチャー『Stellar Blade™ コンプリートエディション』がNintendo Switch 2 で本日発売。 ※本作の対象年齢は「17歳以上」です。",
+      "category": "games",
+      "summary": "11월 6일 닌텐도 일본에서 공개한 출시·공개 소식입니다.",
+      "date": "2026-11-06",
+      "sources": [
+        {
+          "label": "닌텐도 일본",
+          "url": "https://www.nintendo.com/jp/topics/article/b1972348-4cb5-4c66-994c-0f78076f1e24"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-06T01:03:19Z",
+      "changedAt": "2026-11-06T02:42:42Z",
+      "titleKo": "스테라 블레이드 콜렉션, 닌텐도 스위치 2로 발매",
+      "summaryKo": "닌텐도 일본이 2023년 10월 26일 닌텐도 스위치 2로 SF 액션 어드벤처 게임『Stellar Blade™ コンプリートエディション』를 발매했다. 대상 연령은 17세 이상이다."
+    },
+    {
+      "title": "「応援ソング大集合『カラオケJOYSOUND for Nintendo Switch』10日間無料キャンペーン」開催。",
+      "category": "games",
+      "summary": "11월 6일 닌텐도 일본에서 공개한 게임·서비스 소식입니다.",
+      "date": "2026-11-06",
+      "sources": [
+        {
+          "label": "닌텐도 일본",
+          "url": "https://www.nintendo.com/jp/topics/article/b55c5dd2-bff4-4979-a43f-d5578bfb91e2"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-06T01:02:34Z",
+      "changedAt": "2026-11-06T02:42:42Z",
+      "titleKo": "닌텐도 일본, 'カラオケJOYSOUND for Nintendo Switch' 10일간 무료 캠페인 발표",
+      "summaryKo": "닌텐도 일본이 Nintendo Switch용 응원 곡 대성곡집 'カラオケJOYSOUND'를 10일간 무료로 제공하는 캠페인을 발표했습니다. 이 캠페인은 10월 1일부터 10월 10일까지 진행되며, 사용자는 이 기간 동안 무료로 해당 앱을 이용할 수 있습니다."
+    },
+    {
+      "title": "Cult.fit builds operational muscle with Codex",
+      "category": "ai",
+      "summary": "11월 6일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
+      "date": "2026-11-06",
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/cultfit-builds-with-codex"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-05T20:00:00Z",
+      "contentHash": "eb59f9cb18aebcb0f5a91c130a8ede4802994a367f45a02cbd135f9ad19a4a9c",
+      "changedAt": "2026-11-06T02:42:42Z",
+      "titleKo": "Cult.fit, Codex를 활용해 운영 효율성 향상",
+      "summaryKo": "Cult.fit은 Codex를 활용해 다양한 부서 간 협업을 강화하고, 팀이 도구 개발을 통해 업무 속도를 높이도록 지원하고 있다."
+    },
+    {
+      "title": "Australian universities are creating AI-native graduates",
+      "category": "ai",
+      "summary": "11월 6일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
+      "date": "2026-11-06",
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/australian-universities-ai-native-graduates"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-05T17:00:00Z",
+      "contentHash": "95e94d6b252d142b0a5165dd3f327fe52c2d920c0c725c016bbad224ef375ed5",
+      "changedAt": "2026-11-06T02:42:42Z",
+      "titleKo": "호주 대학, AI 인재 양성 강화",
+      "summaryKo": "호주 대학들이 챗지프트와 같은 AI 기술을 교육에 도입해 학생들을 AI 중심의 노동 시장에 대비시키고 있다. 이는 AI 기반의 일자리에 대응하기 위한 교육 전략으로, 학생들의 기술 역량을 강화하기 위한 노력이다."
+    },
+    {
       "title": "Listen: JYP Entertainment Teases Launch Of New Group oftheblue",
       "category": "idols",
       "summary": "11월 6일 Soompi에서 공개한 출시·공개 소식입니다.",
@@ -13,10 +83,10 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-05T15:37:20Z",
-      "changedAt": "2026-11-05T23:09:35Z",
       "contentHash": "5d2cd5ef95c82561dd2a4aee15eedb3431e77fa0f081aa7f47a3c8b6a33a6c80",
       "titleKo": "JYP 신인 그룹 ‘오브더블루(oftheblue)’, 데뷔 티저 공개",
-      "summaryKo": "Soompi에 따르면 JYP 신인 그룹의 티저 사이트에 사진 두 장과 보컬 없는 음원 일부가 올라왔습니다. 멤버 구성과 데뷔일은 아직 공개되지 않았습니다."
+      "summaryKo": "Soompi에 따르면 JYP 신인 그룹의 티저 사이트에 사진 두 장과 보컬 없는 음원 일부가 올라왔습니다. 멤버 구성과 데뷔일은 아직 공개되지 않았습니다.",
+      "changedAt": "2026-11-05T23:09:35Z"
     },
     {
       "title": "[75話 前編]ONE PIECE学園",
@@ -81,10 +151,10 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-05T14:00:00Z",
-      "changedAt": "2026-11-05T23:09:35Z",
       "contentHash": "07584c3bd3b24d8caf925c912009b3f185c53ac621716a7c5d588d65607180cc",
       "titleKo": "《어쌔신 크리드 발할라》, PS5 Pro에서 화면이 더 선명해진다",
-      "summaryKo": "PS5와 PS5 Pro에 무료 업데이트가 배포됐습니다. PS5 Pro에서는 개선된 화질 보정 기능(PSSR)으로 더 선명한 4K 화면과 초당 60프레임을 함께 지원합니다."
+      "summaryKo": "PS5와 PS5 Pro에 무료 업데이트가 배포됐습니다. PS5 Pro에서는 개선된 화질 보정 기능(PSSR)으로 더 선명한 4K 화면과 초당 60프레임을 함께 지원합니다.",
+      "changedAt": "2026-11-05T23:09:35Z"
     },
     {
       "title": "KOR is available for trading!",
@@ -99,10 +169,10 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-05T13:41:36Z",
-      "changedAt": "2026-11-05T23:09:35Z",
       "contentHash": "11b152525ec448070ea83274bd56f5a974a9ddee95ce936cfa55237cc78bad19",
       "titleKo": "크라켄, 창작물 권리 관리 토큰 KOR 거래 시작",
-      "summaryKo": "크라켄은 공지에서 11월 4일부터 KOR 거래를 시작했다고 밝혔습니다. KOR Protocol은 창작물의 출처와 소유권 확인, 사용 허가, 참여자 간 정산을 지원하는 서비스입니다."
+      "summaryKo": "크라켄은 공지에서 11월 4일부터 KOR 거래를 시작했다고 밝혔습니다. KOR Protocol은 창작물의 출처와 소유권 확인, 사용 허가, 참여자 간 정산을 지원하는 서비스입니다.",
+      "changedAt": "2026-11-05T23:09:35Z"
     },
     {
       "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
@@ -166,10 +236,10 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-05T06:11:24Z",
-      "changedAt": "2026-11-05T23:09:35Z",
       "contentHash": "864136cc318acc8d0f74d8f1c878908314942fcb019821e1377fb7826126d54c",
       "titleKo": "아일릿 ‘jellyous’ 뮤직비디오 1억 조회수 돌파",
-      "summaryKo": "빌리프랩에 따르면 미니 3집 수록곡 ‘jellyous’의 뮤직비디오가 11월 5일 유튜브에서 1억 조회수를 넘었습니다. ‘Magnetic’과 ‘It’s Me’에 이은 아일릿의 세 번째 기록입니다."
+      "summaryKo": "빌리프랩에 따르면 미니 3집 수록곡 ‘jellyous’의 뮤직비디오가 11월 5일 유튜브에서 1억 조회수를 넘었습니다. ‘Magnetic’과 ‘It’s Me’에 이은 아일릿의 세 번째 기록입니다.",
+      "changedAt": "2026-11-05T23:09:35Z"
     },
     {
       "title": "BLACKPINK’s “GO” Becomes Their 16th Group MV To Surpass 100 Million Views",
@@ -184,10 +254,10 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-05T05:55:31Z",
-      "changedAt": "2026-11-05T23:09:35Z",
       "contentHash": "6f2110f41467e0a90e5152d9e7afb98cd779da5fd31166fe8575b258b655c729",
       "titleKo": "블랙핑크 ‘GO’ 뮤직비디오 1억 조회수 돌파",
-      "summaryKo": "Soompi에 따르면 ‘GO’가 한국시간 11월 4일 유튜브에서 1억 조회수를 넘었습니다. 블랙핑크 완전체 뮤직비디오로는 16번째입니다."
+      "summaryKo": "Soompi에 따르면 ‘GO’가 한국시간 11월 4일 유튜브에서 1억 조회수를 넘었습니다. 블랙핑크 완전체 뮤직비디오로는 16번째입니다.",
+      "changedAt": "2026-11-05T23:09:35Z"
     },
     {
       "title": "Setting a new standard for responsible AI infrastructure",
@@ -350,10 +420,10 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-03T14:43:59Z",
-      "changedAt": "2026-11-05T23:09:35Z",
       "contentHash": "46dd5897f9912286789fb5713e754a3dac826a944003c3183984ae39e2f70326",
       "titleKo": "크라켄, 유로 연동 스테이블코인 EURCV 거래 시작",
-      "summaryKo": "크라켄은 11월 3일부터 유로 가치에 연동되는 디지털 자산 EURCV의 거래를 시작했습니다. 프랑스 은행 소시에테제네랄의 자회사 SG-FORGE가 발행합니다."
+      "summaryKo": "크라켄은 11월 3일부터 유로 가치에 연동되는 디지털 자산 EURCV의 거래를 시작했습니다. 프랑스 은행 소시에테제네랄의 자회사 SG-FORGE가 발행합니다.",
+      "changedAt": "2026-11-05T23:09:35Z"
     },
     {
       "title": "Designing for sovereignty: Ethereum for digital public infrastructure",
