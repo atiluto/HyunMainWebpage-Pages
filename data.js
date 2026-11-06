@@ -139,6 +139,8 @@ export function normalizeRecords(data) {
     if (titleKo && summaryKo) {
       record.titleKo = titleKo;
       record.summaryKo = summaryKo;
+      const whyKo = text(entry.whyKo).replace(/\s+/g, " ");
+      if (whyKo.length <= 120 && /[가-힣]/.test(whyKo)) record.whyKo = whyKo;
     }
     const publishedAt = validTimestamp(entry.publishedAt);
     const changedAt = validTimestamp(entry.changedAt);
@@ -155,6 +157,78 @@ export function normalizeRecords(data) {
 
 export function compareRecordDates(a, b) {
   return a.date.localeCompare(b.date) || (a.publishedAt || "").localeCompare(b.publishedAt || "");
+}
+
+// Prefer changes that affect what readers can do or need to know in each channel.
+const keyBriefRules = {
+  games: [
+    [/한국어.{0,12}(?:지원|자막)|체험판|데모/, "구매 전에 한국어 지원이나 체험 기회를 확인할 수 있습니다."],
+    [/출시|발매/, "새로 플레이할 수 있는 게임과 지원 기기를 확인할 수 있습니다."],
+    [/업데이트|패치/, "보유한 게임을 다시 플레이할 때 달라진 점을 확인할 수 있습니다."],
+  ],
+  anime: [
+    [/방영|전편.{0,6}공개|극장.{0,5}개봉|공개일/, "언제 어디서 볼 수 있는지 확인하는 데 도움이 됩니다."],
+    [/애니화|신작|예고편|포스터/, "작품의 제작이나 공개가 어디까지 진행됐는지 알 수 있습니다."],
+  ],
+  comics: [
+    [/신작|연재.{0,8}(?:시작|확정)|완결|연재 중단/, "새로 읽기 시작하거나 연재를 따라갈 때 확인할 변화입니다."],
+    [/연재|\d+화/, "작품을 읽고 있다면 다음 회차를 확인할 수 있습니다."],
+  ],
+  fashion: [
+    [/출시|발매|런웨이|패션위크/, "제품이나 컬렉션을 실제로 볼 수 있는 시점을 확인할 수 있습니다."],
+    [/협업|컬렉션|신소재/, "어떤 디자인과 소재가 새로 등장하는지 살펴볼 수 있습니다."],
+  ],
+  idols: [
+    [/데뷔|컴백|콘서트|투어|공연|음반|신곡/, "새 음악이나 무대를 언제 확인할 수 있는지 파악하는 데 도움이 됩니다."],
+    [/조회수|차트/, "곡이나 영상이 공개 후 얼마나 관심을 모았는지 보여주는 지표입니다."],
+  ],
+  ai: [
+    [/(?:모델|기능|도구|GPT|Codex).{0,28}(?:출시|공개|발표|지원)|(?:출시|공개).{0,18}(?:모델|기능|도구)/i, "AI로 새로 할 수 있는 작업과 활용 범위를 살펴볼 수 있습니다."],
+    [/정책|인수|데이터센터|연구 결과/, "AI 도구와 서비스를 둘러싼 변화의 방향을 파악할 수 있습니다."],
+    [/도입|활용|사례/, "AI가 현장에서 어떤 작업에 쓰이는지 구체적으로 볼 수 있습니다."],
+  ],
+  stocks: [
+    [/기준금리.{0,18}(?:인상|인하|동결|결정)|금리 결정/, "금리 결정은 기업의 자금 조달 비용과 경제 전망을 읽는 기준입니다."],
+    [/물가|고용|성장률|임금|실적|공시|시범 운영/, "경제나 기업의 상황을 판단할 때 참고할 수 있는 발표입니다."],
+  ],
+  crypto: [
+    [/보안|취약점|네트워크.{0,10}(?:변경|업그레이드)|규제|승인/, "거래나 서비스 이용 조건에 영향을 주는 변화를 확인할 수 있습니다."],
+    [/상장|거래 시작|거래 지원/, "어느 거래소에서 해당 자산을 거래할 수 있게 됐는지 확인할 수 있습니다."],
+  ],
+  world: [
+    [/발효|시행|합의|채택|규제|중단|제재|휴전/, "관련 국가와 기관의 대응을 이해하는 데 필요한 소식입니다."],
+    [/협력|정상회의|회담|정책/, "국가들이 현재 어떤 문제를 함께 다루고 있는지 알 수 있습니다."],
+  ],
+};
+
+export function selectKeyBriefs(records, now, koreanDay) {
+  const newest = new Map();
+  const windowMs = 24 * 60 * 60 * 1000;
+  for (const record of records) {
+    if (!record.titleKo || !record.summaryKo || !record.sources.length) continue;
+    if (record.publishedAt) {
+      const age = now - Date.parse(record.publishedAt);
+      if (!(age >= 0 && age < windowMs)) continue;
+    } else if (record.date !== koreanDay) {
+      continue;
+    }
+
+    const rules = keyBriefRules[record.category] || [];
+    const match = rules.findIndex(([pattern]) => pattern.test(record.titleKo));
+    const rank = match < 0 ? 0 : rules.length - match;
+    const previous = newest.get(record.category);
+    if (previous && (rank < previous.rank
+      || (rank === previous.rank && compareRecordDates(record, previous.record) <= 0))) continue;
+
+    const why = record.whyKo || rules[match]?.[1];
+    newest.set(record.category, {
+      record,
+      rank,
+      reason: why || record.summaryKo.split(/(?<=[.!?])\s+/, 1)[0],
+      reasonLabel: why ? "왜 중요한가" : "핵심 내용",
+    });
+  }
+  return newest;
 }
 
 export function mergeRecords(...arrays) {

@@ -1,4 +1,4 @@
-import { CATEGORIES, SOURCES, SEED, parseBrief, mergeRecords, normalizeRecords, compareRecordDates } from './data.js';
+import { CATEGORIES, SOURCES, SEED, parseBrief, mergeRecords, normalizeRecords, compareRecordDates, selectKeyBriefs } from './data.js?v=key-brief';
 import { PUBLIC_BRIEFS } from './public-briefs.js';
 
 const byId = (id) => document.getElementById(id);
@@ -11,6 +11,9 @@ const addForm = byId('addForm');
 const importInput = byId('importInput');
 const refreshButton = byId('refreshButton');
 const categoryBar = byId('categories');
+const keyBrief = byId('keyBrief');
+const keyBriefDay = byId('keyBriefDay');
+const keyBriefGrid = byId('keyBriefGrid');
 const channelOverview = byId('channelOverview');
 const channelGrid = byId('channelGrid');
 const isLocalHost = ['localhost', '127.0.0.1', '[::1]'].includes(window.location.hostname);
@@ -19,6 +22,8 @@ const publicBriefs = normalizeRecords(PUBLIC_BRIEFS);
 const curatedByUrl = new Map(publicBriefs.map((record) => [record.sources[0]?.url, record]));
 const headline = (record) => record.titleKo || record.title;
 const explanation = (record) => record.summaryKo || record.summary;
+const cloudLoading = '자동 브리핑 확인 중';
+const cloudUnavailable = '자동 브리핑을 불러오지 못함';
 const minute = 60_000;
 const newWindow = 24 * 60 * minute;
 const relativeTime = new Intl.RelativeTimeFormat('ko-KR');
@@ -63,7 +68,7 @@ const state = {
   imported: normalizeRecords(library.imported),
   local: normalizeRecords(library.local),
   cloudBriefs: [],
-  cloudStatus: '자동 브리핑 확인 중',
+  cloudStatus: cloudLoading,
   manual: normalizeRecords(library.manual),
   checkedAt: Number.isFinite(library.checkedAt) && Number.isFinite(new Date(library.checkedAt).getTime())
     ? library.checkedAt : null,
@@ -176,6 +181,7 @@ let timeLabelTimer;
 function updateTimeLabels() {
   clearTimeout(timeLabelTimer);
   const now = Date.now();
+  if (!keyBrief.hidden) renderKeyBriefing(now);
   let nextTick = minute;
   for (const node of document.querySelectorAll('time[data-publication-date]')) {
     const elapsed = now - Date.parse(node.dateTime);
@@ -229,8 +235,52 @@ function channelCard(category, records) {
   return card;
 }
 
+function keyBriefCard(category, pick, emptyMessage) {
+  const card = element('article', 'channel-card key-brief-card');
+  card.dataset.category = category.id;
+  const label = element('h3', 'key-brief-category', category.label);
+  card.append(label);
+  if (!pick) {
+    card.append(element('p', 'key-brief-empty', emptyMessage));
+    return card;
+  }
+
+  const { record, reason, reasonLabel } = pick;
+  const reasonLine = element('p', 'key-brief-reason');
+  reasonLine.append(element('strong', '', reasonLabel), ' ' + reason);
+  const meta = element('div', 'key-brief-meta');
+  const source = record.sources[0];
+  const link = externalLink(source.url, '원문 · ' + source.label, 'key-brief-source');
+  meta.append(publishedTime(record), link);
+  card.append(actionButton(headline(record), 'key-brief-title', () => showDetail(record)), reasonLine, meta);
+  return card;
+}
+
+let keyBriefItems = [];
+let keyBriefEmptyMessage;
+function renderKeyBriefing(now) {
+  const koreanDay = new Date(now + 9 * 60 * minute).toISOString().slice(0, 10);
+  if (keyBriefDay.dateTime !== koreanDay) {
+    keyBriefDay.dateTime = koreanDay;
+    keyBriefDay.textContent = dateLabel(koreanDay) + ' · 한국시간';
+  }
+
+  // Use only the public feed, whose dates refer to original publication.
+  const picks = selectKeyBriefs(state.cloudBriefs, now, koreanDay);
+  const items = CATEGORIES.map(({ id }) => picks.get(id));
+  const emptyMessage = state.cloudStatus === cloudLoading ? '공개 소식을 불러오는 중입니다.'
+    : state.cloudStatus === cloudUnavailable ? '공개 소식을 불러오지 못했습니다.'
+      : '최근 24시간 내 확인된 새 소식이 없습니다.';
+  if (emptyMessage === keyBriefEmptyMessage
+      && items.every((item, index) => item?.record === keyBriefItems[index]?.record)) return;
+  keyBriefItems = items;
+  keyBriefEmptyMessage = emptyMessage;
+  keyBriefGrid.replaceChildren(...CATEGORIES.map((category, index) => keyBriefCard(category, items[index], emptyMessage)));
+}
+
 function renderChannels(records) {
   const visible = state.view === 'feed' && state.category === 'all' && !searchInput.value.trim();
+  keyBrief.hidden = !visible;
   channelOverview.hidden = !visible;
   if (!visible) return;
   const byCategory = new Map(CATEGORIES.map(({ id }) => [id, []]));
@@ -655,8 +705,8 @@ async function loadCloudBriefs() {
     const { records } = await response.json();
     if (!Array.isArray(records)) throw new Error('Unexpected cloud briefs response');
     const articles = records.map((entry) => {
-      const { title, titleKo, category, summary, summaryKo, date, publishedAt, changedAt, identityTitle, sources } = entry || {};
-      return { title, titleKo, category, summary, summaryKo, date, publishedAt, changedAt, identityTitle, sources };
+      const { title, titleKo, category, summary, summaryKo, whyKo, date, publishedAt, changedAt, identityTitle, sources } = entry || {};
+      return { title, titleKo, category, summary, summaryKo, whyKo, date, publishedAt, changedAt, identityTitle, sources };
     });
     const published = mergeRecords(normalizeRecords(articles)
       .filter(({ summary, sources }) => summary && sources.length));
@@ -680,16 +730,18 @@ async function loadCloudBriefs() {
       render();
     }
   } catch {
-    state.cloudStatus = '자동 브리핑을 불러오지 못함';
+    state.cloudStatus = cloudUnavailable;
   } finally {
     loadingCloud = false;
     updateSyncStatus();
+    if (!keyBrief.hidden) updateTimeLabels();
   }
 }
 
 if (isLocalHost) {
   refreshButton.addEventListener('click', () => refreshLocal(true));
   void refreshLocal();
+  void loadCloudBriefs();
 } else {
   const label = '브리핑 파일 열기';
   refreshButton.title = label;

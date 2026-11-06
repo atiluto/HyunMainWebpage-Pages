@@ -125,6 +125,26 @@ p, h1, h2, h3 { margin: 0; }
 [data-category="crypto"] { --category-color: #f4c584; --category-bg: #382d20; --category-border: #614c30; }
 
 .channel-overview { margin-bottom: 28px; }
+.key-brief-heading { flex-wrap: wrap; }
+.key-brief-day { color: var(--secondary); font-size: .76rem; }
+.key-brief-card { display: flex; flex-direction: column; gap: 8px; padding: 13px; }
+.key-brief-category { color: var(--category-color); font-size: .78rem; font-weight: 730; }
+.key-brief-title {
+  padding: 0; border: 0; background: none; color: var(--text); font: inherit;
+  font-size: .93rem; font-weight: 720; text-align: left; line-height: 1.4;
+  word-break: keep-all; overflow-wrap: anywhere;
+}
+.key-brief-title:hover { color: var(--category-color); }
+.key-brief-reason, .key-brief-empty {
+  color: var(--secondary); font-size: .79rem; line-height: 1.55; word-break: keep-all; overflow-wrap: anywhere;
+}
+.key-brief-reason strong { color: var(--text); margin-right: 3px; }
+.key-brief-meta {
+  display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;
+  gap: 3px 10px; margin-top: auto; font-size: .73rem; color: var(--secondary);
+}
+.key-brief-source { display: inline-flex; align-items: center; gap: 4px; min-height: 28px; color: var(--category-color); }
+.key-brief-source svg { width: 12px; height: 12px; flex: none; }
 .channel-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
 .channel-card { min-width: 0; }
 .channel-heading { margin: 0; font-size: .95rem; }

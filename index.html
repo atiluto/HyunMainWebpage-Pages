@@ -7,8 +7,8 @@
   <meta name="description" content="게임, 애니, 웹툰, 패션, 아이돌, AI, 주식, 코인, 세계뉴스를 모으는 정보 레이더">
   <title>레이더 — 개인 정보 수집함</title>
   <link rel="icon" type="image/svg+xml" href="./radar.svg">
-  <link rel="stylesheet" href="./styles.css">
-  <script type="module" src="./app.js"></script>
+  <link rel="stylesheet" href="./styles.css?v=key-brief">
+  <script type="module" src="./app.js?v=key-brief"></script>
 </head>
 <body>
   <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -95,6 +95,14 @@
             <p class="hero-description">일본 인디게임부터 세계뉴스까지.<br>내가 팔로우하는 소식을 한곳에서 확인하세요.</p>
             <p class="hero-label"><svg aria-hidden="true"><use href="#icon-stack"/></svg>수집 기록 <strong id="heroCount">0</strong>건</p>
           </div>
+        </section>
+
+        <section id="keyBrief" class="channel-overview" aria-labelledby="keyBriefTitle" hidden>
+          <div class="section-heading key-brief-heading">
+            <div><h2 id="keyBriefTitle">오늘의 핵심 브리핑</h2><p>원문 기준 최근 24시간의 주요 소식을 채널별로 한 건씩 골랐습니다.</p></div>
+            <time id="keyBriefDay" class="key-brief-day"></time>
+          </div>
+          <div id="keyBriefGrid" class="channel-grid"></div>
         </section>
 
         <section id="radarStats" class="stat-grid" aria-label="수집함 요약">
