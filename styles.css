@@ -125,6 +125,7 @@ p, h1, h2, h3 { margin: 0; }
 [data-category="crypto"] { --category-color: #f4c584; --category-bg: #382d20; --category-border: #614c30; }
 
 .channel-overview { margin-bottom: 28px; }
+#keyBrief { margin-top: 22px; }
 .key-brief-heading { flex-wrap: wrap; }
 .key-brief-day { color: var(--secondary); font-size: .76rem; }
 .key-brief-card { display: flex; flex-direction: column; gap: 8px; padding: 13px; }
