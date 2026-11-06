@@ -134,6 +134,12 @@ export function normalizeRecords(data) {
     const category = normalizeCategory(entry.category, kind, title, summary, sources);
     if (!categoryIds.has(category)) return [];
     const record = { title, category, summary, date, sources, kind };
+    const titleKo = normalizeTitle(entry.titleKo);
+    const summaryKo = text(entry.summaryKo).slice(0, 360);
+    if (titleKo && summaryKo) {
+      record.titleKo = titleKo;
+      record.summaryKo = summaryKo;
+    }
     const publishedAt = validTimestamp(entry.publishedAt);
     const changedAt = validTimestamp(entry.changedAt);
     if (publishedAt) record.publishedAt = publishedAt;
@@ -310,6 +316,8 @@ export function parseBrief(value, filename = "") {
 export const SEED = normalizeRecords([
   {
     title: "Eternal Palace Sakura",
+    titleKo: "《이터널 팰리스 사쿠라》 출시와 한국어 지원",
+    summaryKo: "스팀에서 체험판을 받을 수 있고, 본편은 한국어 메뉴와 자막을 지원한다고 표시됩니다. 스위치 버전과 체험판의 한국어 지원은 별도 확인이 필요합니다.",
     category: "games",
     summary: "일본 배급사 Shochiku Games는 11월 5일 출시로 안내하고 Steam 상점의 출시일 표시는 11월 4일이다. Steam에서 데모 다운로드와 한국어 인터페이스·자막 지원 표기를 확인했다. Switch 한국어 지원과 데모 자체의 언어는 별도 확인이 필요하다.",
     date: "2026-11-06",
@@ -322,6 +330,8 @@ export const SEED = normalizeRecords([
   },
   {
     title: "Fish Them All!",
+    titleKo: "《피시 뎀 올!》 체험판과 한국어 지원 소식",
+    summaryKo: "스팀에 체험판이 올라왔고, 본편은 한국어 메뉴와 자막을 지원한다고 표시됩니다. 개발사 공지와 스팀의 일정 표기가 달라 본편의 정확한 출시일은 확인이 필요합니다.",
     category: "games",
     summary: "일본 개발사 Piisu가 11월 5일 출시 계획을 공지했다. Steam에 데모와 한국어 인터페이스·자막 지원이 표시된다. 본편은 출시 예정이며, 개발사 공지와 Steam의 12월 날짜 표기가 달라 정확한 출시일은 확인이 필요하다.",
     date: "2026-11-06",

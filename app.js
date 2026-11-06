@@ -17,6 +17,8 @@ const isLocalHost = ['localhost', '127.0.0.1', '[::1]'].includes(window.location
 const categoryNames = new Map(CATEGORIES.map(({ id, label }) => [id, label]));
 const publicBriefs = normalizeRecords(PUBLIC_BRIEFS);
 const curatedByUrl = new Map(publicBriefs.map((record) => [record.sources[0]?.url, record]));
+const headline = (record) => record.titleKo || record.title;
+const explanation = (record) => record.summaryKo || record.summary;
 const minute = 60_000;
 const newWindow = 24 * 60 * minute;
 const relativeTime = new Intl.RelativeTimeFormat('ko-KR');
@@ -219,7 +221,7 @@ function channelCard(category, records) {
     const row = element('li', 'channel-row');
     const title = element('div', 'channel-row-title');
     title.append(newBadge(record.changedAt),
-      actionButton(record.title, 'channel-news-link', () => showDetail(record)));
+      actionButton(headline(record), 'channel-news-link', () => showDetail(record)));
     row.append(title, publishedTime(record));
     list.append(row);
   }
@@ -251,10 +253,10 @@ function showDetail(record) {
   if (record.platform) meta.append(element('span', 'item-platform', record.platform));
   if (record.kind === 'manual') meta.append(element('span', '', '직접 추가'));
   if (Number.isFinite(record.score)) meta.append(element('span', '', `편집 점수 ${record.score}/10`));
-  const title = element('h2', 'detail-title', record.title);
+  const title = element('h2', 'detail-title', headline(record));
   title.id = 'detailTitle';
   detailDialog.setAttribute('aria-labelledby', title.id);
-  const body = element('p', 'detail-summary', record.summary || '작성한 메모가 없습니다.');
+  const body = element('p', 'detail-summary', explanation(record) || '작성한 메모가 없습니다.');
   const links = element('div', 'item-links detail-links');
   for (const source of record.sources) {
     const link = externalLink(source.url, source.label || '원문 보기', 'source-link');
@@ -285,7 +287,7 @@ function itemCard(record) {
   meta.append(badge(record.category), newBadge(record.changedAt), publishedTime(record));
   if (record.platform) meta.append(element('span', 'item-platform', record.platform));
   const title = element('h3', 'item-title');
-  title.append(actionButton(record.title, 'item-title-button', () => showDetail(record)));
+  title.append(actionButton(headline(record), 'item-title-button', () => showDetail(record)));
   const links = element('div', 'item-links');
   const source = record.sources[0];
   if (source) {
@@ -296,14 +298,14 @@ function itemCard(record) {
   open.append(icon('arrow'));
   links.append(open);
   main.append(meta, title);
-  if (record.summary) main.append(element('p', 'item-summary', record.summary));
+  if (explanation(record)) main.append(element('p', 'item-summary', explanation(record)));
   main.append(links);
 
   const saved = state.saved.has(record.id);
   const bookmark = actionButton('', 'bookmark-button', () => toggleSaved(record));
   bookmark.dataset.recordId = record.id;
   bookmark.title = saved ? '저장함에서 빼기' : '저장함에 추가';
-  bookmark.setAttribute('aria-label', `${bookmark.title} — ${record.title}`);
+  bookmark.setAttribute('aria-label', `${bookmark.title} — ${headline(record)}`);
   bookmark.setAttribute('aria-pressed', String(saved));
   bookmark.classList.toggle('is-saved', saved);
   bookmark.append(icon('bookmark'));
@@ -377,7 +379,7 @@ function filterItems(items) {
   const terms = searchInput.value.trim().toLocaleLowerCase('ko').split(/\s+/).filter(Boolean);
   return items.filter((item) => {
     if (state.category !== 'all' && item.category !== state.category) return false;
-    const haystack = [item.title, item.summary, item.description, item.platform, item.date,
+    const haystack = [headline(item), explanation(item), item.title, item.description, item.platform, item.date,
       categoryNames.get(item.category), item.url,
       ...(item.sources || []).flatMap(({ label, url }) => [label, url]),
     ].join(' ').toLocaleLowerCase('ko');
@@ -653,8 +655,8 @@ async function loadCloudBriefs() {
     const { records } = await response.json();
     if (!Array.isArray(records)) throw new Error('Unexpected cloud briefs response');
     const articles = records.map((entry) => {
-      const { title, category, summary, date, publishedAt, changedAt, identityTitle, sources } = entry || {};
-      return { title, category, summary, date, publishedAt, changedAt, identityTitle, sources };
+      const { title, titleKo, category, summary, summaryKo, date, publishedAt, changedAt, identityTitle, sources } = entry || {};
+      return { title, titleKo, category, summary, summaryKo, date, publishedAt, changedAt, identityTitle, sources };
     });
     const published = mergeRecords(normalizeRecords(articles)
       .filter(({ summary, sources }) => summary && sources.length));
@@ -667,6 +669,8 @@ async function loadCloudBriefs() {
       const curated = curatedByUrl.get(url);
       if (!curated) {
         cloudBriefs.push(record);
+      } else if (record.summaryKo) {
+        cloudBriefs.push({ ...curated, ...record, id: curated.id });
       } else if (record.changedAt) {
         cloudBriefs.push({ ...record, id: curated.id });
       } else {
@@ -674,7 +678,9 @@ async function loadCloudBriefs() {
       }
     }
     const latest = published[0];
+    const pending = published.filter((record) => !record.summaryKo && !curatedByUrl.has(record.sources[0].url));
     state.cloudStatus = latest ? '최근 브리핑 항목 · ' + latest.date : '게시된 자동 브리핑 없음';
+    if (pending.length) state.cloudStatus += ' · 한국어 요약 대기 ' + pending.length + '건';
     if (JSON.stringify(state.cloudBriefs) !== JSON.stringify(cloudBriefs)) {
       state.cloudBriefs = cloudBriefs;
       render();
