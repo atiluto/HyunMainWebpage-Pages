@@ -667,20 +667,14 @@ async function loadCloudBriefs() {
       if (seenUrls.has(url)) continue;
       seenUrls.add(url);
       const curated = curatedByUrl.get(url);
-      if (!curated) {
-        cloudBriefs.push(record);
-      } else if (record.summaryKo) {
-        cloudBriefs.push({ ...curated, ...record, id: curated.id });
-      } else if (record.changedAt) {
-        cloudBriefs.push({ ...record, id: curated.id });
-      } else {
-        cloudBriefs.push({ ...curated, publishedAt: record.publishedAt });
+      if (record.summaryKo) {
+        cloudBriefs.push(curated ? { ...curated, ...record, id: curated.id } : record);
       }
     }
-    const latest = published[0];
-    const pending = published.filter((record) => !record.summaryKo && !curatedByUrl.has(record.sources[0].url));
+    const latest = cloudBriefs[0];
+    const pendingCount = seenUrls.size - cloudBriefs.length;
     state.cloudStatus = latest ? '최근 브리핑 항목 · ' + latest.date : '게시된 자동 브리핑 없음';
-    if (pending.length) state.cloudStatus += ' · 한국어 요약 대기 ' + pending.length + '건';
+    if (pendingCount) state.cloudStatus += ' · 한국어 요약 대기 ' + pendingCount + '건';
     if (JSON.stringify(state.cloudBriefs) !== JSON.stringify(cloudBriefs)) {
       state.cloudBriefs = cloudBriefs;
       render();
@@ -703,7 +697,7 @@ if (isLocalHost) {
   refreshButton.querySelector('use').setAttribute('href', '#icon-import');
   refreshButton.addEventListener('click', () => importInput.click());
   setText('syncSource', 'GitHub Actions · 공개 브리핑');
-  setText('syncCopy', '한국시간 오전 9시로 예약되어 있습니다. 수집과 배포가 끝나면 공개 브리핑에 표시됩니다.');
+  setText('syncCopy', '한국시간 오전 9시에 수집을 시작합니다. 한국어 제목과 요약이 준비된 소식은 원문 링크와 함께 표시됩니다.');
   void loadCloudBriefs();
   setInterval(() => { if (!document.hidden) void loadCloudBriefs(); }, 120_000);
   document.addEventListener('visibilitychange', () => {
