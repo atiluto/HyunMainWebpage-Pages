@@ -1,98 +1,197 @@
 {
   "records": [
     {
-      "title": "『HELLDIVERS 2』に毒を持つターミニッドの新種が登場。銀河中にムシの洞窟が出現！",
+      "title": "[第21歩目]あっ、悪魔ちゃん",
+      "category": "comics",
+      "summary": "11월 7일 소년 점프+에서 공개한 만화 연재 소식입니다.",
+      "date": "2026-11-07",
+      "sources": [
+        {
+          "label": "소년 점프+",
+          "url": "https://shonenjumpplus.com/episode/9253191257689746274"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-06T15:00:00Z",
+      "contentHash": "d90909397c1025561ebe2cd84940fa8a4f040dd8ad95f0f58e309328d7c120bc",
+      "changedAt": "2026-11-07T03:31:21Z",
+      "titleKo": "21번째 단계에서 악마 쯔",
+      "summaryKo": "소년 점프+ 채널에서 21번째 단계를 맞이한 코미кс '악마 쯔'가 새로운 단계를 시작했다. 이 작품은 현재까지의 성과와 기대감을 이어가며 팬들의 관심을 끌고 있다.",
+      "whyKo": "신작이 새로운 단계를 시작하며 팬들의 기대감을 높인다."
+    },
+    {
+      "title": "[第3話]闇捨て穴",
+      "category": "comics",
+      "summary": "11월 7일 소년 점프+에서 공개한 만화 연재 소식입니다.",
+      "date": "2026-11-07",
+      "sources": [
+        {
+          "label": "소년 점프+",
+          "url": "https://shonenjumpplus.com/episode/9253191257689746247"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-06T15:00:00Z",
+      "contentHash": "73c9a501d7e025b071188fd9711f525e57fe4b845186b8679df1a010fa149397",
+      "changedAt": "2026-11-07T03:31:21Z"
+    },
+    {
+      "title": "Statement by the Eurogroup President on the nominations for the post of ECB President",
+      "category": "world",
+      "summary": "11월 7일 유럽연합 이사회에서 공개한 국제 정책·외교 소식입니다.",
+      "date": "2026-11-07",
+      "sources": [
+        {
+          "label": "유럽연합 이사회",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/06/statement-by-the-eurogroup-president-on-the-nominations-for-the-post-of-ecb-president/"
+        }
+      ],
+      "kind": "brief",
+      "contentHash": "4306ce9051180f29562ee6a410fac2b4b0564891cab1487231ab26d09b3dbd89",
+      "changedAt": "2026-11-07T03:31:21Z",
+      "titleKo": "유럽연합 이사회, ECB 총재 후보자 추천에 대한 발표",
+      "summaryKo": "유럽연합 이사회 의장인 Kyriakos Pierrakakis는 ECB 총재 후보자 추천에 대한 발표를 발표했다.",
+      "whyKo": "유럽연합 이사회가 ECB 총재 후보자 추천에 대한 공식적인 입장을 발표했다."
+    },
+    {
+      "title": "Forward look: 9 - 22 November 2026",
+      "category": "world",
+      "summary": "11월 7일 유럽연합 이사회에서 공개한 국제 정책·외교 소식입니다.",
+      "date": "2026-11-07",
+      "sources": [
+        {
+          "label": "유럽연합 이사회",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/06/forward-look-2026/"
+        }
+      ],
+      "kind": "brief",
+      "contentHash": "7f9f551b7e096d719a8cf6a60e558d718b042032e6ddb502305851979a68d284",
+      "changedAt": "2026-11-07T03:31:21Z"
+    },
+    {
+      "title": "Watch: ILLIT Takes 1st Win For “You’re Under Arrest” On “Music Bank”; Performances By RESCENE, TWS, And More",
+      "category": "idols",
+      "summary": "11월 6일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-06",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1884749wpp/watch-nmixx-takes-1st-win-for-birthday-wish-on-music-bank-performances-by-ateez-illit-and-more-2"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-06T11:33:42Z",
+      "contentHash": "cfc15b124a119dfa3d456bc4a2118cd85bb74d16e189a1f6abfe9d5530fecfb2",
+      "changedAt": "2026-11-07T03:31:21Z",
+      "titleKo": "ILLIT, 'You're Under Arrest'로 'Music Bank' 첫 우승",
+      "summaryKo": "ILLIT이 11월 6일 방송된 'Music Bank'에서 'You're Under Arrest'로 첫 music bank 우승을 차지했다. IVE의 'Looks Can Kill'과 경쟁하며 9,803표를 얻어 승리했다. RESCENE, TWS 등 다른 아티스트의 무대가 함께 공연되었다.",
+      "whyKo": "ILLIT이 첫 music bank 우승을 차지하며 데뷔 후 첫 큰 성과를 거두었다."
+    },
+    {
+      "title": "ECB publishes consolidated banking data for end-June 2026",
+      "category": "stocks",
+      "summary": "11월 6일 유럽중앙은행에서 공개한 경제·금융 정책 소식입니다.",
+      "date": "2026-11-06",
+      "sources": [
+        {
+          "label": "유럽중앙은행",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-06T09:00:00Z",
+      "changedAt": "2026-11-07T03:31:21Z"
+    },
+    {
+      "title": "PS Store 20周年──ゲーム開発者たちが魅了された名作ゲームを語る",
       "category": "games",
       "summary": "11월 6일 PlayStation 일본 블로그에서 공개한 게임·서비스 소식입니다.",
       "date": "2026-11-06",
       "sources": [
         {
           "label": "PlayStation 일본 블로그",
-          "url": "https://blog.ja.playstation.com/2026/11/06/20261106-helldivers2-post-launch-update-o/"
+          "url": "https://blog.ja.playstation.com/2026/11/06/20261106-20-years-of-ps-store-o/"
         }
       ],
       "kind": "brief",
-      "publishedAt": "2026-11-06T03:13:49Z",
-      "contentHash": "35d267d833ec55498be69d40834653003d6cc298d9a27822e102a0a8ca43dd2a",
-      "changedAt": "2026-11-06T03:58:08Z",
-      "titleKo": "HELLDIVERS 2 신종 탈리니드 등장",
-      "summaryKo": "HELLDIVERS 2에서 독을 뿌리는 신종 탈리니드가 등장하며, 간질의 둥지가 간주적으로 확산되고 있다. 신종 탈리니드는 빠른 움직임을 가진 '노크시아스 스카빈저'와 대형 '노크시아스 스피우어'로 구성되어 있으며, 이들에 대비해 회복약을 준비해야 한다.",
-      "whyKo": "신종 독을 뿌리는 탈리니드가 등장해 위험성이 높아짐"
+      "publishedAt": "2026-11-06T08:45:52Z",
+      "contentHash": "1b838a7671c751d2482efb5ad6dc60adf04d15dbc2b403a9cf4c2c32fca60b8e",
+      "changedAt": "2026-11-07T03:31:21Z",
+      "titleKo": "PS 스토어 20주년──게임 개발자들이 선택한 명작 게임",
+      "summaryKo": "PS 스토어 20주년을 기념해 게임 개발자들이 추천한 명작 게임이 소개된다. 이 기념일을 맞아 개발자들이 20년간의 작품 중에서 가장 인상 깊은 게임을 선택해 이야기한다. 이는 게임 역사에 남을 만한 작품들로, 개발자들의 감정과 추억을 담고 있다.",
+      "whyKo": "20년간의 게임 역사에서 가장 영향 깊은 작품이 어떤지 개발자들이 추천한다."
     },
     {
-      "title": "美しくも苛烈な地球奪還の戦いへ。SFアクション・アドベンチャー『Stellar Blade™ コンプリートエディション』がNintendo Switch 2 で本日発売。 ※本作の対象年齢は「17歳以上」です。",
-      "category": "games",
-      "summary": "11월 6일 닌텐도 일본에서 공개한 출시·공개 소식입니다.",
-      "date": "2026-11-06",
-      "sources": [
-        {
-          "label": "닌텐도 일본",
-          "url": "https://www.nintendo.com/jp/topics/article/b1972348-4cb5-4c66-994c-0f78076f1e24"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-06T01:03:19Z",
-      "titleKo": "《스텔라 블레이드 컴플리트 에디션》, 스위치 2 출시",
-      "summaryKo": "닌텐도 일본에 따르면 시프트업의 SF 액션 게임 《스텔라 블레이드》 컴플리트 에디션이 11월 6일 스위치 2로 출시됐습니다. 일본에서 17세 이상 이용가입니다.",
-      "whyKo": "스위치 2 이용자도 시프트업의 SF 액션 게임을 즐길 수 있게 됐습니다.",
-      "changedAt": "2026-11-06T02:42:42Z"
-    },
-    {
-      "title": "Cult.fit builds operational muscle with Codex",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
       "category": "ai",
       "summary": "11월 6일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
       "date": "2026-11-06",
       "sources": [
         {
           "label": "OpenAI",
-          "url": "https://openai.com/index/cultfit-builds-with-codex"
+          "url": "https://openai.com/index/partnering-with-hacktron"
         }
       ],
       "kind": "brief",
-      "publishedAt": "2026-11-05T20:00:00Z",
-      "contentHash": "eb59f9cb18aebcb0f5a91c130a8ede4802994a367f45a02cbd135f9ad19a4a9c",
-      "titleKo": "인도 피트니스 기업 컬트핏, Codex로 사내 도구 개발",
-      "summaryKo": "오픈AI가 공개한 고객 사례입니다. 컬트핏은 Codex를 비개발 부서에도 도입했고, 이 부서들이 최근 몇 달간 사내 앱을 20개 넘게 만들었다고 밝혔습니다.",
-      "whyKo": "개발자가 아닌 부서도 업무에 필요한 사내 도구를 직접 만드는 데 AI를 활용한 사례입니다.",
-      "changedAt": "2026-11-06T02:42:42Z"
+      "publishedAt": "2026-11-06T08:00:00Z",
+      "contentHash": "b7a0406a5e69feb2f4aa2b8cdc049cfa358b04dace8a44741de523fccd2b770c",
+      "changedAt": "2026-11-07T03:31:21Z"
     },
     {
-      "title": "Australian universities are creating AI-native graduates",
-      "category": "ai",
-      "summary": "11월 6일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
-      "date": "2026-11-06",
-      "sources": [
-        {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/australian-universities-ai-native-graduates"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-05T17:00:00Z",
-      "contentHash": "95e94d6b252d142b0a5165dd3f327fe52c2d920c0c725c016bbad224ef375ed5",
-      "titleKo": "호주 대학들, ChatGPT를 실습과 교육에 도입",
-      "summaryKo": "오픈AI는 호주 대학들과 AI 활용 교육을 추진하고 있습니다. 라트로브대는 응급구조 전공 학생들이 심전도를 해석하고 대응을 결정하는 실습 시나리오를 만드는 데 ChatGPT를 활용합니다.",
-      "whyKo": "응급구조 학생이 심전도 해석과 대응 판단을 연습하는 수업에 AI를 활용한 사례입니다.",
-      "changedAt": "2026-11-06T02:42:42Z"
-    },
-    {
-      "title": "Listen: JYP Entertainment Teases Launch Of New Group oftheblue",
+      "title": "7 K-Pop Tracks With Harmonies So Beautiful They’ll Give You Goosebumps",
       "category": "idols",
-      "summary": "11월 6일 Soompi에서 공개한 출시·공개 소식입니다.",
+      "summary": "11월 6일 Soompi에서 공개한 K-pop·음악 소식입니다.",
       "date": "2026-11-06",
       "sources": [
         {
           "label": "Soompi",
-          "url": "https://www.soompi.com/article/1884508wpp/listen-jyp-entertainment-teases-launch-of-new-group-oftheblue"
+          "url": "https://www.soompi.com/article/1884517wpp/7-k-pop-tracks-with-harmonies-so-beautiful-theyll-give-you-goosebumps"
         }
       ],
       "kind": "brief",
-      "publishedAt": "2026-11-05T15:37:20Z",
-      "contentHash": "5d2cd5ef95c82561dd2a4aee15eedb3431e77fa0f081aa7f47a3c8b6a33a6c80",
-      "titleKo": "JYP 신인 그룹 ‘오브더블루(oftheblue)’, 데뷔 티저 공개",
-      "summaryKo": "Soompi에 따르면 JYP 신인 그룹의 티저 사이트에 사진 두 장과 보컬 없는 음원 일부가 올라왔습니다. 멤버 구성과 데뷔일은 아직 공개되지 않았습니다.",
-      "whyKo": "데뷔에 앞서 신인 그룹이 선보일 음악의 분위기를 티저 음원으로 가늠할 수 있습니다.",
-      "changedAt": "2026-11-05T23:09:35Z"
+      "publishedAt": "2026-11-06T06:52:43Z",
+      "contentHash": "f0c7ba8e5ae0da8c4b659244188d5a9645e50c4c0995a69ed7f3dc42ca08be4a",
+      "changedAt": "2026-11-07T03:31:21Z",
+      "titleKo": "K-POP 가창이 화요한 곡 7선",
+      "summaryKo": "K-POP 장르에서 흔하지만 완벽한 화요가를 보여주는 곡 7곡이 소개된다. 이 곡들은 듣는 사람에게 흥미를 유발할 수 있는 아름다운 화요를 제공한다. Soompi에서 이 글은 K-POP의 화요가에 대한 관심을 끌어올린다.",
+      "whyKo": "K-POP의 아름다운 화요가가 주목받고 있다."
+    },
+    {
+      "title": "「デザイン系 オンラインセミナー アートワーク制作」「デザイン系 オンラインセミナー ソフトウェア制作」のお申し込み受付を開始しました。",
+      "category": "games",
+      "summary": "11월 6일 닌텐도 일본에서 공개한 게임·서비스 소식입니다.",
+      "date": "2026-11-06",
+      "sources": [
+        {
+          "label": "닌텐도 일본",
+          "url": "https://www.nintendo.co.jp/jobs/recruit/event/index.html"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-06T05:17:05Z",
+      "changedAt": "2026-11-07T03:31:21Z",
+      "titleKo": "닌텐도 일본, 디자인 관련 온라인 세미나 신청 시작",
+      "summaryKo": "닌텐도 일본이 디자인 분야에 관련된 온라인 세미나를 진행할 예정으로, '아트워크 제작'과 '소프트웨어 제작' 주제로 신청을 시작했습니다. 이는 게임 분야에서의 디자인 역량 강화를 위한 활동입니다.",
+      "whyKo": "닌텐도 일본이 디자인 분야 전문가를 대상으로 한 온라인 세미나를 진행함으로써 게임 산업의 기술 발전을 촉진할 수 있습니다."
+    },
+    {
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "category": "ai",
+      "summary": "11월 6일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
+      "date": "2026-11-06",
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-06T00:00:00Z",
+      "contentHash": "e9e5d34bef70c7f55ca1090cab940ded57f4de2bde9e6af037a38dbf666caa21",
+      "changedAt": "2026-11-07T03:31:21Z",
+      "titleKo": "AI, 일상적인 생물실험 과정 이해 능력 측정",
+      "summaryKo": "OpenAI가 100개의 과제를 포함하는 BioBasicsBench를 도입해 AI가 원시 실험 데이터를 해석하고 일상적인 생물실험 과정을 처리하는 능력을 측정합니다.",
+      "whyKo": "AI가 생물실험 과정을 이해하는 능력을 평가하는 새로운 기준이 출시됨"
     },
     {
       "title": "[75話 前編]ONE PIECE学園",
@@ -146,6 +245,24 @@
       "titleKo": "EU·서부 발칸, 온라인 범죄와 국경 관리 협력 논의",
       "summaryKo": "EU와 서부 발칸 대표들이 11월 5~6일 몬테네그로 부드바에서 만났습니다. 첫날에는 온라인 불법 콘텐츠 대응과 사이버범죄 수사, 이주·망명·국경 관리 협력을 논의했습니다.",
       "whyKo": "EU와 서부 발칸이 사이버범죄 수사와 이주·국경 관리를 어떤 의제로 함께 다루는지 보여줍니다."
+    },
+    {
+      "title": "EIP-8037/EIP-8038 Glamsterdam",
+      "category": "crypto",
+      "summary": "11월 6일 이더리움 재단에서 공개한 이더리움 생태계 소식입니다.",
+      "date": "2026-11-06",
+      "sources": [
+        {
+          "label": "이더리움 재단",
+          "url": "https://blog.ethereum.org/en/2026/11/06/glamsterdam-8037-8038"
+        }
+      ],
+      "kind": "brief",
+      "contentHash": "c47aa768350deb42588ff5897788aefd431e3419e2bdafaa97814560425ef366",
+      "changedAt": "2026-11-07T03:31:21Z",
+      "titleKo": "이더리움 업데이트 EIP-8037/EIP-8038 테스트 중",
+      "summaryKo": "이더리움 재단이 테스트넷에서 EIP-8037와 EIP-8038 업데이트를 진행 중이다. Chainsecurity는 이 업데이트가 일부 프로젝트에 안전성 문제를 일으킬 수 있다고 경고했다. 이 업데이트는 가스 비용 계산 방식을 변경하여 기존 인вар리ант가 파괴될 수 있음을 나타낸다.",
+      "whyKo": "이 업데이트가 일부 프로젝트에 안전성 문제를 일으킬 수 있음"
     },
     {
       "title": "『アサシン クリード ヴァルハラ』最新のアップデートでPS5® Proの進化版PSSRに対応！",
@@ -250,11 +367,11 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-05T06:11:24Z",
+      "changedAt": "2026-11-05T23:09:35Z",
       "contentHash": "864136cc318acc8d0f74d8f1c878908314942fcb019821e1377fb7826126d54c",
       "titleKo": "아일릿 ‘jellyous’ 뮤직비디오 1억 조회수 돌파",
       "summaryKo": "빌리프랩에 따르면 미니 3집 수록곡 ‘jellyous’의 뮤직비디오가 11월 5일 유튜브에서 1억 조회수를 넘었습니다. ‘Magnetic’과 ‘It’s Me’에 이은 아일릿의 세 번째 기록입니다.",
-      "whyKo": "미니 3집 수록곡이 아일릿의 앞선 두 곡과 같은 조회수 이정표에 도달했습니다.",
-      "changedAt": "2026-11-05T23:09:35Z"
+      "whyKo": "미니 3집 수록곡이 아일릿의 앞선 두 곡과 같은 조회수 이정표에 도달했습니다."
     },
     {
       "title": "BLACKPINK’s “GO” Becomes Their 16th Group MV To Surpass 100 Million Views",
@@ -269,11 +386,11 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-05T05:55:31Z",
+      "changedAt": "2026-11-05T23:09:35Z",
       "contentHash": "6f2110f41467e0a90e5152d9e7afb98cd779da5fd31166fe8575b258b655c729",
       "titleKo": "블랙핑크 ‘GO’ 뮤직비디오 1억 조회수 돌파",
       "summaryKo": "Soompi에 따르면 ‘GO’가 한국시간 11월 4일 유튜브에서 1억 조회수를 넘었습니다. 블랙핑크 완전체 뮤직비디오로는 16번째입니다.",
-      "whyKo": "블랙핑크 완전체 활동에서 나온 뮤직비디오의 누적 성과를 보여주는 기록입니다.",
-      "changedAt": "2026-11-05T23:09:35Z"
+      "whyKo": "블랙핑크 완전체 활동에서 나온 뮤직비디오의 누적 성과를 보여주는 기록입니다."
     },
     {
       "title": "Setting a new standard for responsible AI infrastructure",
@@ -445,11 +562,11 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-03T14:43:59Z",
+      "changedAt": "2026-11-05T23:09:35Z",
       "contentHash": "46dd5897f9912286789fb5713e754a3dac826a944003c3183984ae39e2f70326",
       "titleKo": "크라켄, 유로 연동 스테이블코인 EURCV 거래 시작",
       "summaryKo": "크라켄은 11월 3일부터 유로 가치에 연동되는 디지털 자산 EURCV의 거래를 시작했습니다. 프랑스 은행 소시에테제네랄의 자회사 SG-FORGE가 발행합니다.",
-      "whyKo": "유로에 연동되는 디지털 자산이 거래소에서 어떻게 유통되는지 보여주는 사례입니다.",
-      "changedAt": "2026-11-05T23:09:35Z"
+      "whyKo": "유로에 연동되는 디지털 자산이 거래소에서 어떻게 유통되는지 보여주는 사례입니다."
     },
     {
       "title": "Designing for sovereignty: Ethereum for digital public infrastructure",
