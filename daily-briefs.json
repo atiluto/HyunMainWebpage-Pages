@@ -1,6 +1,85 @@
 {
   "records": [
     {
+      "title": "Watch: A2O LITE Takes 10th Win For “NEON” On “Music Core”; Performances By BLACKPINK’s Jisoo, RESCENE, TREASURE, And More",
+      "category": "idols",
+      "summary": "11월 8일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-08",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1884917wpp/watch-a2o-lite-takes-10th-win-for-neon-on-music-core-performances-by-blackpinks-jisoo-rescene-treasure-and-more"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-08T01:48:26Z",
+      "contentHash": "e49077be26f65d733f6588efd21f8df6fe1867e3ee44e384ec2091e3fc84d4f4",
+      "changedAt": "2026-11-08T03:00:15Z"
+    },
+    {
+      "title": "ILLIT’s “Tick-Tack” Becomes Their 5th MV To Hit 100 Million Views",
+      "category": "idols",
+      "summary": "11월 8일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-08",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1884912wpp/illits-tick-tack-becomes-their-5th-mv-to-hit-100-million-views"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-08T01:13:03Z",
+      "contentHash": "581ea4d3b41f46735937ba5df363b25c83da1a433db4f2baaf29e36d26bfd50e",
+      "changedAt": "2026-11-08T03:00:15Z"
+    },
+    {
+      "title": "[イラスト7]ルノリータ",
+      "category": "comics",
+      "summary": "11월 8일 소년 점프+에서 공개한 만화 연재 소식입니다.",
+      "date": "2026-11-08",
+      "sources": [
+        {
+          "label": "소년 점프+",
+          "url": "https://shonenjumpplus.com/episode/9253191257689746462"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-07T15:00:00Z",
+      "contentHash": "62b4425e36361af285af8489387b6ac6e3d395c104983cc64951bfe29acdc1ca",
+      "changedAt": "2026-11-08T03:00:15Z"
+    },
+    {
+      "title": "nocturne～きらめく夜、つむぐ永遠～",
+      "category": "comics",
+      "summary": "11월 8일 소년 점프+에서 공개한 만화 연재 소식입니다.",
+      "date": "2026-11-08",
+      "sources": [
+        {
+          "label": "소년 점프+",
+          "url": "https://shonenjumpplus.com/episode/9253191257689746364"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-07T15:00:00Z",
+      "contentHash": "2aa0033aeddfbfa6cf2bc1268a4714706b304b442d2ea5dc13636c14bb5af91b",
+      "changedAt": "2026-11-08T03:00:15Z"
+    },
+    {
+      "title": "Christine Lagarde: Interview with Yomiuri Shimbun",
+      "category": "stocks",
+      "summary": "11월 7일 유럽중앙은행에서 공개한 경제·금융 정책 소식입니다.",
+      "date": "2026-11-07",
+      "sources": [
+        {
+          "label": "유럽중앙은행",
+          "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-07T14:00:00Z",
+      "changedAt": "2026-11-08T03:00:15Z"
+    },
+    {
       "title": "[第21歩目]あっ、悪魔ちゃん",
       "category": "comics",
       "summary": "11월 7일 소년 점프+에서 공개한 만화 연재 소식입니다.",
@@ -13,8 +92,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-06T15:00:00Z",
-      "contentHash": "d90909397c1025561ebe2cd84940fa8a4f040dd8ad95f0f58e309328d7c120bc",
       "changedAt": "2026-11-07T03:31:21Z",
+      "contentHash": "d90909397c1025561ebe2cd84940fa8a4f040dd8ad95f0f58e309328d7c120bc",
       "titleKo": "21번째 단계에서 악마 쯔",
       "summaryKo": "소년 점프+ 채널에서 21번째 단계를 맞이한 코미кс '악마 쯔'가 새로운 단계를 시작했다. 이 작품은 현재까지의 성과와 기대감을 이어가며 팬들의 관심을 끌고 있다.",
       "whyKo": "신작이 새로운 단계를 시작하며 팬들의 기대감을 높인다."
@@ -32,8 +111,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-06T15:00:00Z",
-      "contentHash": "73c9a501d7e025b071188fd9711f525e57fe4b845186b8679df1a010fa149397",
-      "changedAt": "2026-11-07T03:31:21Z"
+      "changedAt": "2026-11-07T03:31:21Z",
+      "contentHash": "73c9a501d7e025b071188fd9711f525e57fe4b845186b8679df1a010fa149397"
     },
     {
       "title": "Statement by the Eurogroup President on the nominations for the post of ECB President",
@@ -48,10 +127,10 @@
       ],
       "kind": "brief",
       "contentHash": "4306ce9051180f29562ee6a410fac2b4b0564891cab1487231ab26d09b3dbd89",
-      "changedAt": "2026-11-07T03:31:21Z",
       "titleKo": "유럽연합 이사회, ECB 총재 후보자 추천에 대한 발표",
       "summaryKo": "유럽연합 이사회 의장인 Kyriakos Pierrakakis는 ECB 총재 후보자 추천에 대한 발표를 발표했다.",
-      "whyKo": "유럽연합 이사회가 ECB 총재 후보자 추천에 대한 공식적인 입장을 발표했다."
+      "whyKo": "유럽연합 이사회가 ECB 총재 후보자 추천에 대한 공식적인 입장을 발표했다.",
+      "changedAt": "2026-11-07T03:31:21Z"
     },
     {
       "title": "Forward look: 9 - 22 November 2026",
@@ -81,8 +160,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-06T11:33:42Z",
-      "contentHash": "cfc15b124a119dfa3d456bc4a2118cd85bb74d16e189a1f6abfe9d5530fecfb2",
       "changedAt": "2026-11-07T03:31:21Z",
+      "contentHash": "cfc15b124a119dfa3d456bc4a2118cd85bb74d16e189a1f6abfe9d5530fecfb2",
       "titleKo": "ILLIT, 'You're Under Arrest'로 'Music Bank' 첫 우승",
       "summaryKo": "ILLIT이 11월 6일 방송된 'Music Bank'에서 'You're Under Arrest'로 첫 music bank 우승을 차지했다. IVE의 'Looks Can Kill'과 경쟁하며 9,803표를 얻어 승리했다. RESCENE, TWS 등 다른 아티스트의 무대가 함께 공연되었다.",
       "whyKo": "ILLIT이 첫 music bank 우승을 차지하며 데뷔 후 첫 큰 성과를 거두었다."
@@ -116,10 +195,10 @@
       "kind": "brief",
       "publishedAt": "2026-11-06T08:45:52Z",
       "contentHash": "1b838a7671c751d2482efb5ad6dc60adf04d15dbc2b403a9cf4c2c32fca60b8e",
-      "changedAt": "2026-11-07T03:31:21Z",
       "titleKo": "PS 스토어 20주년──게임 개발자들이 선택한 명작 게임",
       "summaryKo": "PS 스토어 20주년을 기념해 게임 개발자들이 추천한 명작 게임이 소개된다. 이 기념일을 맞아 개발자들이 20년간의 작품 중에서 가장 인상 깊은 게임을 선택해 이야기한다. 이는 게임 역사에 남을 만한 작품들로, 개발자들의 감정과 추억을 담고 있다.",
-      "whyKo": "20년간의 게임 역사에서 가장 영향 깊은 작품이 어떤지 개발자들이 추천한다."
+      "whyKo": "20년간의 게임 역사에서 가장 영향 깊은 작품이 어떤지 개발자들이 추천한다.",
+      "changedAt": "2026-11-07T03:31:21Z"
     },
     {
       "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
@@ -150,8 +229,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-06T06:52:43Z",
-      "contentHash": "f0c7ba8e5ae0da8c4b659244188d5a9645e50c4c0995a69ed7f3dc42ca08be4a",
       "changedAt": "2026-11-07T03:31:21Z",
+      "contentHash": "f0c7ba8e5ae0da8c4b659244188d5a9645e50c4c0995a69ed7f3dc42ca08be4a",
       "titleKo": "K-POP 가창이 화요한 곡 7선",
       "summaryKo": "K-POP 장르에서 흔하지만 완벽한 화요가를 보여주는 곡 7곡이 소개된다. 이 곡들은 듣는 사람에게 흥미를 유발할 수 있는 아름다운 화요를 제공한다. Soompi에서 이 글은 K-POP의 화요가에 대한 관심을 끌어올린다.",
       "whyKo": "K-POP의 아름다운 화요가가 주목받고 있다."
@@ -169,10 +248,10 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-06T05:17:05Z",
-      "changedAt": "2026-11-07T03:31:21Z",
       "titleKo": "닌텐도 일본, 디자인 관련 온라인 세미나 신청 시작",
       "summaryKo": "닌텐도 일본이 디자인 분야에 관련된 온라인 세미나를 진행할 예정으로, '아트워크 제작'과 '소프트웨어 제작' 주제로 신청을 시작했습니다. 이는 게임 분야에서의 디자인 역량 강화를 위한 활동입니다.",
-      "whyKo": "닌텐도 일본이 디자인 분야 전문가를 대상으로 한 온라인 세미나를 진행함으로써 게임 산업의 기술 발전을 촉진할 수 있습니다."
+      "whyKo": "닌텐도 일본이 디자인 분야 전문가를 대상으로 한 온라인 세미나를 진행함으로써 게임 산업의 기술 발전을 촉진할 수 있습니다.",
+      "changedAt": "2026-11-07T03:31:21Z"
     },
     {
       "title": "Measuring how AI agents handle everyday wet-lab science",
@@ -188,10 +267,10 @@
       "kind": "brief",
       "publishedAt": "2026-11-06T00:00:00Z",
       "contentHash": "e9e5d34bef70c7f55ca1090cab940ded57f4de2bde9e6af037a38dbf666caa21",
-      "changedAt": "2026-11-07T03:31:21Z",
       "titleKo": "AI, 일상적인 생물실험 과정 이해 능력 측정",
       "summaryKo": "OpenAI가 100개의 과제를 포함하는 BioBasicsBench를 도입해 AI가 원시 실험 데이터를 해석하고 일상적인 생물실험 과정을 처리하는 능력을 측정합니다.",
-      "whyKo": "AI가 생물실험 과정을 이해하는 능력을 평가하는 새로운 기준이 출시됨"
+      "whyKo": "AI가 생물실험 과정을 이해하는 능력을 평가하는 새로운 기준이 출시됨",
+      "changedAt": "2026-11-07T03:31:21Z"
     },
     {
       "title": "[75話 前編]ONE PIECE学園",
@@ -259,10 +338,10 @@
       ],
       "kind": "brief",
       "contentHash": "c47aa768350deb42588ff5897788aefd431e3419e2bdafaa97814560425ef366",
-      "changedAt": "2026-11-07T03:31:21Z",
       "titleKo": "이더리움 업데이트 EIP-8037/EIP-8038 테스트 중",
       "summaryKo": "이더리움 재단이 테스트넷에서 EIP-8037와 EIP-8038 업데이트를 진행 중이다. Chainsecurity는 이 업데이트가 일부 프로젝트에 안전성 문제를 일으킬 수 있다고 경고했다. 이 업데이트는 가스 비용 계산 방식을 변경하여 기존 인вар리ант가 파괴될 수 있음을 나타낸다.",
-      "whyKo": "이 업데이트가 일부 프로젝트에 안전성 문제를 일으킬 수 있음"
+      "whyKo": "이 업데이트가 일부 프로젝트에 안전성 문제를 일으킬 수 있음",
+      "changedAt": "2026-11-07T03:31:21Z"
     },
     {
       "title": "『アサシン クリード ヴァルハラ』最新のアップデートでPS5® Proの進化版PSSRに対応！",
