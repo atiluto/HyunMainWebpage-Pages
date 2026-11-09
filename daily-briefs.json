@@ -1,6 +1,86 @@
 {
   "records": [
     {
+      "title": "携帯型ゲーム機「PlayStation Portal™ プレーヤー ミッドナイトブラック 日本語専用」12月10日（木）発売！",
+      "category": "games",
+      "summary": "11월 9일 PlayStation 일본 블로그에서 공개한 출시·공개 소식입니다.",
+      "date": "2026-11-09",
+      "sources": [
+        {
+          "label": "PlayStation 일본 블로그",
+          "url": "https://blog.ja.playstation.com/2026/11/09/20261109-playstation-portal-announcement-o/"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-09T01:00:00Z",
+      "contentHash": "0ecadb8d29632f657d6fb4b663649054eac41b8299911f6ff80ef8299b6a37dc",
+      "changedAt": "2026-11-09T03:23:23Z"
+    },
+    {
+      "title": "CORTIS, Stray Kids, NMIXX, SEVENTEEN’s JxJ, K/DA, ILLIT, ENHYPEN, BTS, And More Sweep Top Spots On Billboard World Albums Chart",
+      "category": "idols",
+      "summary": "11월 9일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-09",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1885130wpp/cortis-stray-kids-nmixx-seventeens-jxj-k-da-illit-enhypen-bts-and-more-sweep-top-spots-on-billboard-world-albums-chart"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-08T22:49:00Z",
+      "contentHash": "79dc612c0ea6c1db9fda1103c4c7d3cb1d317aba8db740402f9ededf8a08628b",
+      "changedAt": "2026-11-09T03:23:23Z"
+    },
+    {
+      "title": "ILLIT Debuts At No. 1 On Billboard Top Album Sales Chart + No. 6 On Billboard 200 With “BREAK EVEN”",
+      "category": "idols",
+      "summary": "11월 9일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-09",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1885116wpp/illit-debuts-at-no-1-on-billboard-top-album-sales-chart-no-6-on-billboard-200-with-break-even"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-08T20:23:00Z",
+      "contentHash": "0a72cb984ad2dcd6712666e1310379339ef9499c316be1a42a615443d95c4de4",
+      "changedAt": "2026-11-09T03:23:23Z"
+    },
+    {
+      "title": "[第213話]ラーメン赤猫",
+      "category": "comics",
+      "summary": "11월 9일 소년 점프+에서 공개한 만화 연재 소식입니다.",
+      "date": "2026-11-09",
+      "sources": [
+        {
+          "label": "소년 점프+",
+          "url": "https://shonenjumpplus.com/episode/9253191257737706151"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-08T15:00:00Z",
+      "contentHash": "909ed3641a9267f3dbfe54f157fab92d4f96e53f01c3be6b32c68758a240af3c",
+      "changedAt": "2026-11-09T03:23:23Z"
+    },
+    {
+      "title": "[5話]のろのろぷくぷく",
+      "category": "comics",
+      "summary": "11월 9일 소년 점프+에서 공개한 만화 연재 소식입니다.",
+      "date": "2026-11-09",
+      "sources": [
+        {
+          "label": "소년 점프+",
+          "url": "https://shonenjumpplus.com/episode/9253191257737706212"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-08T15:00:00Z",
+      "contentHash": "989fb6708d64722ff7307d25c0037bf11a9bb63cf1e690bcd94708d62fff9ed9",
+      "changedAt": "2026-11-09T03:23:23Z"
+    },
+    {
       "title": "Watch: A2O LITE Takes 10th Win For “NEON” On “Music Core”; Performances By BLACKPINK’s Jisoo, RESCENE, TREASURE, And More",
       "category": "idols",
       "summary": "11월 8일 Soompi에서 공개한 K-pop·음악 소식입니다.",
@@ -13,8 +93,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-08T01:48:26Z",
-      "contentHash": "e49077be26f65d733f6588efd21f8df6fe1867e3ee44e384ec2091e3fc84d4f4",
-      "changedAt": "2026-11-08T03:00:15Z"
+      "changedAt": "2026-11-08T03:00:15Z",
+      "contentHash": "e49077be26f65d733f6588efd21f8df6fe1867e3ee44e384ec2091e3fc84d4f4"
     },
     {
       "title": "ILLIT’s “Tick-Tack” Becomes Their 5th MV To Hit 100 Million Views",
@@ -29,8 +109,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-08T01:13:03Z",
-      "contentHash": "581ea4d3b41f46735937ba5df363b25c83da1a433db4f2baaf29e36d26bfd50e",
-      "changedAt": "2026-11-08T03:00:15Z"
+      "changedAt": "2026-11-08T03:00:15Z",
+      "contentHash": "581ea4d3b41f46735937ba5df363b25c83da1a433db4f2baaf29e36d26bfd50e"
     },
     {
       "title": "[イラスト7]ルノリータ",
@@ -45,8 +125,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-07T15:00:00Z",
-      "contentHash": "62b4425e36361af285af8489387b6ac6e3d395c104983cc64951bfe29acdc1ca",
-      "changedAt": "2026-11-08T03:00:15Z"
+      "changedAt": "2026-11-08T03:00:15Z",
+      "contentHash": "62b4425e36361af285af8489387b6ac6e3d395c104983cc64951bfe29acdc1ca"
     },
     {
       "title": "nocturne～きらめく夜、つむぐ永遠～",
@@ -61,8 +141,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-07T15:00:00Z",
-      "contentHash": "2aa0033aeddfbfa6cf2bc1268a4714706b304b442d2ea5dc13636c14bb5af91b",
-      "changedAt": "2026-11-08T03:00:15Z"
+      "changedAt": "2026-11-08T03:00:15Z",
+      "contentHash": "2aa0033aeddfbfa6cf2bc1268a4714706b304b442d2ea5dc13636c14bb5af91b"
     },
     {
       "title": "Christine Lagarde: Interview with Yomiuri Shimbun",
@@ -266,11 +346,11 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-06T00:00:00Z",
+      "changedAt": "2026-11-07T03:31:21Z",
       "contentHash": "e9e5d34bef70c7f55ca1090cab940ded57f4de2bde9e6af037a38dbf666caa21",
       "titleKo": "AI, 일상적인 생물실험 과정 이해 능력 측정",
       "summaryKo": "OpenAI가 100개의 과제를 포함하는 BioBasicsBench를 도입해 AI가 원시 실험 데이터를 해석하고 일상적인 생물실험 과정을 처리하는 능력을 측정합니다.",
-      "whyKo": "AI가 생물실험 과정을 이해하는 능력을 평가하는 새로운 기준이 출시됨",
-      "changedAt": "2026-11-07T03:31:21Z"
+      "whyKo": "AI가 생물실험 과정을 이해하는 능력을 평가하는 새로운 기준이 출시됨"
     },
     {
       "title": "[75話 前編]ONE PIECE学園",
@@ -337,11 +417,11 @@
         }
       ],
       "kind": "brief",
+      "changedAt": "2026-11-07T03:31:21Z",
       "contentHash": "c47aa768350deb42588ff5897788aefd431e3419e2bdafaa97814560425ef366",
       "titleKo": "이더리움 업데이트 EIP-8037/EIP-8038 테스트 중",
       "summaryKo": "이더리움 재단이 테스트넷에서 EIP-8037와 EIP-8038 업데이트를 진행 중이다. Chainsecurity는 이 업데이트가 일부 프로젝트에 안전성 문제를 일으킬 수 있다고 경고했다. 이 업데이트는 가스 비용 계산 방식을 변경하여 기존 인вар리ант가 파괴될 수 있음을 나타낸다.",
-      "whyKo": "이 업데이트가 일부 프로젝트에 안전성 문제를 일으킬 수 있음",
-      "changedAt": "2026-11-07T03:31:21Z"
+      "whyKo": "이 업데이트가 일부 프로젝트에 안전성 문제를 일으킬 수 있음"
     },
     {
       "title": "『アサシン クリード ヴァルハラ』最新のアップデートでPS5® Proの進化版PSSRに対応！",
@@ -356,11 +436,11 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-05T14:00:00Z",
+      "changedAt": "2026-11-05T23:09:35Z",
       "contentHash": "07584c3bd3b24d8caf925c912009b3f185c53ac621716a7c5d588d65607180cc",
       "titleKo": "《어쌔신 크리드 발할라》, PS5 Pro에서 화면이 더 선명해진다",
       "summaryKo": "PS5와 PS5 Pro에 무료 업데이트가 배포됐습니다. PS5 Pro에서는 개선된 화질 보정 기능(PSSR)으로 더 선명한 4K 화면과 초당 60프레임을 함께 지원합니다.",
-      "whyKo": "PS5 Pro 보유자는 같은 게임에서 더 선명한 4K 화면과 초당 60프레임을 함께 이용할 수 있습니다.",
-      "changedAt": "2026-11-05T23:09:35Z"
+      "whyKo": "PS5 Pro 보유자는 같은 게임에서 더 선명한 4K 화면과 초당 60프레임을 함께 이용할 수 있습니다."
     },
     {
       "title": "KOR is available for trading!",
@@ -375,11 +455,11 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-05T13:41:36Z",
+      "changedAt": "2026-11-05T23:09:35Z",
       "contentHash": "11b152525ec448070ea83274bd56f5a974a9ddee95ce936cfa55237cc78bad19",
       "titleKo": "크라켄, 창작물 권리 관리 토큰 KOR 거래 시작",
       "summaryKo": "크라켄은 공지에서 11월 4일부터 KOR 거래를 시작했다고 밝혔습니다. KOR Protocol은 창작물의 출처와 소유권 확인, 사용 허가, 참여자 간 정산을 지원하는 서비스입니다.",
-      "whyKo": "디지털 자산을 창작물의 사용 허가와 참여자 간 정산에 쓰는 사례입니다.",
-      "changedAt": "2026-11-05T23:09:35Z"
+      "whyKo": "디지털 자산을 창작물의 사용 허가와 참여자 간 정산에 쓰는 사례입니다."
     },
     {
       "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
