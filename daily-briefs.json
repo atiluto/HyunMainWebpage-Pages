@@ -1,6 +1,210 @@
 {
   "records": [
     {
+      "title": "「Nintendo Switch Sports ゲーム運動会 シニアボウリングトーナメント2026」のページを更新しました。 全国から集った16団体の頂点をかけ、「広川町ゲームサポーター」と「けっぱれ！青森県」が決勝戦に臨みます。 これまでの全試合の様子も公開しています。",
+      "category": "games",
+      "summary": "11월 10일 닌텐도 일본에서 공개한 게임·서비스 소식입니다.",
+      "date": "2026-11-10",
+      "sources": [
+        {
+          "label": "닌텐도 일본",
+          "url": "https://www.nintendo.com/jp/switch/as8sa/senior-bowling-2026/index.html"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-10T01:37:44Z",
+      "changedAt": "2026-11-10T04:59:19Z"
+    },
+    {
+      "title": "IU’s “Unknown Planet” Becomes Her Fastest MV To Hit 100 Million Views",
+      "category": "idols",
+      "summary": "11월 10일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-10",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1885381wpp/ius-unknown-planet-becomes-her-fastest-mv-to-hit-100-million-views"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-10T01:26:42Z",
+      "contentHash": "a4bca7d90b08a4c532c0753dea832a08c5f5d5e902a819d48647b0361a0b294d",
+      "changedAt": "2026-11-10T04:59:19Z"
+    },
+    {
+      "title": "Nintendo Switch 2 / Nintendo Switchの本体機能をバージョンアップ。新しい機能をご紹介します。",
+      "category": "games",
+      "summary": "11월 10일 닌텐도 일본에서 공개한 게임·서비스 소식입니다.",
+      "date": "2026-11-10",
+      "sources": [
+        {
+          "label": "닌텐도 일본",
+          "url": "https://www.nintendo.com/jp/topics/article/31e57164-941c-4103-bd30-f04744073cc3"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-10T01:20:58Z",
+      "changedAt": "2026-11-10T04:59:19Z"
+    },
+    {
+      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+      "category": "stocks",
+      "summary": "11월 10일 미국 연방준비제도에서 공개한 경제·금융 정책 소식입니다.",
+      "date": "2026-11-10",
+      "sources": [
+        {
+          "label": "미국 연방준비제도",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-09T21:00:00Z",
+      "contentHash": "7c0f799cacfc1beb50cf46195b28905daccda5197e0d4862d5767472a2b58d78",
+      "changedAt": "2026-11-10T04:59:19Z"
+    },
+    {
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "category": "ai",
+      "summary": "11월 10일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
+      "date": "2026-11-10",
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-09T19:00:00Z",
+      "contentHash": "5dcfbcaafa7dd597ba2b0c966f4c162ed89dde3a872ac3861c62f1451830b336",
+      "changedAt": "2026-11-10T04:59:19Z"
+    },
+    {
+      "title": "EXO’s Kai And Sehun Gear Up For Unit Debut As EXO-KASE With “Waking Up The City” Teaser",
+      "category": "idols",
+      "summary": "11월 10일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-10",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1885364wpp/exos-kai-and-sehun-gear-up-for-unit-debut-as-exo-kase-with-waking-up-the-city-teaser"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-09T15:26:59Z",
+      "contentHash": "7cdf0acea4bba3c922e4ed9763aa61b024d73e2cde1c7a0e76a447250eb0ae12",
+      "changedAt": "2026-11-10T04:59:19Z"
+    },
+    {
+      "title": "[第252話]ダンダダン",
+      "category": "comics",
+      "summary": "11월 10일 소년 점프+에서 공개한 만화 연재 소식입니다.",
+      "date": "2026-11-10",
+      "sources": [
+        {
+          "label": "소년 점프+",
+          "url": "https://shonenjumpplus.com/episode/9253191257737706371"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-09T15:00:00Z",
+      "contentHash": "1943f0fb5450409113945372b2fd6876c5be7947ab2df6b2d1a256292d089909",
+      "changedAt": "2026-11-10T04:59:19Z"
+    },
+    {
+      "title": "[第十話]ノイズリング",
+      "category": "comics",
+      "summary": "11월 10일 소년 점프+에서 공개한 만화 연재 소식입니다.",
+      "date": "2026-11-10",
+      "sources": [
+        {
+          "label": "소년 점프+",
+          "url": "https://shonenjumpplus.com/episode/9253191257737706485"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-09T15:00:00Z",
+      "contentHash": "cc46634b9681d511e4f50944ce1f322effdc678cc0fa2c169b9f9aa46312f45c",
+      "changedAt": "2026-11-10T04:59:19Z"
+    },
+    {
+      "title": "Media advisory - Economic and Financial Affairs Council (Budget) of 10 November 2026",
+      "category": "world",
+      "summary": "11월 10일 유럽연합 이사회에서 공개한 국제 정책·외교 소식입니다.",
+      "date": "2026-11-10",
+      "sources": [
+        {
+          "label": "유럽연합 이사회",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/09/media-advisory-economic-and-financial-affairs-council-budget-of-10-november-2026/"
+        }
+      ],
+      "kind": "brief",
+      "contentHash": "e556aeb391ed642e37538afd6b29dbd08abceca2aa47ce9add0ee3ad95255843",
+      "changedAt": "2026-11-10T04:59:19Z"
+    },
+    {
+      "title": "Ukraine: Council extends EU Military Assistance Mission mandate for two years",
+      "category": "world",
+      "summary": "11월 10일 유럽연합 이사회에서 공개한 국제 정책·외교 소식입니다.",
+      "date": "2026-11-10",
+      "sources": [
+        {
+          "label": "유럽연합 이사회",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/09/ukraine-council-extends-eu-military-assistance-mission-mandate-for-two-years/"
+        }
+      ],
+      "kind": "brief",
+      "contentHash": "78b71333aa4d2b6c494ba3faa1d54bd3b6c1b191d4c9325968baf0e47ab4750e",
+      "changedAt": "2026-11-10T04:59:19Z"
+    },
+    {
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "category": "ai",
+      "summary": "11월 9일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
+      "date": "2026-11-09",
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/control-room"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-09T13:00:00Z",
+      "contentHash": "dd03698cbb05c4a6d464f06061557b347e750b0c9c783cfb4d30ca95e0479aad",
+      "changedAt": "2026-11-10T04:59:19Z"
+    },
+    {
+      "title": "Watch: ILLIT Takes 2nd Win For “You’re Under Arrest” On New Music Show “SHOW K-POP”",
+      "category": "idols",
+      "summary": "11월 9일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-09",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1885347wpp/watch-illit-takes-2nd-win-for-youre-under-arrest-on-new-music-show-show-k-pop"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-09T11:02:26Z",
+      "contentHash": "1f58ca47aa4df2a9423c778e078cb748ec3833cd9402545eb486af86e391c016",
+      "changedAt": "2026-11-10T04:59:19Z"
+    },
+    {
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "category": "ai",
+      "summary": "11월 9일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
+      "date": "2026-11-09",
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/coderabbit-codex-daybreak"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-09T08:00:00Z",
+      "contentHash": "138253af39dc25959c8893f6bf65dcb259e5686ab5339ec266d045195905ef6d",
+      "changedAt": "2026-11-10T04:59:19Z"
+    },
+    {
       "title": "携帯型ゲーム機「PlayStation Portal™ プレーヤー ミッドナイトブラック 日本語専用」12月10日（木）発売！",
       "category": "games",
       "summary": "11월 9일 PlayStation 일본 블로그에서 공개한 출시·공개 소식입니다.",
@@ -29,24 +233,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-08T22:49:00Z",
-      "contentHash": "79dc612c0ea6c1db9fda1103c4c7d3cb1d317aba8db740402f9ededf8a08628b",
-      "changedAt": "2026-11-09T03:23:23Z"
-    },
-    {
-      "title": "ILLIT Debuts At No. 1 On Billboard Top Album Sales Chart + No. 6 On Billboard 200 With “BREAK EVEN”",
-      "category": "idols",
-      "summary": "11월 9일 Soompi에서 공개한 K-pop·음악 소식입니다.",
-      "date": "2026-11-09",
-      "sources": [
-        {
-          "label": "Soompi",
-          "url": "https://www.soompi.com/article/1885116wpp/illit-debuts-at-no-1-on-billboard-top-album-sales-chart-no-6-on-billboard-200-with-break-even"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-08T20:23:00Z",
-      "contentHash": "0a72cb984ad2dcd6712666e1310379339ef9499c316be1a42a615443d95c4de4",
-      "changedAt": "2026-11-09T03:23:23Z"
+      "changedAt": "2026-11-09T03:23:23Z",
+      "contentHash": "79dc612c0ea6c1db9fda1103c4c7d3cb1d317aba8db740402f9ededf8a08628b"
     },
     {
       "title": "[第213話]ラーメン赤猫",
@@ -61,8 +249,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-08T15:00:00Z",
-      "contentHash": "909ed3641a9267f3dbfe54f157fab92d4f96e53f01c3be6b32c68758a240af3c",
-      "changedAt": "2026-11-09T03:23:23Z"
+      "changedAt": "2026-11-09T03:23:23Z",
+      "contentHash": "909ed3641a9267f3dbfe54f157fab92d4f96e53f01c3be6b32c68758a240af3c"
     },
     {
       "title": "[5話]のろのろぷくぷく",
@@ -77,8 +265,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-08T15:00:00Z",
-      "contentHash": "989fb6708d64722ff7307d25c0037bf11a9bb63cf1e690bcd94708d62fff9ed9",
-      "changedAt": "2026-11-09T03:23:23Z"
+      "changedAt": "2026-11-09T03:23:23Z",
+      "contentHash": "989fb6708d64722ff7307d25c0037bf11a9bb63cf1e690bcd94708d62fff9ed9"
     },
     {
       "title": "Watch: A2O LITE Takes 10th Win For “NEON” On “Music Core”; Performances By BLACKPINK’s Jisoo, RESCENE, TREASURE, And More",
@@ -206,11 +394,11 @@
         }
       ],
       "kind": "brief",
+      "changedAt": "2026-11-07T03:31:21Z",
       "contentHash": "4306ce9051180f29562ee6a410fac2b4b0564891cab1487231ab26d09b3dbd89",
       "titleKo": "유럽연합 이사회, ECB 총재 후보자 추천에 대한 발표",
       "summaryKo": "유럽연합 이사회 의장인 Kyriakos Pierrakakis는 ECB 총재 후보자 추천에 대한 발표를 발표했다.",
-      "whyKo": "유럽연합 이사회가 ECB 총재 후보자 추천에 대한 공식적인 입장을 발표했다.",
-      "changedAt": "2026-11-07T03:31:21Z"
+      "whyKo": "유럽연합 이사회가 ECB 총재 후보자 추천에 대한 공식적인 입장을 발표했다."
     },
     {
       "title": "Forward look: 9 - 22 November 2026",
@@ -224,8 +412,8 @@
         }
       ],
       "kind": "brief",
-      "contentHash": "7f9f551b7e096d719a8cf6a60e558d718b042032e6ddb502305851979a68d284",
-      "changedAt": "2026-11-07T03:31:21Z"
+      "changedAt": "2026-11-07T03:31:21Z",
+      "contentHash": "7f9f551b7e096d719a8cf6a60e558d718b042032e6ddb502305851979a68d284"
     },
     {
       "title": "Watch: ILLIT Takes 1st Win For “You’re Under Arrest” On “Music Bank”; Performances By RESCENE, TWS, And More",
@@ -274,11 +462,11 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-06T08:45:52Z",
+      "changedAt": "2026-11-07T03:31:21Z",
       "contentHash": "1b838a7671c751d2482efb5ad6dc60adf04d15dbc2b403a9cf4c2c32fca60b8e",
       "titleKo": "PS 스토어 20주년──게임 개발자들이 선택한 명작 게임",
       "summaryKo": "PS 스토어 20주년을 기념해 게임 개발자들이 추천한 명작 게임이 소개된다. 이 기념일을 맞아 개발자들이 20년간의 작품 중에서 가장 인상 깊은 게임을 선택해 이야기한다. 이는 게임 역사에 남을 만한 작품들로, 개발자들의 감정과 추억을 담고 있다.",
-      "whyKo": "20년간의 게임 역사에서 가장 영향 깊은 작품이 어떤지 개발자들이 추천한다.",
-      "changedAt": "2026-11-07T03:31:21Z"
+      "whyKo": "20년간의 게임 역사에서 가장 영향 깊은 작품이 어떤지 개발자들이 추천한다."
     },
     {
       "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
@@ -293,8 +481,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-06T08:00:00Z",
-      "contentHash": "b7a0406a5e69feb2f4aa2b8cdc049cfa358b04dace8a44741de523fccd2b770c",
-      "changedAt": "2026-11-07T03:31:21Z"
+      "changedAt": "2026-11-07T03:31:21Z",
+      "contentHash": "b7a0406a5e69feb2f4aa2b8cdc049cfa358b04dace8a44741de523fccd2b770c"
     },
     {
       "title": "7 K-Pop Tracks With Harmonies So Beautiful They’ll Give You Goosebumps",
@@ -328,10 +516,10 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-06T05:17:05Z",
+      "changedAt": "2026-11-07T03:31:21Z",
       "titleKo": "닌텐도 일본, 디자인 관련 온라인 세미나 신청 시작",
       "summaryKo": "닌텐도 일본이 디자인 분야에 관련된 온라인 세미나를 진행할 예정으로, '아트워크 제작'과 '소프트웨어 제작' 주제로 신청을 시작했습니다. 이는 게임 분야에서의 디자인 역량 강화를 위한 활동입니다.",
-      "whyKo": "닌텐도 일본이 디자인 분야 전문가를 대상으로 한 온라인 세미나를 진행함으로써 게임 산업의 기술 발전을 촉진할 수 있습니다.",
-      "changedAt": "2026-11-07T03:31:21Z"
+      "whyKo": "닌텐도 일본이 디자인 분야 전문가를 대상으로 한 온라인 세미나를 진행함으로써 게임 산업의 기술 발전을 촉진할 수 있습니다."
     },
     {
       "title": "Measuring how AI agents handle everyday wet-lab science",
