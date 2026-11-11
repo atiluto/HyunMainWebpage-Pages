@@ -1,6 +1,163 @@
 {
   "records": [
     {
+      "title": "2026年10月のPS Storeダウンロードランキング！ PS5®では『ACE COMBAT 8: WINGS OF THEVE』が第1位！",
+      "category": "games",
+      "summary": "11월 11일 PlayStation 일본 블로그에서 공개한 게임·서비스 소식입니다.",
+      "date": "2026-11-11",
+      "sources": [
+        {
+          "label": "PlayStation 일본 블로그",
+          "url": "https://blog.ja.playstation.com/2026/11/11/20261111-monthly-ps-store-ranking-s/"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-11T03:00:00Z",
+      "contentHash": "b013ab2d37ade76962a264da718407a5e6685296fa5a1f4d2dbea14b9b586d52",
+      "changedAt": "2026-11-11T03:30:58Z"
+    },
+    {
+      "title": "「マイマリオ（MY MARIO）」の公式サイトを更新しました。 コマどりマリオ 第10話「がんばれキノピオ！」を公開しています。",
+      "category": "games",
+      "summary": "11월 11일 닌텐도 일본에서 공개한 게임·서비스 소식입니다.",
+      "date": "2026-11-11",
+      "sources": [
+        {
+          "label": "닌텐도 일본",
+          "url": "https://www.nintendo.com/jp/my-mario/index.html"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-11T01:09:02Z",
+      "changedAt": "2026-11-11T03:30:58Z"
+    },
+    {
+      "title": "IVE Scores 1st-Ever Entry On Billboard 200 With “Looks Can Kill”",
+      "category": "idols",
+      "summary": "11월 11일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-11",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1885647wpp/ive-scores-1st-ever-entry-on-billboard-200-with-looks-can-kill"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-10T19:25:12Z",
+      "contentHash": "721dea5b81e55e6133bc99e50b6635fc6aff7e33b81644d12caf260df373ddc9",
+      "changedAt": "2026-11-11T03:30:58Z"
+    },
+    {
+      "title": "Wonho Announces Dates And Cities For 2027 World Tour “NOCHE”",
+      "category": "idols",
+      "summary": "11월 11일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-11",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1885646wpp/wonho-announces-dates-and-cities-for-2027-world-tour-noche"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-10T17:47:00Z",
+      "contentHash": "d3492de22c01a1543a6b1807a830b67d60cb137e3ce12fb4726e6e48a17822bd",
+      "changedAt": "2026-11-11T03:30:58Z"
+    },
+    {
+      "title": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
+      "category": "stocks",
+      "summary": "11월 11일 유럽중앙은행에서 공개한 경제·금융 정책 소식입니다.",
+      "date": "2026-11-11",
+      "sources": [
+        {
+          "label": "유럽중앙은행",
+          "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-10T16:45:00Z",
+      "changedAt": "2026-11-11T03:30:58Z"
+    },
+    {
+      "title": "[第125・126・127話]Shrink～精神科医ヨワイ～",
+      "category": "comics",
+      "summary": "11월 11일 소년 점프+에서 공개한 만화 연재 소식입니다.",
+      "date": "2026-11-11",
+      "sources": [
+        {
+          "label": "소년 점프+",
+          "url": "https://shonenjumpplus.com/episode/9253191257854164552"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-10T15:00:00Z",
+      "contentHash": "a915458828379748e9b8450e4ba77c95bb0f935b6f9243ec88827f0667f5144e",
+      "changedAt": "2026-11-11T03:30:58Z"
+    },
+    {
+      "title": "[第123・124話]Shrink～精神科医ヨワイ～",
+      "category": "comics",
+      "summary": "11월 11일 소년 점프+에서 공개한 만화 연재 소식입니다.",
+      "date": "2026-11-11",
+      "sources": [
+        {
+          "label": "소년 점프+",
+          "url": "https://shonenjumpplus.com/episode/9253191257854164380"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-10T15:00:00Z",
+      "contentHash": "a915458828379748e9b8450e4ba77c95bb0f935b6f9243ec88827f0667f5144e",
+      "changedAt": "2026-11-11T03:30:58Z"
+    },
+    {
+      "title": "Piero Cipollone: Cash and the digital euro: two sides of the same coin",
+      "category": "stocks",
+      "summary": "11월 10일 유럽중앙은행에서 공개한 경제·금융 정책 소식입니다.",
+      "date": "2026-11-10",
+      "sources": [
+        {
+          "label": "유럽중앙은행",
+          "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110~9422461bad.en.html"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-10T14:00:00Z",
+      "changedAt": "2026-11-11T03:30:58Z"
+    },
+    {
+      "title": "Helping caregivers use AI in everyday life",
+      "category": "ai",
+      "summary": "11월 10일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
+      "date": "2026-11-10",
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-10T12:00:00Z",
+      "contentHash": "ea9bbe1eca228194ccf1e8c8ecf200c429edddb8fedd84ff577bbc379a86c1f4",
+      "changedAt": "2026-11-11T03:30:58Z"
+    },
+    {
+      "title": "Introducing Businesses in ChatGPT",
+      "category": "ai",
+      "summary": "11월 10일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
+      "date": "2026-11-10",
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/introducing-businesses-chatgpt"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-10T10:00:00Z",
+      "contentHash": "7c8932bb544e4d56c9887104de9351f5fa07a22ba815208730bc6aaab8e62875",
+      "changedAt": "2026-11-11T03:30:58Z"
+    },
+    {
       "title": "「Nintendo Switch Sports ゲーム運動会 シニアボウリングトーナメント2026」のページを更新しました。 全国から集った16団体の頂点をかけ、「広川町ゲームサポーター」と「けっぱれ！青森県」が決勝戦に臨みます。 これまでの全試合の様子も公開しています。",
       "category": "games",
       "summary": "11월 10일 닌텐도 일본에서 공개한 게임·서비스 소식입니다.",
@@ -28,8 +185,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-10T01:26:42Z",
-      "contentHash": "a4bca7d90b08a4c532c0753dea832a08c5f5d5e902a819d48647b0361a0b294d",
-      "changedAt": "2026-11-10T04:59:19Z"
+      "changedAt": "2026-11-10T04:59:19Z",
+      "contentHash": "a4bca7d90b08a4c532c0753dea832a08c5f5d5e902a819d48647b0361a0b294d"
     },
     {
       "title": "Nintendo Switch 2 / Nintendo Switchの本体機能をバージョンアップ。新しい機能をご紹介します。",
@@ -63,22 +220,6 @@
       "changedAt": "2026-11-10T04:59:19Z"
     },
     {
-      "title": "ChatGPT Enterprise now available in AWS Marketplace",
-      "category": "ai",
-      "summary": "11월 10일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
-      "date": "2026-11-10",
-      "sources": [
-        {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-09T19:00:00Z",
-      "contentHash": "5dcfbcaafa7dd597ba2b0c966f4c162ed89dde3a872ac3861c62f1451830b336",
-      "changedAt": "2026-11-10T04:59:19Z"
-    },
-    {
       "title": "EXO’s Kai And Sehun Gear Up For Unit Debut As EXO-KASE With “Waking Up The City” Teaser",
       "category": "idols",
       "summary": "11월 10일 Soompi에서 공개한 K-pop·음악 소식입니다.",
@@ -91,8 +232,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-09T15:26:59Z",
-      "contentHash": "7cdf0acea4bba3c922e4ed9763aa61b024d73e2cde1c7a0e76a447250eb0ae12",
-      "changedAt": "2026-11-10T04:59:19Z"
+      "changedAt": "2026-11-10T04:59:19Z",
+      "contentHash": "7cdf0acea4bba3c922e4ed9763aa61b024d73e2cde1c7a0e76a447250eb0ae12"
     },
     {
       "title": "[第252話]ダンダダン",
@@ -107,8 +248,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-09T15:00:00Z",
-      "contentHash": "1943f0fb5450409113945372b2fd6876c5be7947ab2df6b2d1a256292d089909",
-      "changedAt": "2026-11-10T04:59:19Z"
+      "changedAt": "2026-11-10T04:59:19Z",
+      "contentHash": "1943f0fb5450409113945372b2fd6876c5be7947ab2df6b2d1a256292d089909"
     },
     {
       "title": "[第十話]ノイズリング",
@@ -123,8 +264,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-09T15:00:00Z",
-      "contentHash": "cc46634b9681d511e4f50944ce1f322effdc678cc0fa2c169b9f9aa46312f45c",
-      "changedAt": "2026-11-10T04:59:19Z"
+      "changedAt": "2026-11-10T04:59:19Z",
+      "contentHash": "cc46634b9681d511e4f50944ce1f322effdc678cc0fa2c169b9f9aa46312f45c"
     },
     {
       "title": "Media advisory - Economic and Financial Affairs Council (Budget) of 10 November 2026",
@@ -138,8 +279,8 @@
         }
       ],
       "kind": "brief",
-      "contentHash": "e556aeb391ed642e37538afd6b29dbd08abceca2aa47ce9add0ee3ad95255843",
-      "changedAt": "2026-11-10T04:59:19Z"
+      "changedAt": "2026-11-10T04:59:19Z",
+      "contentHash": "e556aeb391ed642e37538afd6b29dbd08abceca2aa47ce9add0ee3ad95255843"
     },
     {
       "title": "Ukraine: Council extends EU Military Assistance Mission mandate for two years",
@@ -153,8 +294,8 @@
         }
       ],
       "kind": "brief",
-      "contentHash": "78b71333aa4d2b6c494ba3faa1d54bd3b6c1b191d4c9325968baf0e47ab4750e",
-      "changedAt": "2026-11-10T04:59:19Z"
+      "changedAt": "2026-11-10T04:59:19Z",
+      "contentHash": "78b71333aa4d2b6c494ba3faa1d54bd3b6c1b191d4c9325968baf0e47ab4750e"
     },
     {
       "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
@@ -169,8 +310,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-09T13:00:00Z",
-      "contentHash": "dd03698cbb05c4a6d464f06061557b347e750b0c9c783cfb4d30ca95e0479aad",
-      "changedAt": "2026-11-10T04:59:19Z"
+      "changedAt": "2026-11-10T04:59:19Z",
+      "contentHash": "dd03698cbb05c4a6d464f06061557b347e750b0c9c783cfb4d30ca95e0479aad"
     },
     {
       "title": "Watch: ILLIT Takes 2nd Win For “You’re Under Arrest” On New Music Show “SHOW K-POP”",
@@ -185,8 +326,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-09T11:02:26Z",
-      "contentHash": "1f58ca47aa4df2a9423c778e078cb748ec3833cd9402545eb486af86e391c016",
-      "changedAt": "2026-11-10T04:59:19Z"
+      "changedAt": "2026-11-10T04:59:19Z",
+      "contentHash": "1f58ca47aa4df2a9423c778e078cb748ec3833cd9402545eb486af86e391c016"
     },
     {
       "title": "CodeRabbit scales agentic software development and ships 20x more",
@@ -201,8 +342,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-09T08:00:00Z",
-      "contentHash": "138253af39dc25959c8893f6bf65dcb259e5686ab5339ec266d045195905ef6d",
-      "changedAt": "2026-11-10T04:59:19Z"
+      "changedAt": "2026-11-10T04:59:19Z",
+      "contentHash": "138253af39dc25959c8893f6bf65dcb259e5686ab5339ec266d045195905ef6d"
     },
     {
       "title": "携帯型ゲーム機「PlayStation Portal™ プレーヤー ミッドナイトブラック 日本語専用」12月10日（木）発売！",
