@@ -1,6 +1,201 @@
 {
   "records": [
     {
+      "title": "『Million Depth』Nintendo Switch体験版 配信開始！オリジナルサウンドトラック試聴動画も公開",
+      "category": "games",
+      "summary": "11월 12일 PLAYISM에서 공개한 체험판 소식입니다.",
+      "date": "2026-11-12",
+      "sources": [
+        {
+          "label": "PLAYISM",
+          "url": "https://playism.com/news/2026/1112/1722-2/"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-12T03:00:37Z",
+      "contentHash": "bdd13776d9c494a64d6d11d88a139b7ee7b30606451bfa2f1ce2f18ebf1838c6",
+      "changedAt": "2026-11-12T04:40:50Z",
+      "titleKo": "Nintendo Switch 체험판, 『Million Depth』 공개",
+      "summaryKo": "PLAYISM이 11월12일에 Nintendo Switch 체험판을 배포하며, 원래 소리 트랙의 시청 영상도 공개했다. 이 게임은 Cyber Space Biotope이 개발한 깊은층 하강 액션 전략 게임이다.",
+      "whyKo": "신작 게임의 체험판이 공개되어 관심을 끌고 있다."
+    },
+    {
+      "title": "『ピクミン4 Nintendo Switch 2 Edition + だれでもチャレンジ! ダンドリ検定』は本日発売。小芝風花さんがダンドリ検定に挑む長編映像も公開中。",
+      "category": "games",
+      "summary": "11월 12일 닌텐도 일본에서 공개한 출시·공개 소식입니다.",
+      "date": "2026-11-12",
+      "sources": [
+        {
+          "label": "닌텐도 일본",
+          "url": "https://www.nintendo.com/jp/topics/article/b852fe50-71bf-4c1a-a338-5b75951d040d"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-12T01:14:34Z",
+      "changedAt": "2026-11-12T04:40:50Z",
+      "titleKo": "피크미니4 닌텐도 스위치 2 에디션 발매, 다нд리 검정 영상 공개",
+      "summaryKo": "니콘의 피크미니4가 닌텐도 스위치 2 에디션으로 발매되며, 소프트웨어 개발자 소피치 펭카가 다нд리 검정에 도전하는 장편 영상이 공개되었다. 이 영상은 게임의 새로운 기능과 콘텐츠를 보여주며, 플레이어들의 관심을 끌고 있다.",
+      "whyKo": "피크미니4의 새로운 에디션 발매와 함께 영상 공개로 게임의 새로운 콘텐츠에 대한 기대감이 높아졌다."
+    },
+    {
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "category": "ai",
+      "summary": "11월 12일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
+      "date": "2026-11-12",
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/gilbert-tobin-sam-nickless"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "contentHash": "98ff53fe555208d62d111c37eb75ef4144bae6492b6709dd99501ad89e1079d1",
+      "changedAt": "2026-11-12T04:40:50Z",
+      "titleKo": "Gilbert + Tobin, AI를 활용한 법률업계 혁신 시도",
+      "summaryKo": "Gilbert + Tobin은 AI 기술을 활용해 법률업계의 비즈니스 모델을 재정의하려는 방향을 제시했다. Sam Nickless, Partner 및 CEO는 이에 대한 대화를 공유했다. AI의 도입이 법률업계의 효율성과 서비스 제공 방식에 어떤 영향을 미칠지 주목할 점이다.",
+      "whyKo": "AI 기반의 법률업계 혁신이 시장의 변화를 이끌어질 수 있음"
+    },
+    {
+      "title": "IVE, RIIZE, And ILLIT Top Circle Weekly Charts + A2O LITE Earns Triple Crown",
+      "category": "idols",
+      "summary": "11월 12일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-12",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1886133wpp/ive-riize-and-illit-top-circle-weekly-charts-a2o-earns-triple-crown"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-11T23:13:13Z",
+      "contentHash": "6afaa4e5c997bdb0baafaa19735ec97d5d6c8db9fc646bd24d118130e5faf5c9",
+      "changedAt": "2026-11-12T04:40:50Z",
+      "titleKo": "IVE, RIIZE, ILLIT 주간 차트 상위에, A2O LITE 트리플 커런",
+      "summaryKo": "IVE의 새 에피소드 'Looks Can Kill'이 주간 물리 앨범 차트 1위를 차지했고, ILLIT의 'BREAK EVEN'이 2위에 올랐다. RIIZE도 차트 상위에 진입했다. 또한, A2O LITE가 트리플 커런을 달성했다. 이는 K-pop 엔터테인먼트 산업에서 주목할 만한 성과이다.",
+      "whyKo": "IVE, RIIZE, ILLIT의 차트 상위 진입과 A2O LITE의 트리플 커런 달성은 K-pop 산업의 강력한 성과를 보여준다."
+    },
+    {
+      "title": "[番外編18]幼稚園WARS",
+      "category": "comics",
+      "summary": "11월 12일 소년 점프+에서 공개한 만화 연재 소식입니다.",
+      "date": "2026-11-12",
+      "sources": [
+        {
+          "label": "소년 점프+",
+          "url": "https://shonenjumpplus.com/episode/9253191257737707704"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-11T15:00:00Z",
+      "contentHash": "cceab76eca3c4b20e6ea9027b7ac18cf7e6bf545158aed986404c925034f99e7",
+      "changedAt": "2026-11-12T04:40:50Z"
+    },
+    {
+      "title": "[イラスト]七等星をみつけて",
+      "category": "comics",
+      "summary": "11월 12일 소년 점프+에서 공개한 만화 연재 소식입니다.",
+      "date": "2026-11-12",
+      "sources": [
+        {
+          "label": "소년 점프+",
+          "url": "https://shonenjumpplus.com/episode/9253191257737710402"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-11T15:00:00Z",
+      "contentHash": "5f022929219166035400b430867778f4abce962cf97097994a8f1857239a7f11",
+      "changedAt": "2026-11-12T04:40:50Z",
+      "titleKo": "일등성 찾기",
+      "summaryKo": "일등성 찾기 콘텐츠가 소년 점프+ 채널에서 공개되었다. 이 콘텐츠는 일등성 찾기라는 주제로 제작되어, 독자들에게 새로운 이야기와 캐릭터를 제시할 예정이다.",
+      "whyKo": "새로운 콘텐츠로 독자들의 관심을 끌 수 있을 것으로 기대된다."
+    },
+    {
+      "title": "Media advisory - Meeting of the European Political Community of 12 November 2026 and the Informal meeting of Heads of State or Government of 13 November 2026",
+      "category": "world",
+      "summary": "11월 12일 유럽연합 이사회에서 공개한 국제 정책·외교 소식입니다.",
+      "date": "2026-11-12",
+      "sources": [
+        {
+          "label": "유럽연합 이사회",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/11/media-advisory-meeting-of-the-european-political-community-of-12-november-2026-and-the-informal-meeting-of-heads-of-state-or-government-of-13-november-2026/"
+        }
+      ],
+      "kind": "brief",
+      "contentHash": "e724be0da3de52da9d71253de9c6d3e8768afad4004de4980a494f5aaad85251",
+      "changedAt": "2026-11-12T04:40:50Z"
+    },
+    {
+      "title": "Watch: Crush And Red Velvet’s Joy Sing “seesaw” Couple Duet",
+      "category": "idols",
+      "summary": "11월 11일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-11",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1886072wpp/watch-crush-and-red-velvets-joy-sing-seesaw-couple-duet"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-11T14:47:12Z",
+      "contentHash": "d61ea3a9507be169dcbec7197bf789787761bf01954e09a4d51db0e3d8dd2a0a",
+      "changedAt": "2026-11-12T04:40:50Z",
+      "titleKo": "크러스와 레드벨티의 조이 쌍방향 데ュ엣",
+      "summaryKo": "크러스와 레드벨티의 조이가 'seesaw' 곡을 함께演绎한 쌍방향 데ュ엣 영상이 공개됐다. 11월 11일 크러스는 이 영상을 자신의 계정에 게시하며 팬들의 기대를 이끌어냈다. 이는 크러스가 최근 'seesaw' 챌린지로 다양한 아티스트와 협업한 배경에 있다.",
+      "whyKo": "크러스와 조이의 쌍방향 데ュ엣이 팬들의 기대를 이끌어내는 영상으로 주목받고 있다."
+    },
+    {
+      "title": "Watch: RESCENE Takes 2nd Win For “With” On “Show Champion”; Performances By P1Harmony, XLOV, And More",
+      "category": "idols",
+      "summary": "11월 11일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-11",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1886056wpp/watch-rescene-takes-2nd-win-for-with-on-show-champion-performances-by-p1harmony-xlov-and-more"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-11T11:11:15Z",
+      "contentHash": "335a3d46924fad4424ec063fba3d4d092d4443247fe510fd93e81ea788d99452",
+      "changedAt": "2026-11-12T04:40:50Z"
+    },
+    {
+      "title": "『Marathon』のアップデート「共生」が12月9日（水）配信。PvEとPvPの新モードや新武器などが登場！",
+      "category": "games",
+      "summary": "11월 11일 PlayStation 일본 블로그에서 공개한 업데이트 소식입니다.",
+      "date": "2026-11-11",
+      "sources": [
+        {
+          "label": "PlayStation 일본 블로그",
+          "url": "https://blog.ja.playstation.com/2026/11/11/20261111-marathon-post-launch-update-o/"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-11T09:31:03Z",
+      "contentHash": "59b04a9db970fdf651042a1618aa61a02b6b1c892350d3729903f08964cd11c2",
+      "changedAt": "2026-11-12T04:40:50Z",
+      "titleKo": "마라톤 업데이트 '공생' 12월9일 출시",
+      "summaryKo": "게임 '마라톤'의 업데이트 '공생'이 12월9일에 출시된다. PvE와 PvP 신 모드, 신 무기, 랜너ーシェル '비숍'이 추가된다. 또한, 업데이트 당일부터 무료 체험 기간 '오픈플레이위크'가 진행된다.",
+      "whyKo": "신 모드와 무기 추가로 게임의 재미와 콘텐츠가 확장된다."
+    },
+    {
+      "title": "ChatGPT Plus for veterans and servicemembers",
+      "category": "ai",
+      "summary": "11월 11일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
+      "date": "2026-11-11",
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/chatgpt-plus-for-veterans"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-11T08:00:00Z",
+      "contentHash": "b5805270b7462531537a8af7913816a5bf5ffc21d7bd592b82e85ed379673b78",
+      "changedAt": "2026-11-12T04:40:50Z"
+    },
+    {
       "title": "2026年10月のPS Storeダウンロードランキング！ PS5®では『ACE COMBAT 8: WINGS OF THEVE』が第1位！",
       "category": "games",
       "summary": "11월 11일 PlayStation 일본 블로그에서 공개한 게임·서비스 소식입니다.",
@@ -14,54 +209,26 @@
       "kind": "brief",
       "publishedAt": "2026-11-11T03:00:00Z",
       "contentHash": "b013ab2d37ade76962a264da718407a5e6685296fa5a1f4d2dbea14b9b586d52",
-      "changedAt": "2026-11-11T03:30:58Z"
+      "changedAt": "2026-11-11T03:30:58Z",
+      "titleKo": "PS5 2026년10월 최고 다운로드 게임은『ACE COMBAT 8: WINGS OF THE VE』",
+      "summaryKo": "2026년10월 PS Store에서 가장 많은 수록을 기록한 게임은 PS5에서『ACE COMBAT 8: WINGS OF THE VE』로, PS5, PS4, PSVR2, 무료게임 등 4가지 플랫폼에서의 다운로드 랭킹이 발표되었다.",
+      "whyKo": "PS5에서 가장 많은 수록을 기록한 게임이 공개됨"
     },
     {
-      "title": "「マイマリオ（MY MARIO）」の公式サイトを更新しました。 コマどりマリオ 第10話「がんばれキノピオ！」を公開しています。",
-      "category": "games",
-      "summary": "11월 11일 닌텐도 일본에서 공개한 게임·서비스 소식입니다.",
+      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "category": "ai",
+      "summary": "11월 11일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
       "date": "2026-11-11",
       "sources": [
         {
-          "label": "닌텐도 일본",
-          "url": "https://www.nintendo.com/jp/my-mario/index.html"
+          "label": "OpenAI",
+          "url": "https://openai.com/index/jiostar-vijay-seshadri"
         }
       ],
       "kind": "brief",
-      "publishedAt": "2026-11-11T01:09:02Z",
-      "changedAt": "2026-11-11T03:30:58Z"
-    },
-    {
-      "title": "IVE Scores 1st-Ever Entry On Billboard 200 With “Looks Can Kill”",
-      "category": "idols",
-      "summary": "11월 11일 Soompi에서 공개한 K-pop·음악 소식입니다.",
-      "date": "2026-11-11",
-      "sources": [
-        {
-          "label": "Soompi",
-          "url": "https://www.soompi.com/article/1885647wpp/ive-scores-1st-ever-entry-on-billboard-200-with-looks-can-kill"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-10T19:25:12Z",
-      "contentHash": "721dea5b81e55e6133bc99e50b6635fc6aff7e33b81644d12caf260df373ddc9",
-      "changedAt": "2026-11-11T03:30:58Z"
-    },
-    {
-      "title": "Wonho Announces Dates And Cities For 2027 World Tour “NOCHE”",
-      "category": "idols",
-      "summary": "11월 11일 Soompi에서 공개한 K-pop·음악 소식입니다.",
-      "date": "2026-11-11",
-      "sources": [
-        {
-          "label": "Soompi",
-          "url": "https://www.soompi.com/article/1885646wpp/wonho-announces-dates-and-cities-for-2027-world-tour-noche"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-10T17:47:00Z",
-      "contentHash": "d3492de22c01a1543a6b1807a830b67d60cb137e3ce12fb4726e6e48a17822bd",
-      "changedAt": "2026-11-11T03:30:58Z"
+      "publishedAt": "2026-11-11T00:00:00Z",
+      "contentHash": "434ad442e52bc653da0a3f190c8076d2cc235adc6b1eb686227c815720ae2f3e",
+      "changedAt": "2026-11-12T04:40:50Z"
     },
     {
       "title": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
@@ -91,8 +258,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-10T15:00:00Z",
-      "contentHash": "a915458828379748e9b8450e4ba77c95bb0f935b6f9243ec88827f0667f5144e",
-      "changedAt": "2026-11-11T03:30:58Z"
+      "changedAt": "2026-11-11T03:30:58Z",
+      "contentHash": "a915458828379748e9b8450e4ba77c95bb0f935b6f9243ec88827f0667f5144e"
     },
     {
       "title": "[第123・124話]Shrink～精神科医ヨワイ～",
@@ -107,8 +274,38 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-10T15:00:00Z",
-      "contentHash": "a915458828379748e9b8450e4ba77c95bb0f935b6f9243ec88827f0667f5144e",
-      "changedAt": "2026-11-11T03:30:58Z"
+      "changedAt": "2026-11-11T03:30:58Z",
+      "contentHash": "a915458828379748e9b8450e4ba77c95bb0f935b6f9243ec88827f0667f5144e"
+    },
+    {
+      "title": "Press briefing ahead of the Foreign Affairs Council and the Foreign Affairs (Defence) Councils of 16 and 17 November 2026",
+      "category": "world",
+      "summary": "11월 11일 유럽연합 이사회에서 공개한 국제 정책·외교 소식입니다.",
+      "date": "2026-11-11",
+      "sources": [
+        {
+          "label": "유럽연합 이사회",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/11/press-briefing-ahead-of-the-foreign-affairs-council-and-the-foreign-affairs-defence-councils-of-16-and-17-november-2026/"
+        }
+      ],
+      "kind": "brief",
+      "contentHash": "80197187258b80ac602ff07e867e3ffe2174a790021709701f272c0291265136",
+      "changedAt": "2026-11-12T04:40:50Z"
+    },
+    {
+      "title": "EU budget for 2027: Council and Parliament reach agreement",
+      "category": "world",
+      "summary": "11월 11일 유럽연합 이사회에서 공개한 국제 정책·외교 소식입니다.",
+      "date": "2026-11-11",
+      "sources": [
+        {
+          "label": "유럽연합 이사회",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/11/eu-budget-for-2027-council-and-parliament-reach-agreement/"
+        }
+      ],
+      "kind": "brief",
+      "contentHash": "5d44a1f61d829f9a3c151923fbb9b5f1135c8f069e92abaf0263f0359ec0f26e",
+      "changedAt": "2026-11-12T04:40:50Z"
     },
     {
       "title": "Piero Cipollone: Cash and the digital euro: two sides of the same coin",
@@ -138,8 +335,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-10T12:00:00Z",
-      "contentHash": "ea9bbe1eca228194ccf1e8c8ecf200c429edddb8fedd84ff577bbc379a86c1f4",
-      "changedAt": "2026-11-11T03:30:58Z"
+      "changedAt": "2026-11-11T03:30:58Z",
+      "contentHash": "ea9bbe1eca228194ccf1e8c8ecf200c429edddb8fedd84ff577bbc379a86c1f4"
     },
     {
       "title": "Introducing Businesses in ChatGPT",
@@ -154,8 +351,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-10T10:00:00Z",
-      "contentHash": "7c8932bb544e4d56c9887104de9351f5fa07a22ba815208730bc6aaab8e62875",
-      "changedAt": "2026-11-11T03:30:58Z"
+      "changedAt": "2026-11-11T03:30:58Z",
+      "contentHash": "7c8932bb544e4d56c9887104de9351f5fa07a22ba815208730bc6aaab8e62875"
     },
     {
       "title": "「Nintendo Switch Sports ゲーム運動会 シニアボウリングトーナメント2026」のページを更新しました。 全国から集った16団体の頂点をかけ、「広川町ゲームサポーター」と「けっぱれ！青森県」が決勝戦に臨みます。 これまでの全試合の様子も公開しています。",
@@ -358,8 +555,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-09T01:00:00Z",
-      "contentHash": "0ecadb8d29632f657d6fb4b663649054eac41b8299911f6ff80ef8299b6a37dc",
-      "changedAt": "2026-11-09T03:23:23Z"
+      "changedAt": "2026-11-09T03:23:23Z",
+      "contentHash": "0ecadb8d29632f657d6fb4b663649054eac41b8299911f6ff80ef8299b6a37dc"
     },
     {
       "title": "CORTIS, Stray Kids, NMIXX, SEVENTEEN’s JxJ, K/DA, ILLIT, ENHYPEN, BTS, And More Sweep Top Spots On Billboard World Albums Chart",
