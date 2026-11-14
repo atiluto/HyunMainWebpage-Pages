@@ -1,20 +1,193 @@
 {
   "records": [
     {
-      "title": "P1Harmony Breaks Their 1st-Week Sales Record With “BLOW UP”",
+      "title": "Agencies extend comment period for proposed third-party risk management guidance",
+      "category": "stocks",
+      "summary": "11월 14일 미국 연방준비제도에서 공개한 경제·금융 정책 소식입니다.",
+      "date": "2026-11-14",
+      "sources": [
+        {
+          "label": "미국 연방준비제도",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-13T21:15:00Z",
+      "contentHash": "b19ad41af6fed2f8ce01e149e60625e001561c8d863196bd10854ea6fcb3f0e2",
+      "changedAt": "2026-11-14T03:51:50Z"
+    },
+    {
+      "title": "[第22歩目]あっ、悪魔ちゃん",
+      "category": "comics",
+      "summary": "11월 14일 소년 점프+에서 공개한 만화 연재 소식입니다.",
+      "date": "2026-11-14",
+      "sources": [
+        {
+          "label": "소년 점프+",
+          "url": "https://shonenjumpplus.com/episode/9253191257737711049"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-13T15:00:00Z",
+      "contentHash": "d90909397c1025561ebe2cd84940fa8a4f040dd8ad95f0f58e309328d7c120bc",
+      "changedAt": "2026-11-14T03:51:50Z"
+    },
+    {
+      "title": "これから死ぬ",
+      "category": "comics",
+      "summary": "11월 14일 소년 점프+에서 공개한 만화 연재 소식입니다.",
+      "date": "2026-11-14",
+      "sources": [
+        {
+          "label": "소년 점프+",
+          "url": "https://shonenjumpplus.com/episode/9253191257737710940"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-13T15:00:00Z",
+      "contentHash": "25722a7962889900a13a2347afe0f4a1381e6977795fa9e93709a3af24a3ad21",
+      "changedAt": "2026-11-14T03:51:50Z"
+    },
+    {
+      "title": "Introducing ChatGPT Wallet",
+      "category": "ai",
+      "summary": "11월 14일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
+      "date": "2026-11-14",
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-13T15:00:00Z",
+      "contentHash": "80bb9ce908f57e4ec0dbef6e830ab0f0aeaf05c75d3318d110fac549d2f0f8bc",
+      "changedAt": "2026-11-14T03:51:50Z"
+    },
+    {
+      "title": "Remarks by President António Costa at the press conference following the informal meeting of Heads of State or Government of 13 November 2026",
+      "category": "world",
+      "summary": "11월 14일 유럽연합 이사회에서 공개한 국제 정책·외교 소식입니다.",
+      "date": "2026-11-14",
+      "sources": [
+        {
+          "label": "유럽연합 이사회",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/13/remarks-by-president-antonio-costa-at-the-press-conference-following-the-informal-meeting-of-heads-of-state-or-government-of-13-november-2026/"
+        }
+      ],
+      "kind": "brief",
+      "contentHash": "888e38de077c4c1ce2e4eaf46c46486d4e3d1da72c793aab06a58c21de870048",
+      "changedAt": "2026-11-14T03:51:50Z"
+    },
+    {
+      "title": "Weekly schedule of President António Costa",
+      "category": "world",
+      "summary": "11월 14일 유럽연합 이사회에서 공개한 국제 정책·외교 소식입니다.",
+      "date": "2026-11-14",
+      "sources": [
+        {
+          "label": "유럽연합 이사회",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/13/weekly-schedule-of-president-antonio-costa/"
+        }
+      ],
+      "kind": "brief",
+      "contentHash": "cf03e8f39398a9149e756ef4fc800cf11460ee2f667d2462f77c0c71edf9eceb",
+      "changedAt": "2026-11-14T03:51:50Z"
+    },
+    {
+      "title": "PEARL is available for trading!",
+      "category": "crypto",
+      "summary": "11월 13일 Kraken에서 공개한 디지털 자산 상장 소식입니다.",
+      "date": "2026-11-13",
+      "sources": [
+        {
+          "label": "Kraken",
+          "url": "https://blog.kraken.com/product/asset-listings/pearl-is-available-for-trading"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-13T14:38:42Z",
+      "contentHash": "6202b615f57240596cc8810557868b5efbe31415c6d89bf7cd5591da4cfa54c1",
+      "changedAt": "2026-11-14T03:51:50Z"
+    },
+    {
+      "title": "Watch: TWS Takes 1st Win For “Call My Name” On “Music Bank”; Performances By Jisoo, ATEEZ, And More",
       "category": "idols",
       "summary": "11월 13일 Soompi에서 공개한 K-pop·음악 소식입니다.",
       "date": "2026-11-13",
       "sources": [
         {
           "label": "Soompi",
-          "url": "https://www.soompi.com/article/1886627wpp/p1harmony-breaks-their-1st-week-sales-record-with-blow-up"
+          "url": "https://www.soompi.com/article/1886823wpp/watch-tws-takes-1st-win-for-call-my-name-on-music-bank-performances-by-jisoo-ateez-and-more"
         }
       ],
       "kind": "brief",
-      "publishedAt": "2026-11-13T03:22:54Z",
-      "contentHash": "d7732281210b9e6b4748f86999fe78644df8ef64ac79e2397cf0a0d4d4ffd55e",
-      "changedAt": "2026-11-13T03:53:43Z"
+      "publishedAt": "2026-11-13T11:38:18Z",
+      "contentHash": "89bf5dc0aa2ff9048d566b815f41039594d0738f87156ad48796a533614e1ca4",
+      "changedAt": "2026-11-14T03:51:50Z"
+    },
+    {
+      "title": "2026 KBS Song Festival Announces Artist Lineup",
+      "category": "idols",
+      "summary": "11월 13일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-13",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1886817wpp/2026-kbs-song-festival-announces-artist-lineup"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-13T11:01:43Z",
+      "contentHash": "887e4cdf367a0f7b7816633e9438c2f483e165b7f2ff44116b73032fd761903f",
+      "changedAt": "2026-11-14T03:51:50Z"
+    },
+    {
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "category": "ai",
+      "summary": "11월 13일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
+      "date": "2026-11-13",
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/business/customer-stories/shield"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-13T08:00:00Z",
+      "contentHash": "8f9b60dabe8f29402f9e09bd87ac7f24b371bf54a862ec3e8b205fb2c92f61fb",
+      "changedAt": "2026-11-14T03:51:50Z"
+    },
+    {
+      "title": "Isabel Schnabel: Made in Europe",
+      "category": "stocks",
+      "summary": "11월 13일 유럽중앙은행에서 공개한 경제·금융 정책 소식입니다.",
+      "date": "2026-11-13",
+      "sources": [
+        {
+          "label": "유럽중앙은행",
+          "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261113~3883f1f187.en.html"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-13T07:20:00Z",
+      "changedAt": "2026-11-14T03:51:50Z"
+    },
+    {
+      "title": "『グランド・セフト・オートVI』の事前ダウンロードが可能に！",
+      "category": "games",
+      "summary": "11월 13일 PlayStation 일본 블로그에서 공개한 게임·서비스 소식입니다.",
+      "date": "2026-11-13",
+      "sources": [
+        {
+          "label": "PlayStation 일본 블로그",
+          "url": "https://blog.ja.playstation.com/2026/11/13/20261113-gtavi-pre-launch-update-o/"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-13T04:33:55Z",
+      "contentHash": "6b66b9fdc9568cc96d53c9cd9c4f17718da768226ddc6dc8f3bc4a705d10ef22",
+      "changedAt": "2026-11-14T03:51:50Z"
     },
     {
       "title": "2026年秋アニメふり返りアンケート実施中!!",
@@ -45,37 +218,6 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-13T01:03:20Z",
-      "changedAt": "2026-11-13T03:53:43Z"
-    },
-    {
-      "title": "ニンテンドーeショップ新作ソフト情報 11/13（金）号。",
-      "category": "games",
-      "summary": "11월 13일 닌텐도 일본에서 공개한 게임·서비스 소식입니다.",
-      "date": "2026-11-13",
-      "sources": [
-        {
-          "label": "닌텐도 일본",
-          "url": "https://www.nintendo.com/jp/topics/article/f5182976-316a-4bc7-9d99-8278bcc0c497"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-13T01:02:55Z",
-      "changedAt": "2026-11-13T03:53:43Z"
-    },
-    {
-      "title": "CL Signs With THEBLACKLABEL; To Release New Music In November",
-      "category": "idols",
-      "summary": "11월 13일 Soompi에서 공개한 K-pop·음악 소식입니다.",
-      "date": "2026-11-13",
-      "sources": [
-        {
-          "label": "Soompi",
-          "url": "https://www.soompi.com/article/1886533wpp/cl-signs-with-theblacklabel-to-release-new-music-in-november"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-12T23:39:04Z",
-      "contentHash": "4fe4e0c22d4fa51d60dc962a2fcbfc4917bb682178ba901e6d5a11f3ac629c7d",
       "changedAt": "2026-11-13T03:53:43Z"
     },
     {
@@ -111,22 +253,6 @@
       "changedAt": "2026-11-13T03:53:43Z"
     },
     {
-      "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
-      "category": "stocks",
-      "summary": "11월 13일 미국 연방준비제도에서 공개한 경제·금융 정책 소식입니다.",
-      "date": "2026-11-13",
-      "sources": [
-        {
-          "label": "미국 연방준비제도",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-12T17:45:00Z",
-      "contentHash": "c4e6cbf7ba31ebffcffdf54a2ceafc4dc6bcddfedf2b1a53541eb66a903ee6a5",
-      "changedAt": "2026-11-13T03:53:43Z"
-    },
-    {
       "title": "[20話]世界を繋ぎ尽くすインターネット巫女",
       "category": "comics",
       "summary": "11월 13일 소년 점프+에서 공개한 만화 연재 소식입니다.",
@@ -139,8 +265,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-12T15:00:00Z",
-      "contentHash": "ade5451ac08ce5f196d2676896854c86ce2f8ebf757a8b010c2d5ae5712181c8",
-      "changedAt": "2026-11-13T03:53:43Z"
+      "changedAt": "2026-11-13T03:53:43Z",
+      "contentHash": "ade5451ac08ce5f196d2676896854c86ce2f8ebf757a8b010c2d5ae5712181c8"
     },
     {
       "title": "[第3話]うつろうカノジョたち",
@@ -155,8 +281,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-12T15:00:00Z",
-      "contentHash": "e92e5f6fc92704effa81dd3c6e336ae4671c6e22eeb7a7a20e0fdc48212f8900",
-      "changedAt": "2026-11-13T03:53:43Z"
+      "changedAt": "2026-11-13T03:53:43Z",
+      "contentHash": "e92e5f6fc92704effa81dd3c6e336ae4671c6e22eeb7a7a20e0fdc48212f8900"
     },
     {
       "title": "Emissions trading system: Council and Parliament agree to boost free carbon allowances for energy-intensive industries",
@@ -170,8 +296,8 @@
         }
       ],
       "kind": "brief",
-      "contentHash": "6cc84a04f1d01a37f378dfc08a169a0d5502f7c2f71fea9ffe5a1f404f9fa8de",
-      "changedAt": "2026-11-13T03:53:43Z"
+      "changedAt": "2026-11-13T03:53:43Z",
+      "contentHash": "6cc84a04f1d01a37f378dfc08a169a0d5502f7c2f71fea9ffe5a1f404f9fa8de"
     },
     {
       "title": "Remarks by President António Costa at the press conference following the meeting of the European Political Community in Dublin",
@@ -185,8 +311,8 @@
         }
       ],
       "kind": "brief",
-      "contentHash": "c32700a8a50402f11e6412938be740a9cf6577086fbe28645453ccaf86a54df0",
-      "changedAt": "2026-11-13T03:53:43Z"
+      "changedAt": "2026-11-13T03:53:43Z",
+      "contentHash": "c32700a8a50402f11e6412938be740a9cf6577086fbe28645453ccaf86a54df0"
     },
     {
       "title": "アクションRPG『Vindictus: Defying Fate』がPS5®で発売決定！",
@@ -217,8 +343,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-12T12:00:00Z",
-      "contentHash": "0080141cd7a746c84321da03fc42438aa7b6cb4d0499617f10adc1479b509f6b",
-      "changedAt": "2026-11-13T03:53:43Z"
+      "changedAt": "2026-11-13T03:53:43Z",
+      "contentHash": "0080141cd7a746c84321da03fc42438aa7b6cb4d0499617f10adc1479b509f6b"
     },
     {
       "title": "Holiday Extras is rethinking what it can build with Codex",
@@ -233,8 +359,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-12T09:30:00Z",
-      "contentHash": "fe9619587b6d2d37b0d86bf470b158848edbfd8fab9a7f0eddc0a754e6503828",
-      "changedAt": "2026-11-13T03:53:43Z"
+      "changedAt": "2026-11-13T03:53:43Z",
+      "contentHash": "fe9619587b6d2d37b0d86bf470b158848edbfd8fab9a7f0eddc0a754e6503828"
     },
     {
       "title": "Exclusive: ATEEZ Reflects On “BAD” Success And Sets Their Sights On “UP” At Comeback Press Conference",
@@ -249,8 +375,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-12T08:31:35Z",
-      "contentHash": "87b57970aed06d4096a26204e8ba43af8bb57d1cb040a9ab3b29ef4b7a2502da",
-      "changedAt": "2026-11-13T03:53:43Z"
+      "changedAt": "2026-11-13T03:53:43Z",
+      "contentHash": "87b57970aed06d4096a26204e8ba43af8bb57d1cb040a9ab3b29ef4b7a2502da"
     },
     {
       "title": "タブレット・スマートフォン向けアプリ「かおルイージ」、「かおピーチ」を配信開始。そのほか、「マイマリオ」の最新情報もご紹介。",
@@ -419,11 +545,11 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-11T03:00:00Z",
+      "changedAt": "2026-11-11T03:30:58Z",
       "contentHash": "b013ab2d37ade76962a264da718407a5e6685296fa5a1f4d2dbea14b9b586d52",
       "titleKo": "PS5 2026년10월 최고 다운로드 게임은『ACE COMBAT 8: WINGS OF THE VE』",
       "summaryKo": "2026년10월 PS Store에서 가장 많은 수록을 기록한 게임은 PS5에서『ACE COMBAT 8: WINGS OF THE VE』로, PS5, PS4, PSVR2, 무료게임 등 4가지 플랫폼에서의 다운로드 랭킹이 발표되었다.",
-      "whyKo": "PS5에서 가장 많은 수록을 기록한 게임이 공개됨",
-      "changedAt": "2026-11-11T03:30:58Z"
+      "whyKo": "PS5에서 가장 많은 수록을 기록한 게임이 공개됨"
     },
     {
       "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
@@ -1249,149 +1375,6 @@
       "titleKo": "유럽중앙은행, 2027년 하반기 디지털 유로 시범 운영 계획",
       "summaryKo": "피에로 치폴로네 유럽중앙은행 이사는 디지털 유로를 상점·온라인·개인 간 거래에 쓸 수 있는 디지털 현금으로 설명했습니다. 2027년 하반기부터 12개월 동안 시험 운영할 계획이며, 2026년 말까지 입법이 끝나면 2029년 첫 발행에 대비한다는 목표입니다.",
       "whyKo": "매장과 온라인에서 쓸 수 있는 디지털 현금을 언제 시험할지 알 수 있습니다."
-    },
-    {
-      "title": "ILLIT’s “jellyous” Becomes Their 3rd MV To Hit 100 Million Views",
-      "category": "idols",
-      "summary": "11월 5일 Soompi에서 공개한 K-pop·음악 소식입니다.",
-      "date": "2026-11-05",
-      "sources": [
-        {
-          "label": "Soompi",
-          "url": "https://www.soompi.com/article/1884331wpp/illits-jellyous-becomes-their-3rd-mv-to-hit-100-million-views"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-05T06:11:24Z",
-      "changedAt": "2026-11-05T23:09:35Z",
-      "contentHash": "864136cc318acc8d0f74d8f1c878908314942fcb019821e1377fb7826126d54c",
-      "titleKo": "아일릿 ‘jellyous’ 뮤직비디오 1억 조회수 돌파",
-      "summaryKo": "빌리프랩에 따르면 미니 3집 수록곡 ‘jellyous’의 뮤직비디오가 11월 5일 유튜브에서 1억 조회수를 넘었습니다. ‘Magnetic’과 ‘It’s Me’에 이은 아일릿의 세 번째 기록입니다.",
-      "whyKo": "미니 3집 수록곡이 아일릿의 앞선 두 곡과 같은 조회수 이정표에 도달했습니다."
-    },
-    {
-      "title": "BLACKPINK’s “GO” Becomes Their 16th Group MV To Surpass 100 Million Views",
-      "category": "idols",
-      "summary": "11월 5일 Soompi에서 공개한 K-pop·음악 소식입니다.",
-      "date": "2026-11-05",
-      "sources": [
-        {
-          "label": "Soompi",
-          "url": "https://www.soompi.com/article/1884332wpp/blackpinks-go-becomes-their-16th-group-mv-to-surpass-100-million-views"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-05T05:55:31Z",
-      "changedAt": "2026-11-05T23:09:35Z",
-      "contentHash": "6f2110f41467e0a90e5152d9e7afb98cd779da5fd31166fe8575b258b655c729",
-      "titleKo": "블랙핑크 ‘GO’ 뮤직비디오 1억 조회수 돌파",
-      "summaryKo": "Soompi에 따르면 ‘GO’가 한국시간 11월 4일 유튜브에서 1억 조회수를 넘었습니다. 블랙핑크 완전체 뮤직비디오로는 16번째입니다.",
-      "whyKo": "블랙핑크 완전체 활동에서 나온 뮤직비디오의 누적 성과를 보여주는 기록입니다."
-    },
-    {
-      "title": "Setting a new standard for responsible AI infrastructure",
-      "category": "ai",
-      "summary": "11월 5일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
-      "date": "2026-11-05",
-      "sources": [
-        {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-05T02:00:00Z",
-      "contentHash": "14a52eb3aae43d3bfacdfa43fe628b24e133cda3cc58b440125912a4994cf4b7",
-      "titleKo": "오픈AI, 미국 AI 데이터센터의 전기 비용 부담과 물 사용량 공개 약속",
-      "summaryKo": "오픈AI는 앞으로 미국에서 직접 소유·운영하는 AI 데이터센터가 사용할 전기와 관련 설비 비용을 회사가 부담하고, 시설별 전기·물 사용량을 공개하겠다고 밝혔습니다. 주민 의견 수렴과 지역 채용 계획도 약속에 포함됩니다.",
-      "whyKo": "지역 주민이 데이터센터의 전기와 물 사용량을 확인하고 운영사의 비용 부담 약속을 따져볼 수 있게 됩니다."
-    },
-    {
-      "title": "Nintendo Switch ソフト『ピクミン4』の無料アップデートを本日より配信開始しました。 Nintendo Switch 2 本体のディスプレイに対応し、よりくっきりとした表示で遊べます。",
-      "category": "games",
-      "summary": "11월 5일 닌텐도 일본에서 공개한 업데이트 소식입니다.",
-      "date": "2026-11-05",
-      "sources": [
-        {
-          "label": "닌텐도 일본",
-          "url": "https://www.nintendo.com/jp/hardware/switch2/guide/free-update/index.html"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-05T01:39:37Z",
-      "titleKo": "《피크민 4》 무료 업데이트, 스위치 2에서 더 선명하게",
-      "summaryKo": "닌텐도가 11월 5일 기존 스위치용 《피크민 4》에 무료 업데이트를 배포했습니다. 게임을 보유한 이용자는 스위치 2에 업데이트를 내려받아 본체 화면에서 더 선명하게 즐길 수 있습니다.",
-      "whyKo": "기존 게임을 보유한 스위치 2 이용자는 무료로 본체 화면의 화질을 개선할 수 있습니다."
-    },
-    {
-      "title": "あなたは1000万円で、その身を『花』に捧げられますか？ Netflixシリーズ「フールナイト」 メイン予告編＆キーアート解禁",
-      "category": "anime",
-      "summary": "11월 5일 Netflix 일본 뉴스룸에서 공개한 예고편 소식입니다.",
-      "date": "2026-11-05",
-      "sources": [
-        {
-          "label": "Netflix 일본 뉴스룸",
-          "url": "https://about.netflix.com/ja/news/for-how-much-would-you-become-a-flower-a-netflix-series-fool-night-main-trailer-key-art-debut"
-        }
-      ],
-      "kind": "brief",
-      "contentHash": "4d8fb78fe0eafac476f621cdfb683e47b04e3beb319fae2a3e2dea6edee13c28",
-      "titleKo": "넷플릭스 애니 《풀 나이트》, 메인 예고편과 포스터 공개",
-      "summaryKo": "산소가 부족해 사람을 식물로 바꾸는 미래를 그린 SF 애니입니다. 선라이즈와 샤프트가 처음 공동 제작했으며, 넷플릭스에서 11월 26일 전편을 동시에 공개할 예정입니다.",
-      "whyKo": "전편이 같은 날 공개될 예정이어서 공개일부터 이어서 볼 수 있습니다."
-    },
-    {
-      "title": "Fight against illicit drugs: Council backs new rules for chemicals used to make illegal drugs",
-      "category": "world",
-      "summary": "11월 5일 유럽연합 이사회에서 공개한 국제 정책·외교 소식입니다.",
-      "date": "2026-11-05",
-      "sources": [
-        {
-          "label": "유럽연합 이사회",
-          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/04/fight-against-illicit-drugs-council-backs-new-rules-for-chemicals-used-to-make-illegal-drugs/"
-        }
-      ],
-      "kind": "brief",
-      "contentHash": "33e49ef314f55dfa7e99f310b478df4de08a8b1fcfff048688f5a7dd6de76688",
-      "titleKo": "EU 이사회, 불법 마약 제조에 쓰이는 화학물질 관리 강화안 마련",
-      "summaryKo": "EU 이사회가 마약 제조에 쓰일 수 있는 화학물질의 유통을 더 엄격히 관리하는 법안의 협상 입장을 정했습니다. 의약품이나 배터리 등 합법 산업에 쓰이는 물질은 수입 절차를 간소화하는 방향으로, 유럽의회와 최종안을 협의할 예정입니다.",
-      "whyKo": "마약 제조에 쓰일 수 있는 물질을 관리하면서 의약품과 배터리 산업의 수입 절차도 함께 다루는 협상입니다."
-    },
-    {
-      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-      "category": "ai",
-      "summary": "11월 4일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
-      "date": "2026-11-04",
-      "sources": [
-        {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/openai-to-acquire-pierre"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-04T14:30:00Z",
-      "contentHash": "33297446ed46b3f83fd1bba9a83c0d75e5d1089bdff3ec66273c1ddf339188a1",
-      "titleKo": "오픈AI, 개발 도구 회사 피에르 인수 계획 발표",
-      "summaryKo": "오픈AI는 코드 저장 서비스와 파일 탐색·변경 비교 도구를 만드는 피에르를 인수해 Codex의 코드 검토 기능을 강화할 계획입니다. 거래를 마치려면 규제 당국 승인 등 조건을 충족해야 합니다.",
-      "whyKo": "Codex를 쓰는 개발자는 거래 성사 시 코드 변경을 살펴보는 기능이 어떻게 개선될지 가늠할 수 있습니다."
-    },
-    {
-      "title": "CygamesEdge第一弾タイトル『崩落の国』明日11月5日（木）発売！",
-      "category": "games",
-      "summary": "11월 4일 PlayStation 일본 블로그에서 공개한 출시·공개 소식입니다.",
-      "date": "2026-11-04",
-      "sources": [
-        {
-          "label": "PlayStation 일본 블로그",
-          "url": "https://blog.ja.playstation.com/2026/11/04/20261104-wtsf-launch-reminder-o/"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-04T08:00:00Z",
-      "contentHash": "9d113a958449dac55e8e87897740f51787f32c64819390840a25930f9bba076d",
-      "titleKo": "사이게임즈 엣지 첫 게임 《Where the Seeds Fall》, PS5 출시",
-      "summaryKo": "사이게임즈의 새 브랜드가 11월 5일 PS5용 액션 어드벤처를 선보였습니다. 무너지는 세계수에서 바람을 타고 활공하며, 꽃을 피워 착지할 곳을 만듭니다.",
-      "whyKo": "사이게임즈의 새 브랜드가 어떤 방식의 액션 게임을 만드는지 처음 확인할 수 있는 작품입니다."
     }
   ]
 }
