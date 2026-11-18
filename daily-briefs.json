@@ -1,6 +1,211 @@
 {
   "records": [
     {
+      "title": "『スプラトゥーン3』の更新データVer.12.0.0を本日配信。さまざまなアイテムが手に入るゲームニュースも配信中。",
+      "category": "games",
+      "summary": "11월 18일 닌텐도 일본에서 공개한 게임·서비스 소식입니다.",
+      "date": "2026-11-18",
+      "sources": [
+        {
+          "label": "닌텐도 일본",
+          "url": "https://www.nintendo.com/jp/topics/article/405b3f79-3dfb-4336-baae-5256a086eb35"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-18T03:01:15Z",
+      "changedAt": "2026-11-18T04:56:19Z"
+    },
+    {
+      "title": "『グランド・セフト・オートVI』明日11月19日発売！",
+      "category": "games",
+      "summary": "11월 18일 PlayStation 일본 블로그에서 공개한 출시·공개 소식입니다.",
+      "date": "2026-11-18",
+      "sources": [
+        {
+          "label": "PlayStation 일본 블로그",
+          "url": "https://blog.ja.playstation.com/2026/11/18/20261118-gtavi-launch-reminder-s/"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-18T03:00:00Z",
+      "contentHash": "df7cf1a1319cc59f743750571f76a9bba181fb43f5d13d38aa409d367d59e736",
+      "changedAt": "2026-11-18T04:56:19Z"
+    },
+    {
+      "title": "アメリカで、イチローさんに野球を教わる夢の１日 第3回 ユニクロ イチロー DREAM FIELD DAY in USA 2027年2月にシアトルで開催！",
+      "category": "fashion",
+      "summary": "11월 18일 유니클로 일본에서 공개한 패션·브랜드 소식입니다.",
+      "date": "2026-11-18",
+      "sources": [
+        {
+          "label": "유니클로 일본",
+          "url": "https://www.uniqlo.com/jp/ja/contents/corp/press-release/2026/11/_3_dream_field_day_in_usa_2027.html"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-18T01:00:00Z",
+      "contentHash": "c4280c82f98c093742b01841056d32f0106c4fcce15c642cceca7172b76d1608",
+      "changedAt": "2026-11-18T04:56:19Z"
+    },
+    {
+      "title": "TXT’s “PERFECT STORM” Sells Over 1.5 Million Copies In Just 2 Days",
+      "category": "idols",
+      "summary": "11월 18일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-18",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1888213wpp/txts-perfect-storm-sells-over-1-5-million-copies-in-just-2-days"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-17T20:18:47Z",
+      "contentHash": "cd8f1dc367dbaed31e0a0d2b6e4b35bc95cbe2089f88bb96480d25ccd2a4d414",
+      "changedAt": "2026-11-18T04:56:19Z"
+    },
+    {
+      "title": "82MAJOR To Perform At 2026 Jingle Ball Village In LA",
+      "category": "idols",
+      "summary": "11월 18일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-18",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1888206wpp/82major-to-perform-at-2026-jingle-ball-village-in-la"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-17T19:38:48Z",
+      "contentHash": "5a05c1c796537d240d905b5f7fd7736410bbf41881e761d554030b88ef607b02",
+      "changedAt": "2026-11-18T04:56:19Z"
+    },
+    {
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "category": "ai",
+      "summary": "11월 18일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
+      "date": "2026-11-18",
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-17T17:45:00Z",
+      "contentHash": "65ed9d04b019bc46a3c647a079a2a7f28ced222acf1d2123ddd84a6fee0380e1",
+      "changedAt": "2026-11-18T04:56:19Z"
+    },
+    {
+      "title": "INFI is available for trading!",
+      "category": "crypto",
+      "summary": "11월 18일 Kraken에서 공개한 디지털 자산 상장 소식입니다.",
+      "date": "2026-11-18",
+      "sources": [
+        {
+          "label": "Kraken",
+          "url": "https://blog.kraken.com/product/asset-listings/infi-is-available-for-trading"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-17T17:18:21Z",
+      "contentHash": "15df4459d0acd0e2ef607290ab5169794554d4fed48b43d0a63838a514f1851b",
+      "changedAt": "2026-11-18T04:56:19Z"
+    },
+    {
+      "title": "XLA is available for trading!",
+      "category": "crypto",
+      "summary": "11월 18일 Kraken에서 공개한 디지털 자산 상장 소식입니다.",
+      "date": "2026-11-18",
+      "sources": [
+        {
+          "label": "Kraken",
+          "url": "https://blog.kraken.com/product/asset-listings/xla-is-available-for-trading"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-17T16:45:45Z",
+      "contentHash": "00a2d59c7618013faf49e5eb64f4e032ced2490bec8517d4a3d5196f61dda724",
+      "changedAt": "2026-11-18T04:56:19Z"
+    },
+    {
+      "title": "[休載イラスト63]ジャンケットバンク",
+      "category": "comics",
+      "summary": "11월 18일 소년 점프+에서 공개한 만화 연재 소식입니다.",
+      "date": "2026-11-18",
+      "sources": [
+        {
+          "label": "소년 점프+",
+          "url": "https://shonenjumpplus.com/episode/9253191257982513829"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-17T15:00:00Z",
+      "contentHash": "074e32074277cafc80e255e6c33d6bec26613052416b92b629ae6bc8fa336dcb",
+      "changedAt": "2026-11-18T04:56:19Z"
+    },
+    {
+      "title": "[第18話]あわいの焔刃",
+      "category": "comics",
+      "summary": "11월 18일 소년 점프+에서 공개한 만화 연재 소식입니다.",
+      "date": "2026-11-18",
+      "sources": [
+        {
+          "label": "소년 점프+",
+          "url": "https://shonenjumpplus.com/episode/9253191257982513860"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-17T15:00:00Z",
+      "contentHash": "9fde8592a387763864d51a018af763ef521fc54f83f1d1e920e5a48e1a1a9114",
+      "changedAt": "2026-11-18T04:56:19Z"
+    },
+    {
+      "title": "Grids package: Council and Parliament agree to streamline permitting for a faster clean energy transition",
+      "category": "world",
+      "summary": "11월 18일 유럽연합 이사회에서 공개한 국제 정책·외교 소식입니다.",
+      "date": "2026-11-18",
+      "sources": [
+        {
+          "label": "유럽연합 이사회",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/18/grids-package-council-and-parliament-agree-to-streamline-permitting-for-a-faster-clean-energy-transition/"
+        }
+      ],
+      "kind": "brief",
+      "contentHash": "c38925d5d3788ebf5294ba4f2ba151d01831f98cd88b7c290f095d98e29c9162",
+      "changedAt": "2026-11-18T04:56:19Z"
+    },
+    {
+      "title": "Press briefing - General Affairs Council of 19 November and General Affairs Council (Cohesion) of 23 November 2026",
+      "category": "world",
+      "summary": "11월 18일 유럽연합 이사회에서 공개한 국제 정책·외교 소식입니다.",
+      "date": "2026-11-18",
+      "sources": [
+        {
+          "label": "유럽연합 이사회",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/17/press-briefing-general-affairs-council-of-19-november-and-general-affairs-council-cohesion-of-23-november-2026/"
+        }
+      ],
+      "kind": "brief",
+      "contentHash": "9e7d016a0516f40f57822af5603839710663d60f1ddd9098772a159f0307e335",
+      "changedAt": "2026-11-18T04:56:19Z"
+    },
+    {
+      "title": "Introducing ChatGPT for Sales",
+      "category": "ai",
+      "summary": "11월 17일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
+      "date": "2026-11-17",
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/introducing-chatgpt-for-sales"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-17T08:00:00Z",
+      "contentHash": "5b6a0f3717d1769b9436e904219159c186da97629dbaa51015181ddb1e15dbf7",
+      "changedAt": "2026-11-18T04:56:19Z"
+    },
+    {
       "title": "PS5®のAIアップスケーリング技術「QSSR」の対応タイトルが拡大！ 『Marvel’s Spider-Man 2』や『Control Resonant』などが追加",
       "category": "games",
       "summary": "11월 17일 PlayStation 일본 블로그에서 공개한 게임·서비스 소식입니다.",
@@ -29,8 +234,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-17T04:44:36Z",
-      "contentHash": "7a99e91521a9b46be64716232bf8e6582fc8ca6ba6002ff49b8c30d4d7b44036",
-      "changedAt": "2026-11-17T05:31:17Z"
+      "changedAt": "2026-11-17T05:31:17Z",
+      "contentHash": "7a99e91521a9b46be64716232bf8e6582fc8ca6ba6002ff49b8c30d4d7b44036"
     },
     {
       "title": "Nintendo Switch 2『スプラトゥーン レイダース』の体験版を配信中。",
@@ -48,36 +253,20 @@
       "changedAt": "2026-11-17T05:31:17Z"
     },
     {
-      "title": "Broadening access to AI for scientists",
+      "title": "Strengthening NATO and allied cyber defenses with AI",
       "category": "ai",
       "summary": "11월 17일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
       "date": "2026-11-17",
       "sources": [
         {
           "label": "OpenAI",
-          "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers"
+          "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai"
         }
       ],
       "kind": "brief",
-      "publishedAt": "2026-11-16T17:00:00Z",
-      "contentHash": "e2cec5fe08011f7694a7fa4b3dec9d5a1b05c47c9842dbf3185a2c7fa9d6e7af",
-      "changedAt": "2026-11-17T05:31:17Z"
-    },
-    {
-      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
-      "category": "ai",
-      "summary": "11월 17일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
-      "date": "2026-11-17",
-      "sources": [
-        {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/strengthening-online-child-safety"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-16T17:00:00Z",
-      "contentHash": "db7a12eeab5c164d8191e9b6c05bce034e18ddf4c5b72b9ef013ee717be76787",
-      "changedAt": "2026-11-17T05:31:17Z"
+      "publishedAt": "2026-11-17T00:00:00Z",
+      "contentHash": "04ecea2d0f5a1f2d26e9a1a15cc669c9efdaa9f5894e9d429f9d9c49a7558fce",
+      "changedAt": "2026-11-18T04:56:19Z"
     },
     {
       "title": "Tame Impala & Jennie’s “Dracula,” IVE’s “BANG BANG,” And KiiiKiii’s “404 (NEW ERA)” Nominated For 2027 Grammys",
@@ -92,8 +281,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-16T15:08:31Z",
-      "contentHash": "14e08dd0887b4dfca21f9b35a4133b0aff228bb43e76ef897d2c44e9441d304d",
-      "changedAt": "2026-11-17T05:31:17Z"
+      "changedAt": "2026-11-17T05:31:17Z",
+      "contentHash": "14e08dd0887b4dfca21f9b35a4133b0aff228bb43e76ef897d2c44e9441d304d"
     },
     {
       "title": "[第253話]ダンダダン",
@@ -108,8 +297,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-16T15:00:00Z",
-      "contentHash": "1943f0fb5450409113945372b2fd6876c5be7947ab2df6b2d1a256292d089909",
-      "changedAt": "2026-11-17T05:31:17Z"
+      "changedAt": "2026-11-17T05:31:17Z",
+      "contentHash": "1943f0fb5450409113945372b2fd6876c5be7947ab2df6b2d1a256292d089909"
     },
     {
       "title": "[16話 後編]続テルマエ・ロマエ",
@@ -124,8 +313,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-16T15:00:00Z",
-      "contentHash": "acee7ebe557f965cd047ffb105212c5eb1c65d6f8b2880eb94bf90bf24b0ee56",
-      "changedAt": "2026-11-17T05:31:17Z"
+      "changedAt": "2026-11-17T05:31:17Z",
+      "contentHash": "acee7ebe557f965cd047ffb105212c5eb1c65d6f8b2880eb94bf90bf24b0ee56"
     },
     {
       "title": "Speech by President António Costa at the EU Enlargement Forum 2026",
@@ -139,8 +328,8 @@
         }
       ],
       "kind": "brief",
-      "contentHash": "d82b7d8e9ad3b06d34c3588bacea103c433d50defe0a071b861bc112e385d745",
-      "changedAt": "2026-11-17T05:31:17Z"
+      "changedAt": "2026-11-17T05:31:17Z",
+      "contentHash": "d82b7d8e9ad3b06d34c3588bacea103c433d50defe0a071b861bc112e385d745"
     },
     {
       "title": "KATSEYE’s “Gabriela” Becomes Their 7th MV To Hit 100 Million Views",
@@ -155,8 +344,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-16T13:48:09Z",
-      "contentHash": "c61ee91df5cfb9542788db499d36f877624744c18531cfefcfa51290a199fbb2",
-      "changedAt": "2026-11-17T05:31:17Z"
+      "changedAt": "2026-11-17T05:31:17Z",
+      "contentHash": "c61ee91df5cfb9542788db499d36f877624744c18531cfefcfa51290a199fbb2"
     },
     {
       "title": "Frank Elderson: Smart supervision for small banks",
@@ -186,8 +375,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-16T12:00:00Z",
-      "contentHash": "e2089cedbcfd4ee7cb30941703f10acef46afb016c173f1518dc96bb8d04e50d",
-      "changedAt": "2026-11-17T05:31:17Z"
+      "changedAt": "2026-11-17T05:31:17Z",
+      "contentHash": "e2089cedbcfd4ee7cb30941703f10acef46afb016c173f1518dc96bb8d04e50d"
     },
     {
       "title": "Boris Vujčić: Risks and resilience in the euro area financial system",
@@ -327,8 +516,8 @@
         }
       ],
       "kind": "brief",
-      "contentHash": "e724be0da3de52da9d71253de9c6d3e8768afad4004de4980a494f5aaad85251",
-      "changedAt": "2026-11-17T05:31:17Z"
+      "changedAt": "2026-11-17T05:31:17Z",
+      "contentHash": "e724be0da3de52da9d71253de9c6d3e8768afad4004de4980a494f5aaad85251"
     },
     {
       "title": "Ukraine: EU lists 113 individuals and entities to further restrict Russia’s ability to finance its war of aggression",
@@ -342,8 +531,8 @@
         }
       ],
       "kind": "brief",
-      "contentHash": "72da8f82f5b1f93bc61e0f07db707dee9d77ecd5e6f22674f2e27d7759514dce",
-      "changedAt": "2026-11-17T05:31:17Z"
+      "changedAt": "2026-11-17T05:31:17Z",
+      "contentHash": "72da8f82f5b1f93bc61e0f07db707dee9d77ecd5e6f22674f2e27d7759514dce"
     },
     {
       "title": "TREASURE’s “SHOCK” Becomes Their Fastest MV To Hit 100 Million Views",
@@ -1175,196 +1364,6 @@
       "kind": "brief",
       "publishedAt": "2026-11-10T01:20:58Z",
       "changedAt": "2026-11-10T04:59:19Z"
-    },
-    {
-      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-      "category": "stocks",
-      "summary": "11월 10일 미국 연방준비제도에서 공개한 경제·금융 정책 소식입니다.",
-      "date": "2026-11-10",
-      "sources": [
-        {
-          "label": "미국 연방준비제도",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-09T21:00:00Z",
-      "changedAt": "2026-11-10T04:59:19Z",
-      "contentHash": "7c0f799cacfc1beb50cf46195b28905daccda5197e0d4862d5767472a2b58d78"
-    },
-    {
-      "title": "EXO’s Kai And Sehun Gear Up For Unit Debut As EXO-KASE With “Waking Up The City” Teaser",
-      "category": "idols",
-      "summary": "11월 10일 Soompi에서 공개한 K-pop·음악 소식입니다.",
-      "date": "2026-11-10",
-      "sources": [
-        {
-          "label": "Soompi",
-          "url": "https://www.soompi.com/article/1885364wpp/exos-kai-and-sehun-gear-up-for-unit-debut-as-exo-kase-with-waking-up-the-city-teaser"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-09T15:26:59Z",
-      "changedAt": "2026-11-10T04:59:19Z",
-      "contentHash": "7cdf0acea4bba3c922e4ed9763aa61b024d73e2cde1c7a0e76a447250eb0ae12"
-    },
-    {
-      "title": "[第252話]ダンダダン",
-      "category": "comics",
-      "summary": "11월 10일 소년 점프+에서 공개한 만화 연재 소식입니다.",
-      "date": "2026-11-10",
-      "sources": [
-        {
-          "label": "소년 점프+",
-          "url": "https://shonenjumpplus.com/episode/9253191257737706371"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-09T15:00:00Z",
-      "changedAt": "2026-11-10T04:59:19Z",
-      "contentHash": "1943f0fb5450409113945372b2fd6876c5be7947ab2df6b2d1a256292d089909"
-    },
-    {
-      "title": "[第十話]ノイズリング",
-      "category": "comics",
-      "summary": "11월 10일 소년 점프+에서 공개한 만화 연재 소식입니다.",
-      "date": "2026-11-10",
-      "sources": [
-        {
-          "label": "소년 점프+",
-          "url": "https://shonenjumpplus.com/episode/9253191257737706485"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-09T15:00:00Z",
-      "changedAt": "2026-11-10T04:59:19Z",
-      "contentHash": "cc46634b9681d511e4f50944ce1f322effdc678cc0fa2c169b9f9aa46312f45c"
-    },
-    {
-      "title": "Media advisory - Economic and Financial Affairs Council (Budget) of 10 November 2026",
-      "category": "world",
-      "summary": "11월 10일 유럽연합 이사회에서 공개한 국제 정책·외교 소식입니다.",
-      "date": "2026-11-10",
-      "sources": [
-        {
-          "label": "유럽연합 이사회",
-          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/09/media-advisory-economic-and-financial-affairs-council-budget-of-10-november-2026/"
-        }
-      ],
-      "kind": "brief",
-      "changedAt": "2026-11-10T04:59:19Z",
-      "contentHash": "e556aeb391ed642e37538afd6b29dbd08abceca2aa47ce9add0ee3ad95255843"
-    },
-    {
-      "title": "Ukraine: Council extends EU Military Assistance Mission mandate for two years",
-      "category": "world",
-      "summary": "11월 10일 유럽연합 이사회에서 공개한 국제 정책·외교 소식입니다.",
-      "date": "2026-11-10",
-      "sources": [
-        {
-          "label": "유럽연합 이사회",
-          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/09/ukraine-council-extends-eu-military-assistance-mission-mandate-for-two-years/"
-        }
-      ],
-      "kind": "brief",
-      "changedAt": "2026-11-10T04:59:19Z",
-      "contentHash": "78b71333aa4d2b6c494ba3faa1d54bd3b6c1b191d4c9325968baf0e47ab4750e"
-    },
-    {
-      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "category": "ai",
-      "summary": "11월 9일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
-      "date": "2026-11-09",
-      "sources": [
-        {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/control-room"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-09T13:00:00Z",
-      "changedAt": "2026-11-10T04:59:19Z",
-      "contentHash": "dd03698cbb05c4a6d464f06061557b347e750b0c9c783cfb4d30ca95e0479aad"
-    },
-    {
-      "title": "Watch: ILLIT Takes 2nd Win For “You’re Under Arrest” On New Music Show “SHOW K-POP”",
-      "category": "idols",
-      "summary": "11월 9일 Soompi에서 공개한 K-pop·음악 소식입니다.",
-      "date": "2026-11-09",
-      "sources": [
-        {
-          "label": "Soompi",
-          "url": "https://www.soompi.com/article/1885347wpp/watch-illit-takes-2nd-win-for-youre-under-arrest-on-new-music-show-show-k-pop"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-09T11:02:26Z",
-      "changedAt": "2026-11-10T04:59:19Z",
-      "contentHash": "1f58ca47aa4df2a9423c778e078cb748ec3833cd9402545eb486af86e391c016"
-    },
-    {
-      "title": "CodeRabbit scales agentic software development and ships 20x more",
-      "category": "ai",
-      "summary": "11월 9일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
-      "date": "2026-11-09",
-      "sources": [
-        {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/coderabbit-codex-daybreak"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-09T08:00:00Z",
-      "changedAt": "2026-11-10T04:59:19Z",
-      "contentHash": "138253af39dc25959c8893f6bf65dcb259e5686ab5339ec266d045195905ef6d"
-    },
-    {
-      "title": "携帯型ゲーム機「PlayStation Portal™ プレーヤー ミッドナイトブラック 日本語専用」12月10日（木）発売！",
-      "category": "games",
-      "summary": "11월 9일 PlayStation 일본 블로그에서 공개한 출시·공개 소식입니다.",
-      "date": "2026-11-09",
-      "sources": [
-        {
-          "label": "PlayStation 일본 블로그",
-          "url": "https://blog.ja.playstation.com/2026/11/09/20261109-playstation-portal-announcement-o/"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-09T01:00:00Z",
-      "changedAt": "2026-11-09T03:23:23Z",
-      "contentHash": "0ecadb8d29632f657d6fb4b663649054eac41b8299911f6ff80ef8299b6a37dc"
-    },
-    {
-      "title": "CORTIS, Stray Kids, NMIXX, SEVENTEEN’s JxJ, K/DA, ILLIT, ENHYPEN, BTS, And More Sweep Top Spots On Billboard World Albums Chart",
-      "category": "idols",
-      "summary": "11월 9일 Soompi에서 공개한 K-pop·음악 소식입니다.",
-      "date": "2026-11-09",
-      "sources": [
-        {
-          "label": "Soompi",
-          "url": "https://www.soompi.com/article/1885130wpp/cortis-stray-kids-nmixx-seventeens-jxj-k-da-illit-enhypen-bts-and-more-sweep-top-spots-on-billboard-world-albums-chart"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-08T22:49:00Z",
-      "changedAt": "2026-11-09T03:23:23Z",
-      "contentHash": "79dc612c0ea6c1db9fda1103c4c7d3cb1d317aba8db740402f9ededf8a08628b"
-    },
-    {
-      "title": "[第213話]ラーメン赤猫",
-      "category": "comics",
-      "summary": "11월 9일 소년 점프+에서 공개한 만화 연재 소식입니다.",
-      "date": "2026-11-09",
-      "sources": [
-        {
-          "label": "소년 점프+",
-          "url": "https://shonenjumpplus.com/episode/9253191257737706151"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-08T15:00:00Z",
-      "changedAt": "2026-11-09T03:23:23Z",
-      "contentHash": "909ed3641a9267f3dbfe54f157fab92d4f96e53f01c3be6b32c68758a240af3c"
     }
   ]
 }
