@@ -1,6 +1,224 @@
 {
   "records": [
     {
+      "title": "「りそなグループ Bリーグオールスター 2027」 のユニフォームを発表大会ロゴなどのオリジナルスタンプがUTme!に新登場",
+      "category": "fashion",
+      "summary": "11월 19일 유니클로 일본에서 공개한 패션·브랜드 소식입니다.",
+      "date": "2026-11-19",
+      "sources": [
+        {
+          "label": "유니클로 일본",
+          "url": "https://www.uniqlo.com/jp/ja/contents/corp/press-release/2026/11/_b_2027_utme.html"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-19T02:00:00Z",
+      "contentHash": "883f0e61537e755a0b9a0bd4738ed40f218cbbc0b5bbee1e48bbcf789cfb4565",
+      "changedAt": "2026-11-19T04:50:25Z"
+    },
+    {
+      "title": "『カラオケJOYSOUND for Nintendo Switch』のNintendo Switch 2 向け無料アップデートを本日より配信。本体の内蔵マイクで、別売のマイクがなくてもカラオケが楽しめる。",
+      "category": "games",
+      "summary": "11월 19일 닌텐도 일본에서 공개한 업데이트 소식입니다.",
+      "date": "2026-11-19",
+      "sources": [
+        {
+          "label": "닌텐도 일본",
+          "url": "https://www.nintendo.com/jp/topics/article/9e9fce02-b4d6-4f31-a6ad-efced93a24d7"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-19T01:13:41Z",
+      "changedAt": "2026-11-19T04:50:25Z"
+    },
+    {
+      "title": "Nintendo Storeでホリデーキャンペーンを開催中。ダウンロードソフトを手渡しでプレゼントできる「ダウンロード版ギフトセット」も。",
+      "category": "games",
+      "summary": "11월 19일 닌텐도 일본에서 공개한 게임·서비스 소식입니다.",
+      "date": "2026-11-19",
+      "sources": [
+        {
+          "label": "닌텐도 일본",
+          "url": "https://www.nintendo.com/jp/topics/article/4a65892c-ff07-4760-aae5-36c23f24b7dd"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-19T01:02:08Z",
+      "changedAt": "2026-11-19T04:50:25Z"
+    },
+    {
+      "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+      "category": "stocks",
+      "summary": "11월 19일 미국 연방준비제도에서 공개한 경제·금융 정책 소식입니다.",
+      "date": "2026-11-19",
+      "sources": [
+        {
+          "label": "미국 연방준비제도",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-18T19:00:00Z",
+      "contentHash": "ff75f401ff049afc1ceb8e01572358f4b7809822cce6d9e839bf81427cf3c550",
+      "changedAt": "2026-11-19T04:50:25Z"
+    },
+    {
+      "title": "&TEAM And BOYNEXTDOOR Earn RIAJ Platinum Certifications In Japan",
+      "category": "idols",
+      "summary": "11월 19일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-19",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1888605wpp/team-and-boynextdoor-earn-riaj-platinum-certifications-in-japan"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-18T18:44:00Z",
+      "contentHash": "49962cfa406b89048aa36a22565630a73cc55a2046b227576c48f640c108c3bc",
+      "changedAt": "2026-11-19T04:50:25Z"
+    },
+    {
+      "title": "A2O LITE, NCT WISH, TWS, ILLIT, RESCENE, And Onew & Zico Top Circle Monthly And Weekly Charts",
+      "category": "idols",
+      "summary": "11월 19일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-19",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1888586wpp/a2o-lite-nct-wish-tws-illit-rescene-and-onew-zico-top-circle-monthly-and-weekly-charts"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-18T17:57:00Z",
+      "contentHash": "0f9523ff4b3612735306eb44e4dc34363fdef16401196e9b30b6f08d2c6ab571",
+      "changedAt": "2026-11-19T04:50:25Z"
+    },
+    {
+      "title": "[第147話]幼稚園WARS",
+      "category": "comics",
+      "summary": "11월 19일 소년 점프+에서 공개한 만화 연재 소식입니다.",
+      "date": "2026-11-19",
+      "sources": [
+        {
+          "label": "소년 점프+",
+          "url": "https://shonenjumpplus.com/episode/9253191257982513929"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-18T15:00:00Z",
+      "contentHash": "cceab76eca3c4b20e6ea9027b7ac18cf7e6bf545158aed986404c925034f99e7",
+      "changedAt": "2026-11-19T04:50:25Z"
+    },
+    {
+      "title": "[Episode：7]終劇のシエル",
+      "category": "comics",
+      "summary": "11월 19일 소년 점프+에서 공개한 만화 연재 소식입니다.",
+      "date": "2026-11-19",
+      "sources": [
+        {
+          "label": "소년 점프+",
+          "url": "https://shonenjumpplus.com/episode/9253191257982514004"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-18T15:00:00Z",
+      "contentHash": "6e91c5fc5ded0430e88e4e3129eff072debc37d8f3cdf4257b6daec8f0e26aa8",
+      "changedAt": "2026-11-19T04:50:25Z"
+    },
+    {
+      "title": "Methane regulation: EU agrees targeted amendment to safeguard security of supply",
+      "category": "world",
+      "summary": "11월 19일 유럽연합 이사회에서 공개한 국제 정책·외교 소식입니다.",
+      "date": "2026-11-19",
+      "sources": [
+        {
+          "label": "유럽연합 이사회",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/methane-regulation-eu-agrees-targeted-amendment-to-safeguard-security-of-supply/"
+        }
+      ],
+      "kind": "brief",
+      "contentHash": "09fcc201a676cb79834bc92152d9201afa404c2028bfd84ab14d959a97ea5a7a",
+      "changedAt": "2026-11-19T04:50:25Z"
+    },
+    {
+      "title": "EU-Indonesia: Council greenlights signature of landmark trade and investment agreements",
+      "category": "world",
+      "summary": "11월 19일 유럽연합 이사회에서 공개한 국제 정책·외교 소식입니다.",
+      "date": "2026-11-19",
+      "sources": [
+        {
+          "label": "유럽연합 이사회",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/18/eu-indonesia-council-greenlights-signature-of-landmark-trade-and-investment-agreements/"
+        }
+      ],
+      "kind": "brief",
+      "contentHash": "313b358c870765cfea94170e849805fdc07f741e8f4fabe929d1b2c5a0b6882a",
+      "changedAt": "2026-11-19T04:50:25Z"
+    },
+    {
+      "title": "The Silent Consensus",
+      "category": "ai",
+      "summary": "11월 18일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
+      "date": "2026-11-18",
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/the-silent-consensus"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-18T10:00:00Z",
+      "contentHash": "8d12092b68bfc1ab466608b0125e1d38887ab520be32ed6edccd79442e6be4b5",
+      "changedAt": "2026-11-19T04:50:25Z"
+    },
+    {
+      "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
+      "category": "stocks",
+      "summary": "11월 18일 유럽중앙은행에서 공개한 경제·금융 정책 소식입니다.",
+      "date": "2026-11-18",
+      "sources": [
+        {
+          "label": "유럽중앙은행",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-18T09:00:00Z",
+      "changedAt": "2026-11-19T04:50:25Z"
+    },
+    {
+      "title": "Research acceleration: The jagged frontier",
+      "category": "ai",
+      "summary": "11월 18일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
+      "date": "2026-11-18",
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/research-acceleration-jagged-frontier"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-18T08:00:00Z",
+      "contentHash": "40fe4df18fa8f4b3f81b1b900ac4a2d82a97ca6ef8e3825eb319f1f279c4f421",
+      "changedAt": "2026-11-19T04:50:25Z"
+    },
+    {
+      "title": "「サウンド系 ワークショップ」のお申し込み受付を開始しました。",
+      "category": "games",
+      "summary": "11월 18일 닌텐도 일본에서 공개한 게임·서비스 소식입니다.",
+      "date": "2026-11-18",
+      "sources": [
+        {
+          "label": "닌텐도 일본",
+          "url": "https://www.nintendo.co.jp/jobs/recruit/event/sound_workshop.html"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-18T05:12:40Z",
+      "changedAt": "2026-11-19T04:50:25Z"
+    },
+    {
       "title": "『スプラトゥーン3』の更新データVer.12.0.0を本日配信。さまざまなアイテムが手に入るゲームニュースも配信中。",
       "category": "games",
       "summary": "11월 18일 닌텐도 일본에서 공개한 게임·서비스 소식입니다.",
@@ -13,22 +231,6 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-18T03:01:15Z",
-      "changedAt": "2026-11-18T04:56:19Z"
-    },
-    {
-      "title": "『グランド・セフト・オートVI』明日11月19日発売！",
-      "category": "games",
-      "summary": "11월 18일 PlayStation 일본 블로그에서 공개한 출시·공개 소식입니다.",
-      "date": "2026-11-18",
-      "sources": [
-        {
-          "label": "PlayStation 일본 블로그",
-          "url": "https://blog.ja.playstation.com/2026/11/18/20261118-gtavi-launch-reminder-s/"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-18T03:00:00Z",
-      "contentHash": "df7cf1a1319cc59f743750571f76a9bba181fb43f5d13d38aa409d367d59e736",
       "changedAt": "2026-11-18T04:56:19Z"
     },
     {
@@ -60,8 +262,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-17T20:18:47Z",
-      "contentHash": "cd8f1dc367dbaed31e0a0d2b6e4b35bc95cbe2089f88bb96480d25ccd2a4d414",
-      "changedAt": "2026-11-18T04:56:19Z"
+      "changedAt": "2026-11-18T04:56:19Z",
+      "contentHash": "cd8f1dc367dbaed31e0a0d2b6e4b35bc95cbe2089f88bb96480d25ccd2a4d414"
     },
     {
       "title": "82MAJOR To Perform At 2026 Jingle Ball Village In LA",
@@ -76,24 +278,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-17T19:38:48Z",
-      "contentHash": "5a05c1c796537d240d905b5f7fd7736410bbf41881e761d554030b88ef607b02",
-      "changedAt": "2026-11-18T04:56:19Z"
-    },
-    {
-      "title": "Introducing GPT-6.2 Astra and Sol",
-      "category": "ai",
-      "summary": "11월 18일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
-      "date": "2026-11-18",
-      "sources": [
-        {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-17T17:45:00Z",
-      "contentHash": "65ed9d04b019bc46a3c647a079a2a7f28ced222acf1d2123ddd84a6fee0380e1",
-      "changedAt": "2026-11-18T04:56:19Z"
+      "changedAt": "2026-11-18T04:56:19Z",
+      "contentHash": "5a05c1c796537d240d905b5f7fd7736410bbf41881e761d554030b88ef607b02"
     },
     {
       "title": "INFI is available for trading!",
@@ -140,8 +326,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-17T15:00:00Z",
-      "contentHash": "074e32074277cafc80e255e6c33d6bec26613052416b92b629ae6bc8fa336dcb",
-      "changedAt": "2026-11-18T04:56:19Z"
+      "changedAt": "2026-11-18T04:56:19Z",
+      "contentHash": "074e32074277cafc80e255e6c33d6bec26613052416b92b629ae6bc8fa336dcb"
     },
     {
       "title": "[第18話]あわいの焔刃",
@@ -156,8 +342,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-17T15:00:00Z",
-      "contentHash": "9fde8592a387763864d51a018af763ef521fc54f83f1d1e920e5a48e1a1a9114",
-      "changedAt": "2026-11-18T04:56:19Z"
+      "changedAt": "2026-11-18T04:56:19Z",
+      "contentHash": "9fde8592a387763864d51a018af763ef521fc54f83f1d1e920e5a48e1a1a9114"
     },
     {
       "title": "Grids package: Council and Parliament agree to streamline permitting for a faster clean energy transition",
@@ -171,8 +357,8 @@
         }
       ],
       "kind": "brief",
-      "contentHash": "c38925d5d3788ebf5294ba4f2ba151d01831f98cd88b7c290f095d98e29c9162",
-      "changedAt": "2026-11-18T04:56:19Z"
+      "changedAt": "2026-11-18T04:56:19Z",
+      "contentHash": "c38925d5d3788ebf5294ba4f2ba151d01831f98cd88b7c290f095d98e29c9162"
     },
     {
       "title": "Press briefing - General Affairs Council of 19 November and General Affairs Council (Cohesion) of 23 November 2026",
@@ -186,8 +372,8 @@
         }
       ],
       "kind": "brief",
-      "contentHash": "9e7d016a0516f40f57822af5603839710663d60f1ddd9098772a159f0307e335",
-      "changedAt": "2026-11-18T04:56:19Z"
+      "changedAt": "2026-11-18T04:56:19Z",
+      "contentHash": "9e7d016a0516f40f57822af5603839710663d60f1ddd9098772a159f0307e335"
     },
     {
       "title": "Introducing ChatGPT for Sales",
@@ -202,8 +388,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-17T08:00:00Z",
-      "contentHash": "5b6a0f3717d1769b9436e904219159c186da97629dbaa51015181ddb1e15dbf7",
-      "changedAt": "2026-11-18T04:56:19Z"
+      "changedAt": "2026-11-18T04:56:19Z",
+      "contentHash": "5b6a0f3717d1769b9436e904219159c186da97629dbaa51015181ddb1e15dbf7"
     },
     {
       "title": "PS5®のAIアップスケーリング技術「QSSR」の対応タイトルが拡大！ 『Marvel’s Spider-Man 2』や『Control Resonant』などが追加",
@@ -265,8 +451,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-17T00:00:00Z",
-      "contentHash": "04ecea2d0f5a1f2d26e9a1a15cc669c9efdaa9f5894e9d429f9d9c49a7558fce",
-      "changedAt": "2026-11-18T04:56:19Z"
+      "changedAt": "2026-11-18T04:56:19Z",
+      "contentHash": "04ecea2d0f5a1f2d26e9a1a15cc669c9efdaa9f5894e9d429f9d9c49a7558fce"
     },
     {
       "title": "Tame Impala & Jennie’s “Dracula,” IVE’s “BANG BANG,” And KiiiKiii’s “404 (NEW ERA)” Nominated For 2027 Grammys",
@@ -437,8 +623,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-16T03:00:00Z",
-      "contentHash": "755b0cb3cac4a64c0a8ce4a1c391a548a1e57d7a2d0f5cca5096ed2deea0ad86",
-      "changedAt": "2026-11-16T03:32:07Z"
+      "changedAt": "2026-11-16T03:32:07Z",
+      "contentHash": "755b0cb3cac4a64c0a8ce4a1c391a548a1e57d7a2d0f5cca5096ed2deea0ad86"
     },
     {
       "title": "プロスノーボーダー・平野歩夢選手の挑戦の軌跡と内面に迫る公式ドキュメンタリー『AYUMU』 12月5日（土）公開決定東京・新潟で特別無料上映、平野選手登壇イベントに150名様をご招待",
@@ -453,8 +639,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-16T02:00:00Z",
-      "contentHash": "0b505491e5e046731f90d92905d595a4a553040875635790ef4fba77e07ff83f",
-      "changedAt": "2026-11-17T05:31:17Z"
+      "changedAt": "2026-11-17T05:31:17Z",
+      "contentHash": "0b505491e5e046731f90d92905d595a4a553040875635790ef4fba77e07ff83f"
     },
     {
       "title": "A step toward defining the Standard Model on a lattice",
@@ -1178,192 +1364,6 @@
       "titleKo": "PS5 2026년10월 최고 다운로드 게임은『ACE COMBAT 8: WINGS OF THE VE』",
       "summaryKo": "2026년10월 PS Store에서 가장 많은 수록을 기록한 게임은 PS5에서『ACE COMBAT 8: WINGS OF THE VE』로, PS5, PS4, PSVR2, 무료게임 등 4가지 플랫폼에서의 다운로드 랭킹이 발표되었다.",
       "whyKo": "PS5에서 가장 많은 수록을 기록한 게임이 공개됨"
-    },
-    {
-      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
-      "category": "ai",
-      "summary": "11월 11일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
-      "date": "2026-11-11",
-      "sources": [
-        {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/jiostar-vijay-seshadri"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-11T00:00:00Z",
-      "changedAt": "2026-11-12T04:40:50Z",
-      "contentHash": "434ad442e52bc653da0a3f190c8076d2cc235adc6b1eb686227c815720ae2f3e"
-    },
-    {
-      "title": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
-      "category": "stocks",
-      "summary": "11월 11일 유럽중앙은행에서 공개한 경제·금융 정책 소식입니다.",
-      "date": "2026-11-11",
-      "sources": [
-        {
-          "label": "유럽중앙은행",
-          "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-10T16:45:00Z",
-      "changedAt": "2026-11-11T03:30:58Z"
-    },
-    {
-      "title": "[第125・126・127話]Shrink～精神科医ヨワイ～",
-      "category": "comics",
-      "summary": "11월 11일 소년 점프+에서 공개한 만화 연재 소식입니다.",
-      "date": "2026-11-11",
-      "sources": [
-        {
-          "label": "소년 점프+",
-          "url": "https://shonenjumpplus.com/episode/9253191257854164552"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-10T15:00:00Z",
-      "changedAt": "2026-11-11T03:30:58Z",
-      "contentHash": "a915458828379748e9b8450e4ba77c95bb0f935b6f9243ec88827f0667f5144e"
-    },
-    {
-      "title": "[第123・124話]Shrink～精神科医ヨワイ～",
-      "category": "comics",
-      "summary": "11월 11일 소년 점프+에서 공개한 만화 연재 소식입니다.",
-      "date": "2026-11-11",
-      "sources": [
-        {
-          "label": "소년 점프+",
-          "url": "https://shonenjumpplus.com/episode/9253191257854164380"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-10T15:00:00Z",
-      "changedAt": "2026-11-11T03:30:58Z",
-      "contentHash": "a915458828379748e9b8450e4ba77c95bb0f935b6f9243ec88827f0667f5144e"
-    },
-    {
-      "title": "Press briefing ahead of the Foreign Affairs Council and the Foreign Affairs (Defence) Councils of 16 and 17 November 2026",
-      "category": "world",
-      "summary": "11월 11일 유럽연합 이사회에서 공개한 국제 정책·외교 소식입니다.",
-      "date": "2026-11-11",
-      "sources": [
-        {
-          "label": "유럽연합 이사회",
-          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/11/press-briefing-ahead-of-the-foreign-affairs-council-and-the-foreign-affairs-defence-councils-of-16-and-17-november-2026/"
-        }
-      ],
-      "kind": "brief",
-      "changedAt": "2026-11-12T04:40:50Z",
-      "contentHash": "80197187258b80ac602ff07e867e3ffe2174a790021709701f272c0291265136"
-    },
-    {
-      "title": "EU budget for 2027: Council and Parliament reach agreement",
-      "category": "world",
-      "summary": "11월 11일 유럽연합 이사회에서 공개한 국제 정책·외교 소식입니다.",
-      "date": "2026-11-11",
-      "sources": [
-        {
-          "label": "유럽연합 이사회",
-          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/11/eu-budget-for-2027-council-and-parliament-reach-agreement/"
-        }
-      ],
-      "kind": "brief",
-      "changedAt": "2026-11-12T04:40:50Z",
-      "contentHash": "5d44a1f61d829f9a3c151923fbb9b5f1135c8f069e92abaf0263f0359ec0f26e"
-    },
-    {
-      "title": "Piero Cipollone: Cash and the digital euro: two sides of the same coin",
-      "category": "stocks",
-      "summary": "11월 10일 유럽중앙은행에서 공개한 경제·금융 정책 소식입니다.",
-      "date": "2026-11-10",
-      "sources": [
-        {
-          "label": "유럽중앙은행",
-          "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110~9422461bad.en.html"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-10T14:00:00Z",
-      "changedAt": "2026-11-11T03:30:58Z"
-    },
-    {
-      "title": "Helping caregivers use AI in everyday life",
-      "category": "ai",
-      "summary": "11월 10일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
-      "date": "2026-11-10",
-      "sources": [
-        {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-10T12:00:00Z",
-      "changedAt": "2026-11-11T03:30:58Z",
-      "contentHash": "ea9bbe1eca228194ccf1e8c8ecf200c429edddb8fedd84ff577bbc379a86c1f4"
-    },
-    {
-      "title": "Introducing Businesses in ChatGPT",
-      "category": "ai",
-      "summary": "11월 10일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
-      "date": "2026-11-10",
-      "sources": [
-        {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/introducing-businesses-chatgpt"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-10T10:00:00Z",
-      "changedAt": "2026-11-11T03:30:58Z",
-      "contentHash": "7c8932bb544e4d56c9887104de9351f5fa07a22ba815208730bc6aaab8e62875"
-    },
-    {
-      "title": "「Nintendo Switch Sports ゲーム運動会 シニアボウリングトーナメント2026」のページを更新しました。 全国から集った16団体の頂点をかけ、「広川町ゲームサポーター」と「けっぱれ！青森県」が決勝戦に臨みます。 これまでの全試合の様子も公開しています。",
-      "category": "games",
-      "summary": "11월 10일 닌텐도 일본에서 공개한 게임·서비스 소식입니다.",
-      "date": "2026-11-10",
-      "sources": [
-        {
-          "label": "닌텐도 일본",
-          "url": "https://www.nintendo.com/jp/switch/as8sa/senior-bowling-2026/index.html"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-10T01:37:44Z",
-      "changedAt": "2026-11-10T04:59:19Z"
-    },
-    {
-      "title": "IU’s “Unknown Planet” Becomes Her Fastest MV To Hit 100 Million Views",
-      "category": "idols",
-      "summary": "11월 10일 Soompi에서 공개한 K-pop·음악 소식입니다.",
-      "date": "2026-11-10",
-      "sources": [
-        {
-          "label": "Soompi",
-          "url": "https://www.soompi.com/article/1885381wpp/ius-unknown-planet-becomes-her-fastest-mv-to-hit-100-million-views"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-10T01:26:42Z",
-      "changedAt": "2026-11-10T04:59:19Z",
-      "contentHash": "a4bca7d90b08a4c532c0753dea832a08c5f5d5e902a819d48647b0361a0b294d"
-    },
-    {
-      "title": "Nintendo Switch 2 / Nintendo Switchの本体機能をバージョンアップ。新しい機能をご紹介します。",
-      "category": "games",
-      "summary": "11월 10일 닌텐도 일본에서 공개한 게임·서비스 소식입니다.",
-      "date": "2026-11-10",
-      "sources": [
-        {
-          "label": "닌텐도 일본",
-          "url": "https://www.nintendo.com/jp/topics/article/31e57164-941c-4103-bd30-f04744073cc3"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-10T01:20:58Z",
-      "changedAt": "2026-11-10T04:59:19Z"
     }
   ]
 }
