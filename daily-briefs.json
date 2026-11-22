@@ -1,6 +1,86 @@
 {
   "records": [
     {
+      "title": "Watch: NCT DREAM Takes 3rd Win For “Boogie Woogie” On “Music Core”; Performances By ITZY’s Chaeryeong, A2O SOUL, And More",
+      "category": "idols",
+      "summary": "11월 22일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-22",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1889463wpp/watch-nct-dream-takes-3rd-win-for-boogie-woogie-on-music-core-performances-by-itzys-chaeryeong-a2o-soul-and-more"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-22T01:17:45Z",
+      "contentHash": "1de1d8a75042231db3ad3d4d8ef18e2003249cf3744d2490dc7ffabd41c22645",
+      "changedAt": "2026-11-22T03:50:06Z"
+    },
+    {
+      "title": "Stars Light Up Red Carpet At 2026 MAMA AWARDS – CHAPTER 2",
+      "category": "idols",
+      "summary": "11월 22일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-22",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1889423wpp/stars-light-up-red-carpet-at-2026-mama-awards-chapter-2"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-21T15:28:23Z",
+      "contentHash": "e651bc6d6bfbf8c94821a380bfe8eb33cb6685db0ee7b5e20241a1eaea31de4f",
+      "changedAt": "2026-11-22T03:50:06Z"
+    },
+    {
+      "title": "[イラスト8]ルノリータ",
+      "category": "comics",
+      "summary": "11월 22일 소년 점프+에서 공개한 만화 연재 소식입니다.",
+      "date": "2026-11-22",
+      "sources": [
+        {
+          "label": "소년 점프+",
+          "url": "https://shonenjumpplus.com/episode/9253191257982514304"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-21T15:00:00Z",
+      "contentHash": "62b4425e36361af285af8489387b6ac6e3d395c104983cc64951bfe29acdc1ca",
+      "changedAt": "2026-11-22T03:50:06Z"
+    },
+    {
+      "title": "[4445回]猫田びより",
+      "category": "comics",
+      "summary": "11월 22일 소년 점프+에서 공개한 만화 연재 소식입니다.",
+      "date": "2026-11-22",
+      "sources": [
+        {
+          "label": "소년 점프+",
+          "url": "https://shonenjumpplus.com/episode/9253191257982514315"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-21T15:00:00Z",
+      "contentHash": "780ece59b68ec0e8869c09c7b78b08f4d5e294d1b952926ffe3bb36fbd7511aa",
+      "changedAt": "2026-11-22T03:50:06Z"
+    },
+    {
+      "title": "Watch: Performances From 2026 MAMA AWARDS – CHAPTER 2",
+      "category": "idols",
+      "summary": "11월 21일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-21",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1889393wpp/watch-performances-from-2026-mama-awards-chapter-2"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-21T12:51:17Z",
+      "contentHash": "153c835c12409eadb7c04f58832da2ae39f67ef777e959e98ef599a3e5051346",
+      "changedAt": "2026-11-22T03:50:06Z"
+    },
+    {
       "title": "Federal Reserve announces College Fed Challenge winners",
       "category": "stocks",
       "summary": "11월 21일 미국 연방준비제도에서 공개한 경제·금융 정책 소식입니다.",
@@ -29,8 +109,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-20T18:07:03Z",
-      "contentHash": "46382973721f47fbfa3308e24040c748dd7646c206c78e0253a580459a9dc768",
-      "changedAt": "2026-11-21T04:35:09Z"
+      "changedAt": "2026-11-21T04:35:09Z",
+      "contentHash": "46382973721f47fbfa3308e24040c748dd7646c206c78e0253a580459a9dc768"
     },
     {
       "title": "BFI is available for trading!",
@@ -49,22 +129,6 @@
       "changedAt": "2026-11-21T04:35:09Z"
     },
     {
-      "title": "Winners Of 2026 MAMA AWARDS – CHAPTER 1",
-      "category": "idols",
-      "summary": "11월 21일 Soompi에서 공개한 K-pop·음악 소식입니다.",
-      "date": "2026-11-21",
-      "sources": [
-        {
-          "label": "Soompi",
-          "url": "https://www.soompi.com/article/1889291wpp/winners-of-2026-mama-awards-chapter-1"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-20T16:46:35Z",
-      "contentHash": "74bb90fcd30c660e31bb5e5fba777a17528e8ad65ab335bc2072d1248943bc6a",
-      "changedAt": "2026-11-21T04:35:09Z"
-    },
-    {
       "title": "[第23歩目]あっ、悪魔ちゃん",
       "category": "comics",
       "summary": "11월 21일 소년 점프+에서 공개한 만화 연재 소식입니다.",
@@ -77,8 +141,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-20T15:00:00Z",
-      "contentHash": "d90909397c1025561ebe2cd84940fa8a4f040dd8ad95f0f58e309328d7c120bc",
-      "changedAt": "2026-11-21T04:35:09Z"
+      "changedAt": "2026-11-21T04:35:09Z",
+      "contentHash": "d90909397c1025561ebe2cd84940fa8a4f040dd8ad95f0f58e309328d7c120bc"
     },
     {
       "title": "[第4話]闇捨て穴",
@@ -93,8 +157,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-20T15:00:00Z",
-      "contentHash": "73c9a501d7e025b071188fd9711f525e57fe4b845186b8679df1a010fa149397",
-      "changedAt": "2026-11-21T04:35:09Z"
+      "changedAt": "2026-11-21T04:35:09Z",
+      "contentHash": "73c9a501d7e025b071188fd9711f525e57fe4b845186b8679df1a010fa149397"
     },
     {
       "title": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
@@ -155,8 +219,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-20T13:05:17Z",
-      "contentHash": "ec9d56d07f255afd1438b5c52b0e04daf1b1d3811ba3286cff2a670abd34958e",
-      "changedAt": "2026-11-21T04:35:09Z"
+      "changedAt": "2026-11-21T04:35:09Z",
+      "contentHash": "ec9d56d07f255afd1438b5c52b0e04daf1b1d3811ba3286cff2a670abd34958e"
     },
     {
       "title": "『ゼンレスゾーンゼロ』Ver.3.4「ついには長き、日の終わり」が12月2日（水）配信開始！",
@@ -360,8 +424,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-19T02:00:00Z",
-      "contentHash": "883f0e61537e755a0b9a0bd4738ed40f218cbbc0b5bbee1e48bbcf789cfb4565",
-      "changedAt": "2026-11-19T04:50:25Z"
+      "changedAt": "2026-11-19T04:50:25Z",
+      "contentHash": "883f0e61537e755a0b9a0bd4738ed40f218cbbc0b5bbee1e48bbcf789cfb4565"
     },
     {
       "title": "『カラオケJOYSOUND for Nintendo Switch』のNintendo Switch 2 向け無料アップデートを本日より配信。本体の内蔵マイクで、別売のマイクがなくてもカラオケが楽しめる。",
@@ -407,8 +471,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-18T19:00:00Z",
-      "contentHash": "ff75f401ff049afc1ceb8e01572358f4b7809822cce6d9e839bf81427cf3c550",
-      "changedAt": "2026-11-19T04:50:25Z"
+      "changedAt": "2026-11-19T04:50:25Z",
+      "contentHash": "ff75f401ff049afc1ceb8e01572358f4b7809822cce6d9e839bf81427cf3c550"
     },
     {
       "title": "&TEAM And BOYNEXTDOOR Earn RIAJ Platinum Certifications In Japan",
@@ -1275,78 +1339,6 @@
       "publishedAt": "2026-11-13T11:38:18Z",
       "changedAt": "2026-11-14T03:51:50Z",
       "contentHash": "89bf5dc0aa2ff9048d566b815f41039594d0738f87156ad48796a533614e1ca4"
-    },
-    {
-      "title": "2026 KBS Song Festival Announces Artist Lineup",
-      "category": "idols",
-      "summary": "11월 13일 Soompi에서 공개한 K-pop·음악 소식입니다.",
-      "date": "2026-11-13",
-      "sources": [
-        {
-          "label": "Soompi",
-          "url": "https://www.soompi.com/article/1886817wpp/2026-kbs-song-festival-announces-artist-lineup"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-13T11:01:43Z",
-      "changedAt": "2026-11-14T03:51:50Z",
-      "contentHash": "887e4cdf367a0f7b7816633e9438c2f483e165b7f2ff44116b73032fd761903f"
-    },
-    {
-      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
-      "category": "ai",
-      "summary": "11월 13일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
-      "date": "2026-11-13",
-      "sources": [
-        {
-          "label": "OpenAI",
-          "url": "https://openai.com/business/customer-stories/shield"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-13T08:00:00Z",
-      "changedAt": "2026-11-14T03:51:50Z",
-      "contentHash": "8f9b60dabe8f29402f9e09bd87ac7f24b371bf54a862ec3e8b205fb2c92f61fb",
-      "titleKo": "Shield 활용으로 라이트 포털 업무 전환 지원",
-      "summaryKo": "Shield는 OpenAI를 활용해 IT 기술자들이 라이트 포털의 업무 전환을 지원합니다. Forge 에이전트가 시스템을 탐색해 기술자가 판단이 필요한 문제에 집중할 수 있도록 도와줍니다.",
-      "whyKo": "AI 기술이 업무 효율성을 높이면서 기술자에게 더 중요한 판단 업무를 부여합니다."
-    },
-    {
-      "title": "Isabel Schnabel: Made in Europe",
-      "category": "stocks",
-      "summary": "11월 13일 유럽중앙은행에서 공개한 경제·금융 정책 소식입니다.",
-      "date": "2026-11-13",
-      "sources": [
-        {
-          "label": "유럽중앙은행",
-          "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261113~3883f1f187.en.html"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-13T07:20:00Z",
-      "changedAt": "2026-11-14T03:51:50Z",
-      "titleKo": "유럽중앙은행, 이사벨 스펜발 추대",
-      "summaryKo": "유럽중앙은행이 이사벨 스펜발을 새로운 이사로 추대했다. 스펜발은 유럽의 경제 및 재정 정책에 대한 전문 지식을 바탕으로 유럽중앙은행의 결정에 기여할 것으로 기대된다.",
-      "whyKo": "유럽중앙은행이 신규 이사로 이사벨 스펜발을 추대함으로써 유럽의 경제 정책에 영향을 미칠 수 있음"
-    },
-    {
-      "title": "『グランド・セフト・オートVI』の事前ダウンロードが可能に！",
-      "category": "games",
-      "summary": "11월 13일 PlayStation 일본 블로그에서 공개한 게임·서비스 소식입니다.",
-      "date": "2026-11-13",
-      "sources": [
-        {
-          "label": "PlayStation 일본 블로그",
-          "url": "https://blog.ja.playstation.com/2026/11/13/20261113-gtavi-pre-launch-update-o/"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-13T04:33:55Z",
-      "changedAt": "2026-11-14T03:51:50Z",
-      "contentHash": "6b66b9fdc9568cc96d53c9cd9c4f17718da768226ddc6dc8f3bc4a705d10ef22",
-      "titleKo": "『그랜드 세프트 오ートVI』 사전 다운로드 시작",
-      "summaryKo": "『그랜드 세프트 오ートVI』가 PS Store에서 가장 많은 예약 주문 수를 기록하며, PS5에서의 게임 경험을 보여주는 영상이 공개되었다. 11월19일 발매를 기점으로 PS5 스토리지에 여유 공간을 확보해 사전 다운로드를 진행해야 한다고 안내했다.",
-      "whyKo": "PS Store에서 가장 많은 예약 주문 수를 기록하며 발매 전에 PS5 스토리지 준비가 필요하다"
     }
   ]
 }
