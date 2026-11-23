@@ -1,6 +1,70 @@
 {
   "records": [
     {
+      "title": "ZEROBASEONE’s Kim Ji Woong Announces Release Date For 1st EP “NOISE IN BLUE”",
+      "category": "idols",
+      "summary": "11월 23일 Soompi에서 공개한 출시·공개 소식입니다.",
+      "date": "2026-11-23",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1889682wpp/zerobaseones-kim-ji-woong-announces-release-date-for-1st-ep-noise-in-blue"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-23T03:13:31Z",
+      "contentHash": "d3d6191b69d10671f43999cd71008d5acbab1afb1994d72b9722957e89fbb2bd",
+      "changedAt": "2026-11-23T04:27:27Z"
+    },
+    {
+      "title": "Stray Kids Earns 3rd RIAJ Platinum Certification For Streaming In Japan",
+      "category": "idols",
+      "summary": "11월 23일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-23",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1889569wpp/stray-kids-earns-3rd-riaj-platinum-certification-for-streaming-in-japan"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-22T21:11:21Z",
+      "contentHash": "c862b9bfe4ee7c3ba1dd5803eb6afffb0c02e435bb9184b650f7940e86db3044",
+      "changedAt": "2026-11-23T04:27:27Z"
+    },
+    {
+      "title": "[第215話]ラーメン赤猫",
+      "category": "comics",
+      "summary": "11월 23일 소년 점프+에서 공개한 만화 연재 소식입니다.",
+      "date": "2026-11-23",
+      "sources": [
+        {
+          "label": "소년 점프+",
+          "url": "https://shonenjumpplus.com/episode/9253191257982514383"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-22T15:00:00Z",
+      "contentHash": "909ed3641a9267f3dbfe54f157fab92d4f96e53f01c3be6b32c68758a240af3c",
+      "changedAt": "2026-11-23T04:27:27Z"
+    },
+    {
+      "title": "[6話]のろのろぷくぷく",
+      "category": "comics",
+      "summary": "11월 23일 소년 점프+에서 공개한 만화 연재 소식입니다.",
+      "date": "2026-11-23",
+      "sources": [
+        {
+          "label": "소년 점프+",
+          "url": "https://shonenjumpplus.com/episode/9253191257982514396"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-22T15:00:00Z",
+      "contentHash": "989fb6708d64722ff7307d25c0037bf11a9bb63cf1e690bcd94708d62fff9ed9",
+      "changedAt": "2026-11-23T04:27:27Z"
+    },
+    {
       "title": "Watch: NCT DREAM Takes 3rd Win For “Boogie Woogie” On “Music Core”; Performances By ITZY’s Chaeryeong, A2O SOUL, And More",
       "category": "idols",
       "summary": "11월 22일 Soompi에서 공개한 K-pop·음악 소식입니다.",
@@ -13,8 +77,24 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-22T01:17:45Z",
-      "contentHash": "1de1d8a75042231db3ad3d4d8ef18e2003249cf3744d2490dc7ffabd41c22645",
-      "changedAt": "2026-11-22T03:50:06Z"
+      "changedAt": "2026-11-22T03:50:06Z",
+      "contentHash": "1de1d8a75042231db3ad3d4d8ef18e2003249cf3744d2490dc7ffabd41c22645"
+    },
+    {
+      "title": "Perplexity and Intelligence",
+      "category": "ai",
+      "summary": "11월 22일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
+      "date": "2026-11-22",
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/perplexity-and-intelligence"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-22T00:00:00Z",
+      "contentHash": "86f350cd5c50e9bd4ea9e583815a562c53f7d12bd242dc7787a1b14f90c6ff2f",
+      "changedAt": "2026-11-23T04:27:27Z"
     },
     {
       "title": "Stars Light Up Red Carpet At 2026 MAMA AWARDS – CHAPTER 2",
@@ -29,8 +109,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-21T15:28:23Z",
-      "contentHash": "e651bc6d6bfbf8c94821a380bfe8eb33cb6685db0ee7b5e20241a1eaea31de4f",
-      "changedAt": "2026-11-22T03:50:06Z"
+      "changedAt": "2026-11-22T03:50:06Z",
+      "contentHash": "e651bc6d6bfbf8c94821a380bfe8eb33cb6685db0ee7b5e20241a1eaea31de4f"
     },
     {
       "title": "[イラスト8]ルノリータ",
@@ -45,8 +125,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-21T15:00:00Z",
-      "contentHash": "62b4425e36361af285af8489387b6ac6e3d395c104983cc64951bfe29acdc1ca",
-      "changedAt": "2026-11-22T03:50:06Z"
+      "changedAt": "2026-11-22T03:50:06Z",
+      "contentHash": "62b4425e36361af285af8489387b6ac6e3d395c104983cc64951bfe29acdc1ca"
     },
     {
       "title": "[4445回]猫田びより",
@@ -61,8 +141,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-21T15:00:00Z",
-      "contentHash": "780ece59b68ec0e8869c09c7b78b08f4d5e294d1b952926ffe3bb36fbd7511aa",
-      "changedAt": "2026-11-22T03:50:06Z"
+      "changedAt": "2026-11-22T03:50:06Z",
+      "contentHash": "780ece59b68ec0e8869c09c7b78b08f4d5e294d1b952926ffe3bb36fbd7511aa"
     },
     {
       "title": "Watch: Performances From 2026 MAMA AWARDS – CHAPTER 2",
@@ -77,8 +157,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-21T12:51:17Z",
-      "contentHash": "153c835c12409eadb7c04f58832da2ae39f67ef777e959e98ef599a3e5051346",
-      "changedAt": "2026-11-22T03:50:06Z"
+      "changedAt": "2026-11-22T03:50:06Z",
+      "contentHash": "153c835c12409eadb7c04f58832da2ae39f67ef777e959e98ef599a3e5051346"
     },
     {
       "title": "Federal Reserve announces College Fed Challenge winners",
@@ -282,8 +362,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-20T02:59:41Z",
-      "contentHash": "30d42321dfedd50b88d24c25cf8b09bba5c762747618f0989277bab326827957",
-      "changedAt": "2026-11-20T04:40:39Z"
+      "changedAt": "2026-11-20T04:40:39Z",
+      "contentHash": "30d42321dfedd50b88d24c25cf8b09bba5c762747618f0989277bab326827957"
     },
     {
       "title": "ATEEZ Surpasses 2 Million 1st-Week Sales For 1st Time With “GOLDEN HOUR : Part.6”",
@@ -314,8 +394,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-20T00:00:00Z",
-      "contentHash": "2aac48a05cd79ccc46d75205d8e904d647e03e69ff89da11809cb3c556201abf",
-      "changedAt": "2026-11-21T04:35:09Z"
+      "changedAt": "2026-11-21T04:35:09Z",
+      "contentHash": "2aac48a05cd79ccc46d75205d8e904d647e03e69ff89da11809cb3c556201abf"
     },
     {
       "title": "[第67話]ドラゴンクエスト ダイの大冒険 勇者アバンと獄炎の魔王",
@@ -392,8 +472,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-19T08:00:00Z",
-      "contentHash": "573394f99d1514363d187e615fb5d081179c83358a3bf13ed49d2cb05042599d",
-      "changedAt": "2026-11-20T04:40:39Z"
+      "changedAt": "2026-11-20T04:40:39Z",
+      "contentHash": "573394f99d1514363d187e615fb5d081179c83358a3bf13ed49d2cb05042599d"
     },
     {
       "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
@@ -1252,93 +1332,6 @@
       "publishedAt": "2026-11-13T15:00:00Z",
       "changedAt": "2026-11-14T03:51:50Z",
       "contentHash": "25722a7962889900a13a2347afe0f4a1381e6977795fa9e93709a3af24a3ad21"
-    },
-    {
-      "title": "Introducing ChatGPT Wallet",
-      "category": "ai",
-      "summary": "11월 14일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
-      "date": "2026-11-14",
-      "sources": [
-        {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/introducing-chatgpt-wallet"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-13T15:00:00Z",
-      "changedAt": "2026-11-14T03:51:50Z",
-      "contentHash": "80bb9ce908f57e4ec0dbef6e830ab0f0aeaf05c75d3318d110fac549d2f0f8bc",
-      "titleKo": "ChatGPT 월렛 출시",
-      "summaryKo": "OpenAI가 ChatGPT 월렛을 출시하여 ChatGPT Work, Codex 및 dots에서 사용자가 승인한 상태에서 결제를 완료할 수 있는 안전한 방법을 제공합니다.",
-      "whyKo": "사용자가 승인한 상태에서 안전하게 결제할 수 있는 기능이 추가됨"
-    },
-    {
-      "title": "Remarks by President António Costa at the press conference following the informal meeting of Heads of State or Government of 13 November 2026",
-      "category": "world",
-      "summary": "11월 14일 유럽연합 이사회에서 공개한 국제 정책·외교 소식입니다.",
-      "date": "2026-11-14",
-      "sources": [
-        {
-          "label": "유럽연합 이사회",
-          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/13/remarks-by-president-antonio-costa-at-the-press-conference-following-the-informal-meeting-of-heads-of-state-or-government-of-13-november-2026/"
-        }
-      ],
-      "kind": "brief",
-      "changedAt": "2026-11-14T03:51:50Z",
-      "contentHash": "888e38de077c4c1ce2e4eaf46c46486d4e3d1da72c793aab06a58c21de870048",
-      "titleKo": "프리미어 안토니우 코스타, 11월 13일 비공식 회의 후 기자회견에서 인공지능과 우크라이나 논의 결과 발표",
-      "summaryKo": "11월 13일 비공식 국가 또는 정부 장관 회의 후 기자회견에서 프리미어 안토니우 코스타는 인공지능과 우크라이나 관련 논의 결과를 발표했다.",
-      "whyKo": "프리미어가 인공지능과 우크라이나 관련 주요 결과를 발표함으로써 국제적 관심을 끌 수 있음."
-    },
-    {
-      "title": "Weekly schedule of President António Costa",
-      "category": "world",
-      "summary": "11월 14일 유럽연합 이사회에서 공개한 국제 정책·외교 소식입니다.",
-      "date": "2026-11-14",
-      "sources": [
-        {
-          "label": "유럽연합 이사회",
-          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/13/weekly-schedule-of-president-antonio-costa/"
-        }
-      ],
-      "kind": "brief",
-      "changedAt": "2026-11-14T03:51:50Z",
-      "contentHash": "cf03e8f39398a9149e756ef4fc800cf11460ee2f667d2462f77c0c71edf9eceb"
-    },
-    {
-      "title": "PEARL is available for trading!",
-      "category": "crypto",
-      "summary": "11월 13일 Kraken에서 공개한 디지털 자산 상장 소식입니다.",
-      "date": "2026-11-13",
-      "sources": [
-        {
-          "label": "Kraken",
-          "url": "https://blog.kraken.com/product/asset-listings/pearl-is-available-for-trading"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-13T14:38:42Z",
-      "changedAt": "2026-11-14T03:51:50Z",
-      "contentHash": "6202b615f57240596cc8810557868b5efbe31415c6d89bf7cd5591da4cfa54c1",
-      "titleKo": "PEARL 상장 시작",
-      "summaryKo": "Kraken에서 PEARL 거래가 시작되었습니다. 2026년 11월 13일부터 PEARL 투자 및 거래가 가능하며, Kraken 계정에 PEARL을 추가하려면 'Funding' 메뉴에서 해당 자산을 선택하고 'Deposit' 버튼을 클릭해야 합니다. PEARL은 Kraken이 지원하는 네트워크에만 입금 가능합니다.",
-      "whyKo": "PEARL이 Kraken에서 거래가 시작됨으로써 투자자들이 더 많은 선택지를 가지게 됩니다."
-    },
-    {
-      "title": "Watch: TWS Takes 1st Win For “Call My Name” On “Music Bank”; Performances By Jisoo, ATEEZ, And More",
-      "category": "idols",
-      "summary": "11월 13일 Soompi에서 공개한 K-pop·음악 소식입니다.",
-      "date": "2026-11-13",
-      "sources": [
-        {
-          "label": "Soompi",
-          "url": "https://www.soompi.com/article/1886823wpp/watch-tws-takes-1st-win-for-call-my-name-on-music-bank-performances-by-jisoo-ateez-and-more"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-13T11:38:18Z",
-      "changedAt": "2026-11-14T03:51:50Z",
-      "contentHash": "89bf5dc0aa2ff9048d566b815f41039594d0738f87156ad48796a533614e1ca4"
     }
   ]
 }
