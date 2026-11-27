@@ -1,6 +1,209 @@
 {
   "records": [
     {
+      "title": "SUPER JUNIOR-D&E Announces 2027 Live Tour “D&ESTIVAL: THE 15/15”",
+      "category": "idols",
+      "summary": "11월 27일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-27",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1891251wpp/super-junior-de-announces-2027-live-tour-destival-the-15-15"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-27T03:19:02Z",
+      "contentHash": "0e6d468c83124ba5bf186fc0c77a2dd7b45748aa36eba88833a712cea5b025a5",
+      "changedAt": "2026-11-27T05:40:36Z"
+    },
+    {
+      "title": "ボケ連発!? レインの気ままなチート付与セレクション公開！「追放されたチート付与魔術師は気ままなセカンドライフを謳歌する。」特集",
+      "category": "anime",
+      "summary": "11월 27일 d애니메스토어에서 공개한 애니메이션 배급 소식입니다.",
+      "date": "2026-11-27",
+      "sources": [
+        {
+          "label": "d애니메스토어",
+          "url": "https://animestore.docomo.ne.jp/animestore/CP/CP00002167"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-27T03:00:00Z",
+      "contentHash": "8567ff17981dcf8d61cc384aaddefb39904506d92186e037509d2f449f636755",
+      "changedAt": "2026-11-27T05:40:36Z"
+    },
+    {
+      "title": "家族や友達と楽しむ冬。Nintendo Switch 2・Nintendo Switchの新CMを公開。関連ニュースもご紹介。",
+      "category": "games",
+      "summary": "11월 27일 닌텐도 일본에서 공개한 게임·서비스 소식입니다.",
+      "date": "2026-11-27",
+      "sources": [
+        {
+          "label": "닌텐도 일본",
+          "url": "https://www.nintendo.com/jp/topics/article/1ac5b2e5-d11e-48b2-b35d-463eaf741917"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-27T01:17:43Z",
+      "changedAt": "2026-11-27T05:40:36Z"
+    },
+    {
+      "title": "『ピクロスS』が11月30日から期間限定で遊び放題。Nintendo Switch Online加入者限定イベント「いっせいトライアル」開催。",
+      "category": "games",
+      "summary": "11월 27일 닌텐도 일본에서 공개한 게임·서비스 소식입니다.",
+      "date": "2026-11-27",
+      "sources": [
+        {
+          "label": "닌텐도 일본",
+          "url": "https://www.nintendo.com/jp/topics/article/024e9a9d-e9ce-44fa-a550-ae721c9cdab2"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-27T01:06:29Z",
+      "changedAt": "2026-11-27T05:40:36Z"
+    },
+    {
+      "title": "ENHYPEN To Headline Mad Cool 2027 In Madrid",
+      "category": "idols",
+      "summary": "11월 27일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-27",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1891101wpp/enhypen-to-headline-mad-cool-2027-in-madrid"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-27T00:16:08Z",
+      "contentHash": "1866c743fe4f7a9c6059682902bc0c4b4a191fc165c31f5c5fb8fbd19210ecbb",
+      "changedAt": "2026-11-27T05:40:36Z"
+    },
+    {
+      "title": "【レンタル開始】「『ヤマトよ永遠に REBEL3199』 第七章 虹色の輪廻」配信限定音声特典付き",
+      "category": "anime",
+      "summary": "11월 27일 d애니메스토어에서 공개한 애니메이션 배급 소식입니다.",
+      "date": "2026-11-27",
+      "sources": [
+        {
+          "label": "d애니메스토어",
+          "url": "https://animestore.docomo.ne.jp/animestore/CQ/notice-13792"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-26T15:00:00Z",
+      "contentHash": "c592b3a3e6990c8d4be4a62d405cf1e7515fc825810cc02a63cfa0f51df3a63d",
+      "changedAt": "2026-11-27T05:40:36Z"
+    },
+    {
+      "title": "[イラスト]世界を繋ぎ尽くすインターネット巫女",
+      "category": "comics",
+      "summary": "11월 27일 소년 점프+에서 공개한 만화 연재 소식입니다.",
+      "date": "2026-11-27",
+      "sources": [
+        {
+          "label": "소년 점프+",
+          "url": "https://shonenjumpplus.com/episode/9253191257982514856"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-26T15:00:00Z",
+      "contentHash": "ade5451ac08ce5f196d2676896854c86ce2f8ebf757a8b010c2d5ae5712181c8",
+      "changedAt": "2026-11-27T05:40:36Z"
+    },
+    {
+      "title": "[第5話]うつろうカノジョたち",
+      "category": "comics",
+      "summary": "11월 27일 소년 점프+에서 공개한 만화 연재 소식입니다.",
+      "date": "2026-11-27",
+      "sources": [
+        {
+          "label": "소년 점프+",
+          "url": "https://shonenjumpplus.com/episode/9253191257982514792"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-26T15:00:00Z",
+      "contentHash": "e92e5f6fc92704effa81dd3c6e336ae4671c6e22eeb7a7a20e0fdc48212f8900",
+      "changedAt": "2026-11-27T05:40:36Z"
+    },
+    {
+      "title": "Remarks by President António Costa at the press conference following the Special European Council meeting of 26 November 2026",
+      "category": "world",
+      "summary": "11월 27일 유럽연합 이사회에서 공개한 국제 정책·외교 소식입니다.",
+      "date": "2026-11-27",
+      "sources": [
+        {
+          "label": "유럽연합 이사회",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/27/remarks-by-president-antonio-costa-at-the-press-conference-following-the-special-european-council-meeting-of-26-november-2026/"
+        }
+      ],
+      "kind": "brief",
+      "contentHash": "494ce4774205b72de349c4653667cc4d560b2cb6b45f6579199dc9041aac5291",
+      "changedAt": "2026-11-27T05:40:36Z"
+    },
+    {
+      "title": "European Council puts forward Pablo Hernández de Cos as next President of the European Central Bank",
+      "category": "world",
+      "summary": "11월 27일 유럽연합 이사회에서 공개한 국제 정책·외교 소식입니다.",
+      "date": "2026-11-27",
+      "sources": [
+        {
+          "label": "유럽연합 이사회",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/26/european-council-puts-forward-pablo-hernandez-de-cos-as-next-president-of-the-european-central-bank/"
+        }
+      ],
+      "kind": "brief",
+      "contentHash": "151a41a946ced6db3dd190360e44aeb80e73c5dde1f4995e9c301d06b30832da",
+      "changedAt": "2026-11-27T05:40:36Z"
+    },
+    {
+      "title": "Meeting of 28-29 October 2026",
+      "category": "stocks",
+      "summary": "11월 26일 유럽중앙은행에서 공개한 경제·금융 정책 소식입니다.",
+      "date": "2026-11-26",
+      "sources": [
+        {
+          "label": "유럽중앙은행",
+          "url": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261126~ccf28c8071.en.html"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-26T12:30:00Z",
+      "changedAt": "2026-11-27T05:40:36Z"
+    },
+    {
+      "title": "41st Golden Disc Awards Announces 1st Artist Lineup",
+      "category": "idols",
+      "summary": "11월 26일 Soompi에서 공개한 K-pop·음악 소식입니다.",
+      "date": "2026-11-26",
+      "sources": [
+        {
+          "label": "Soompi",
+          "url": "https://www.soompi.com/article/1891014wpp/41st-golden-disc-awards-announces-1st-artist-lineup"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-26T06:17:31Z",
+      "contentHash": "d326b8d269941cdc37cc0b66869f08b4ad19e90ab4c18e6f65e9cd8b034e297b",
+      "changedAt": "2026-11-27T05:40:36Z"
+    },
+    {
+      "title": "深層墜下アクションストラテジー 『Million Depth』Nintendo Switchパッケージ版 初回限定特典CD盤面デザイン&オリジナル店舗特典公開",
+      "category": "games",
+      "summary": "11월 26일 PLAYISM에서 공개한 일본 인디게임 소식입니다.",
+      "date": "2026-11-26",
+      "sources": [
+        {
+          "label": "PLAYISM",
+          "url": "https://playism.com/news/2026/1126/1725-2/"
+        }
+      ],
+      "kind": "brief",
+      "publishedAt": "2026-11-26T06:01:10Z",
+      "contentHash": "9a40079d5c9b27ab3ba250c2aa2d312fe537e3775ba935830028ed3337257e3c",
+      "changedAt": "2026-11-27T05:40:36Z"
+    },
+    {
       "title": "PlayStation®Plus 12月のフリープレイに『トニー・ホーク™ プロ・スケーター™ 3+4』『ドラゴンボール ゼノバース2』『BLEACH Rebirth of Souls』の3タイトルが登場！",
       "category": "games",
       "summary": "11월 26일 PlayStation 일본 블로그에서 공개한 게임·서비스 소식입니다.",
@@ -14,29 +217,10 @@
       "kind": "brief",
       "publishedAt": "2026-11-26T03:07:59Z",
       "contentHash": "1cbf9fbeccc0cbec9c6213340738c03720077d9597c767c38bff0604ed0a4528",
-      "changedAt": "2026-11-26T05:44:53Z",
       "titleKo": "PS플러스 12월 프리플레이 3タイトル 추가",
       "summaryKo": "PS플러스 12월 프리플레이에 『トニー・ホーク™ プロ・スケーター™ 3+4』『ドラゴンボール ゼノバース2』『BLEACH Rebirth of Souls』가 추가된다. 플레이스테이션 일본 블로그에 따르면, 12월에 3개의 신작이 프리플레이를 제공할 예정이다.",
-      "whyKo": "12월에 3개의 신작이 프리플레이를 제공함으로써 플레이스테이션 사용자에게 새로운 게임을 경험할 기회를 제공"
-    },
-    {
-      "title": "PlayStation®の遊びが広がる──「PlayStation Portal™ プレーヤー」新CMを本日公開！",
-      "category": "games",
-      "summary": "11월 26일 PlayStation 일본 블로그에서 공개한 게임·서비스 소식입니다.",
-      "date": "2026-11-26",
-      "sources": [
-        {
-          "label": "PlayStation 일본 블로그",
-          "url": "https://blog.ja.playstation.com/2026/11/26/20261126-ps-portal-trailer-release-s/"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-26T03:00:00Z",
-      "contentHash": "b3fc3338a2ac08fc1fe77ed300acce76d95f626ff7ca0eed506c97bc3dab9d6d",
-      "changedAt": "2026-11-26T05:44:53Z",
-      "titleKo": "PlayStation Portal 플레이어 신CM 공개",
-      "summaryKo": "소니 인터랙티브 엔터테인먼트는 12월 10일 발매를 앞두고 PlayStation Portal 플레이어에 대한 3편의 신CM을 공개했다. 이 CM은 일본어 전용 버전으로, 플레이스테이션의 게임 플레이 확산을 위한 마케팅 활동이다.",
-      "whyKo": "PlayStation Portal 플레이어의 게임 플레이 확산을 위한 마케팅 캠페인으로 주목받는다."
+      "whyKo": "12월에 3개의 신작이 프리플레이를 제공함으로써 플레이스테이션 사용자에게 새로운 게임을 경험할 기회를 제공",
+      "changedAt": "2026-11-26T05:44:53Z"
     },
     {
       "title": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
@@ -51,30 +235,11 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-25T20:00:00Z",
-      "contentHash": "bf8002899a483ed7707f93cd52b4ff751db433f8b8f756c96c89d1e57a22f701",
       "changedAt": "2026-11-26T05:44:53Z",
+      "contentHash": "bf8002899a483ed7707f93cd52b4ff751db433f8b8f756c96c89d1e57a22f701",
       "titleKo": "미국 연방준비제도, 소비자 신용 및 대여 거래에 적용되는 사실상 투명 신용 규정 한도 공고",
       "summaryKo": "미국 연방준비제도는 소비자 신용 및 대여 거래에 적용되는 사실상 투명 신용 규정의 적용 한도를 발표했습니다. 이는 소비자 신용 및 대여 거래의 금액에 따라 해당 규정이 적용되는 여부를 결정하는 기준이 됩니다.",
       "whyKo": "소비자 신용 및 대여 거래의 규제 기준이 변경됨으로써 소비자 보호 수준이 달라질 수 있음"
-    },
-    {
-      "title": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
-      "category": "stocks",
-      "summary": "11월 26일 미국 연방준비제도에서 공개한 경제·금융 정책 소식입니다.",
-      "date": "2026-11-26",
-      "sources": [
-        {
-          "label": "미국 연방준비제도",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125a.htm"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-25T20:00:00Z",
-      "contentHash": "8d7846bb8184372f8eb54e74e0d6d94b754c8eb0eab559e69a82cd8f71c95c0d",
-      "changedAt": "2026-11-26T05:44:53Z",
-      "titleKo": "미국 연방준비제도, 소액 대출에 대한 감정 평가 요건 완화 발표",
-      "summaryKo": "미국 연방준비제도는 소액 대출에 대한 감정 평가 요건을 완화할 수 있는 금액 기준을 발표했습니다. 이는 고가 대출에 대한 감정 평가 요구를 줄이도록 하는 정책입니다.",
-      "whyKo": "소액 대출에 감정 평가 요건을 완화함으로써 대출 절차가 간소해질 수 있습니다."
     },
     {
       "title": "ATEEZ, NCT DREAM, RESCENE, A2O LITE, And ILLIT Top Circle Weekly Charts",
@@ -89,8 +254,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-25T18:30:00Z",
-      "contentHash": "a2702a32d61524f984c26606516e423577d9c87de152ded33e7c29af4429980f",
       "changedAt": "2026-11-26T05:44:53Z",
+      "contentHash": "a2702a32d61524f984c26606516e423577d9c87de152ded33e7c29af4429980f",
       "titleKo": "ATEEZ, NCT DREAM, RESCENE, A2O LITE, ILLIT 주간 차트 상위권 차지",
       "summaryKo": "주간 차트에서 ATEEZ, NCT DREAM, RESCENE, A2O LITE, ILLIT가 상위권을 차지했다. ATEEZ의 신작 에피소드 'GOLDEN HOUR : Part.6'이 물리적 앨범 차트에서 1, 2위를 차지했다. 이는 K-pop 엔터테인먼트 산업의 강력한 경쟁력을 보여준다.",
       "whyKo": "ATEZ의 신작이 주간 차트 상위권을 차지하며 K-pop의 강력한 경쟁력을 보여준다."
@@ -108,8 +273,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-25T15:00:00Z",
-      "contentHash": "cceab76eca3c4b20e6ea9027b7ac18cf7e6bf545158aed986404c925034f99e7",
-      "changedAt": "2026-11-26T05:44:53Z"
+      "changedAt": "2026-11-26T05:44:53Z",
+      "contentHash": "cceab76eca3c4b20e6ea9027b7ac18cf7e6bf545158aed986404c925034f99e7"
     },
     {
       "title": "[第9話]七等星をみつけて",
@@ -124,8 +289,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-25T15:00:00Z",
-      "contentHash": "5f022929219166035400b430867778f4abce962cf97097994a8f1857239a7f11",
-      "changedAt": "2026-11-26T05:44:53Z"
+      "changedAt": "2026-11-26T05:44:53Z",
+      "contentHash": "5f022929219166035400b430867778f4abce962cf97097994a8f1857239a7f11"
     },
     {
       "title": "Brussels declaration, 25 November 2026",
@@ -139,8 +304,8 @@
         }
       ],
       "kind": "brief",
-      "contentHash": "67261ebba62d0de5f90eafa4b2da8c55f1a6e929c76f44e6cf7f71ebb5fa5f65",
       "changedAt": "2026-11-26T05:44:53Z",
+      "contentHash": "67261ebba62d0de5f90eafa4b2da8c55f1a6e929c76f44e6cf7f71ebb5fa5f65",
       "titleKo": "브뤼세尔 선언, 2026년 11월 25일",
       "summaryKo": "유럽연합과 서유럽 백록 지역의 정상회담이 2026년 11월 25일 브뤼세尔에서 개최되었다. 브뤼세尔 선언문은 아래에서 확인할 수 있다.",
       "whyKo": "유럽연합과 서유럽 백록 지역 간의 협력 강화를 위한 정상회담이 개최되었다."
@@ -157,8 +322,8 @@
         }
       ],
       "kind": "brief",
-      "contentHash": "a43a17f0ec3b03433388d849a834a3ac8002ad78cf36ab42493cdbc397af934c",
       "changedAt": "2026-11-26T05:44:53Z",
+      "contentHash": "a43a17f0ec3b03433388d849a834a3ac8002ad78cf36ab42493cdbc397af934c",
       "titleKo": "유럽연합 이사회, 11월 25일 서반도 회의 후 기자회견 연설",
       "summaryKo": "유럽연합 이사장인 안토니오 코스타가 11월 25일 서반도 회의 후 기자회견을 열어 언급했다. 이 회의는 유럽연합과 서반도 국가 간의 협력 강화를 위한 것이었다.",
       "whyKo": "유럽연합과 서반도 국가 간의 협력 강화를 위한 회의가 진행됨"
@@ -176,8 +341,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-25T13:39:46Z",
-      "contentHash": "f47f1c1eda0aae5187e37a6d0077991c5b52a794638d010bcd2922510c895d52",
-      "changedAt": "2026-11-26T05:44:53Z"
+      "changedAt": "2026-11-26T05:44:53Z",
+      "contentHash": "f47f1c1eda0aae5187e37a6d0077991c5b52a794638d010bcd2922510c895d52"
     },
     {
       "title": "Watch: TXT Takes 1st Win For “Angel Bite” On “Show Champion”",
@@ -192,8 +357,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-25T10:48:09Z",
-      "contentHash": "69990af2ca0549b8c25a0090fe79ea6e2e1d21c34488d8313c5b62e23115ff65",
-      "changedAt": "2026-11-26T05:44:53Z"
+      "changedAt": "2026-11-26T05:44:53Z",
+      "contentHash": "69990af2ca0549b8c25a0090fe79ea6e2e1d21c34488d8313c5b62e23115ff65"
     },
     {
       "title": "Card payments edge past cash in shops; euro area consumers want both",
@@ -238,8 +403,8 @@
       ],
       "kind": "brief",
       "publishedAt": "2026-11-24T19:00:00Z",
-      "contentHash": "6a2e9a729218ccb45e14ecd16fedc78799cf05ed7154384dfd0689009ad62998",
-      "changedAt": "2026-11-25T05:54:18Z"
+      "changedAt": "2026-11-25T05:54:18Z",
+      "contentHash": "6a2e9a729218ccb45e14ecd16fedc78799cf05ed7154384dfd0689009ad62998"
     },
     {
       "title": "[第229話]ジャンケットバンク",
@@ -486,8 +651,8 @@
         }
       ],
       "kind": "brief",
-      "contentHash": "15e28675a4138c35745705e8124aeae67355464a3c34ef70c41de3dc4a4efdba",
-      "changedAt": "2026-11-25T05:54:18Z"
+      "changedAt": "2026-11-25T05:54:18Z",
+      "contentHash": "15e28675a4138c35745705e8124aeae67355464a3c34ef70c41de3dc4a4efdba"
     },
     {
       "title": "ILLIT Takes 4th Win And Triple Crown For “You’re Under Arrest” On “SHOW K-POP”",
@@ -1166,177 +1331,6 @@
       "publishedAt": "2026-11-18T17:57:00Z",
       "changedAt": "2026-11-19T04:50:25Z",
       "contentHash": "0f9523ff4b3612735306eb44e4dc34363fdef16401196e9b30b6f08d2c6ab571"
-    },
-    {
-      "title": "[第147話]幼稚園WARS",
-      "category": "comics",
-      "summary": "11월 19일 소년 점프+에서 공개한 만화 연재 소식입니다.",
-      "date": "2026-11-19",
-      "sources": [
-        {
-          "label": "소년 점프+",
-          "url": "https://shonenjumpplus.com/episode/9253191257982513929"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-18T15:00:00Z",
-      "changedAt": "2026-11-19T04:50:25Z",
-      "contentHash": "cceab76eca3c4b20e6ea9027b7ac18cf7e6bf545158aed986404c925034f99e7"
-    },
-    {
-      "title": "[Episode：7]終劇のシエル",
-      "category": "comics",
-      "summary": "11월 19일 소년 점프+에서 공개한 만화 연재 소식입니다.",
-      "date": "2026-11-19",
-      "sources": [
-        {
-          "label": "소년 점프+",
-          "url": "https://shonenjumpplus.com/episode/9253191257982514004"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-18T15:00:00Z",
-      "changedAt": "2026-11-19T04:50:25Z",
-      "contentHash": "6e91c5fc5ded0430e88e4e3129eff072debc37d8f3cdf4257b6daec8f0e26aa8"
-    },
-    {
-      "title": "Methane regulation: EU agrees targeted amendment to safeguard security of supply",
-      "category": "world",
-      "summary": "11월 19일 유럽연합 이사회에서 공개한 국제 정책·외교 소식입니다.",
-      "date": "2026-11-19",
-      "sources": [
-        {
-          "label": "유럽연합 이사회",
-          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/methane-regulation-eu-agrees-targeted-amendment-to-safeguard-security-of-supply/"
-        }
-      ],
-      "kind": "brief",
-      "changedAt": "2026-11-19T04:50:25Z",
-      "contentHash": "09fcc201a676cb79834bc92152d9201afa404c2028bfd84ab14d959a97ea5a7a"
-    },
-    {
-      "title": "EU-Indonesia: Council greenlights signature of landmark trade and investment agreements",
-      "category": "world",
-      "summary": "11월 19일 유럽연합 이사회에서 공개한 국제 정책·외교 소식입니다.",
-      "date": "2026-11-19",
-      "sources": [
-        {
-          "label": "유럽연합 이사회",
-          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/18/eu-indonesia-council-greenlights-signature-of-landmark-trade-and-investment-agreements/"
-        }
-      ],
-      "kind": "brief",
-      "changedAt": "2026-11-19T04:50:25Z",
-      "contentHash": "313b358c870765cfea94170e849805fdc07f741e8f4fabe929d1b2c5a0b6882a"
-    },
-    {
-      "title": "The Silent Consensus",
-      "category": "ai",
-      "summary": "11월 18일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
-      "date": "2026-11-18",
-      "sources": [
-        {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/the-silent-consensus"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-18T10:00:00Z",
-      "changedAt": "2026-11-19T04:50:25Z",
-      "contentHash": "8d12092b68bfc1ab466608b0125e1d38887ab520be32ed6edccd79442e6be4b5"
-    },
-    {
-      "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
-      "category": "stocks",
-      "summary": "11월 18일 유럽중앙은행에서 공개한 경제·금융 정책 소식입니다.",
-      "date": "2026-11-18",
-      "sources": [
-        {
-          "label": "유럽중앙은행",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-18T09:00:00Z",
-      "changedAt": "2026-11-19T04:50:25Z"
-    },
-    {
-      "title": "Research acceleration: The jagged frontier",
-      "category": "ai",
-      "summary": "11월 18일 OpenAI에서 공개한 AI 제품·연구 소식입니다.",
-      "date": "2026-11-18",
-      "sources": [
-        {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/research-acceleration-jagged-frontier"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-18T08:00:00Z",
-      "changedAt": "2026-11-19T04:50:25Z",
-      "contentHash": "40fe4df18fa8f4b3f81b1b900ac4a2d82a97ca6ef8e3825eb319f1f279c4f421"
-    },
-    {
-      "title": "「サウンド系 ワークショップ」のお申し込み受付を開始しました。",
-      "category": "games",
-      "summary": "11월 18일 닌텐도 일본에서 공개한 게임·서비스 소식입니다.",
-      "date": "2026-11-18",
-      "sources": [
-        {
-          "label": "닌텐도 일본",
-          "url": "https://www.nintendo.co.jp/jobs/recruit/event/sound_workshop.html"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-18T05:12:40Z",
-      "changedAt": "2026-11-19T04:50:25Z"
-    },
-    {
-      "title": "『スプラトゥーン3』の更新データVer.12.0.0を本日配信。さまざまなアイテムが手に入るゲームニュースも配信中。",
-      "category": "games",
-      "summary": "11월 18일 닌텐도 일본에서 공개한 게임·서비스 소식입니다.",
-      "date": "2026-11-18",
-      "sources": [
-        {
-          "label": "닌텐도 일본",
-          "url": "https://www.nintendo.com/jp/topics/article/405b3f79-3dfb-4336-baae-5256a086eb35"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-18T03:01:15Z",
-      "changedAt": "2026-11-18T04:56:19Z"
-    },
-    {
-      "title": "アメリカで、イチローさんに野球を教わる夢の１日 第3回 ユニクロ イチロー DREAM FIELD DAY in USA 2027年2月にシアトルで開催！",
-      "category": "fashion",
-      "summary": "11월 18일 유니클로 일본에서 공개한 패션·브랜드 소식입니다.",
-      "date": "2026-11-18",
-      "sources": [
-        {
-          "label": "유니클로 일본",
-          "url": "https://www.uniqlo.com/jp/ja/contents/corp/press-release/2026/11/_3_dream_field_day_in_usa_2027.html"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-18T01:00:00Z",
-      "changedAt": "2026-11-18T04:56:19Z",
-      "contentHash": "c4280c82f98c093742b01841056d32f0106c4fcce15c642cceca7172b76d1608"
-    },
-    {
-      "title": "TXT’s “PERFECT STORM” Sells Over 1.5 Million Copies In Just 2 Days",
-      "category": "idols",
-      "summary": "11월 18일 Soompi에서 공개한 K-pop·음악 소식입니다.",
-      "date": "2026-11-18",
-      "sources": [
-        {
-          "label": "Soompi",
-          "url": "https://www.soompi.com/article/1888213wpp/txts-perfect-storm-sells-over-1-5-million-copies-in-just-2-days"
-        }
-      ],
-      "kind": "brief",
-      "publishedAt": "2026-11-17T20:18:47Z",
-      "changedAt": "2026-11-18T04:56:19Z",
-      "contentHash": "cd8f1dc367dbaed31e0a0d2b6e4b35bc95cbe2089f88bb96480d25ccd2a4d414"
     }
   ]
 }
